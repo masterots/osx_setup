@@ -37,6 +37,8 @@ export EASY_MOTION_EXTENSION_URL="git://github.com/tednaleid/sublime-EasyMotion.
 export EASY_MOTION_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/EasyMotion"
 export GIT_GUTTER_EXTENSION_URL="git://github.com/jisaacks/GitGutter.git"
 export GIT_GUTTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/GitGutter"
+export WEB_INSPECTOR_EXTENSION_URL="git://github.com/sokolovstas/SublimeWebInspector.git"
+export WEB_INSPECTOR_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Web Inspector"
 
 export ALFRED_APP_URL=http://cachefly.alfredapp.com
 export ALFRED_APP_FILE=Alfred_2.0_166.zip

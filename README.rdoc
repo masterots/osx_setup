@@ -74,6 +74,7 @@ This project contains shell scripts for setting up a new OSX environment.
 * Downloads and installs software extensions:
   * {Sublime Text 2 GitGutter}[https://github.com/jisaacks/GitGutter]
   * {Sublime Text 2 EasyMotion}[https://github.com/tednaleid/sublime-EasyMotion]
+  * {Sublime Text 2 Web Inspector}[http://sokolovstas.github.com/SublimeWebInspector]
 
 = Requirements
 

@@ -72,10 +72,11 @@ This project contains shell scripts for setting up a new OSX environment.
   * {Air Display}[http://avatron.com/apps/air-display]
   * {Eye-Fi}[http://www.eye.fi]
 * Downloads and installs software extensions:
-  * {Google Chrome RailsPanel}[https://github.com/dejan/rails_panel]
-  * {Sublime Text 2 GitGutter}[https://github.com/jisaacks/GitGutter]
+  * {Google Chrome Rails Panel}[https://github.com/dejan/rails_panel]
+  * {Sublime Text 2 Git Gutter}[https://github.com/jisaacks/GitGutter]
+  * {Sublime Text 2 Advanced New File}[https://github.com/skuroda/Sublime-AdvancedNewFile]
   * {Sublime Text 2 Xiki}[https://github.com/lunixbochs/SublimeXiki]
-  * {Sublime Text 2 EasyMotion}[https://github.com/tednaleid/sublime-EasyMotion]
+  * {Sublime Text 2 Easy Motion}[https://github.com/tednaleid/sublime-EasyMotion]
   * {Sublime Text 2 Emmet}[http://emmet.io]
   * {Sublime Text 2 Web Inspector}[http://sokolovstas.github.com/SublimeWebInspector]
 

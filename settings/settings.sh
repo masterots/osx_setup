@@ -37,6 +37,8 @@ export EASY_MOTION_EXTENSION_URL="git://github.com/tednaleid/sublime-EasyMotion.
 export EASY_MOTION_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/EasyMotion"
 export GIT_GUTTER_EXTENSION_URL="git://github.com/jisaacks/GitGutter.git"
 export GIT_GUTTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/GitGutter"
+export EMMET_EXTENSION_URL="git://github.com/sergeche/emmet-sublime.git"
+export EMMET_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Emmet"
 export WEB_INSPECTOR_EXTENSION_URL="git://github.com/sokolovstas/SublimeWebInspector.git"
 export WEB_INSPECTOR_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Web Inspector"
 

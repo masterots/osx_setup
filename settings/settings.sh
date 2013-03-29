@@ -59,6 +59,9 @@ export FIREFOX_APP_NAME=Firefox.app
 export CHROME_APP_URL=https://dl.google.com/chrome/mac/stable/GGRM
 export CHROME_APP_FILE=googlechrome.dmg
 export CHROME_APP_NAME="Google Chrome.app"
+export CHROME_EXTENSION_ROOT="$HOME/Cache/Google/Chrome/Extensions"
+export RAILS_PANEL_EXTENSION_URL="git://github.com/dejan/rails_panel.git"
+export RAILS_PANEL_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/RailsPanel"
 
 export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/mac/1214
 export OPERA_APP_FILE=Opera_12.14_Setup_Intel.dmg

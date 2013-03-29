@@ -10,6 +10,9 @@ install_git_app "$RAILS_PANEL_EXTENSION_URL" "$RAILS_PANEL_EXTENSION_PATH"
 # Sublime Text 2 - GitGutter
 install_git_app "$GIT_GUTTER_EXTENSION_URL" "$GIT_GUTTER_EXTENSION_PATH"
 
+# Sublime Text 2 - Xiki
+install_git_app "$XIKI_EXTENSION_URL" "$XIKI_EXTENSION_PATH"
+
 # Sublime Text 2 - EasyMotion
 install_git_app "$EASY_MOTION_EXTENSION_URL" "$EASY_MOTION_EXTENSION_PATH"
 

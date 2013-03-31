@@ -70,6 +70,7 @@ This project contains shell scripts for setting up a new OSX environment.
   * Skype[http://www.skype.com]
   * VirtualBox[https://www.virtualbox.org]
   * Doxie[http://www.getdoxie.com]
+  * Hazel[http://www.noodlesoft.com/hazel.php]
   * {Pastebot Sync}[http://tapbots.com/software/pastebot/#sync]
   * {Air Display}[http://avatron.com/apps/air-display]
   * {Eye-Fi}[http://www.eye.fi]

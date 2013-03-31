@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Installs and configures OSX software.
+# Defines, installs, and configures Homebrew command line interface software.
 
 # EXECUTION
 # Homebrew

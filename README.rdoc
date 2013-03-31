@@ -107,11 +107,11 @@ Master Version (unstable):
 
 = Usage
 
-Edit any of the *.sh files in the scripts folder to your liking and then open a terminal window and execute the following command:
+Edit any of the *.sh files in the scripts folder to your liking and then open a terminal window to execute the following command:
 
   ./install.sh
 
-You will then be presented with the following options:
+Running the install.sh script will present the following options:
 
   b: Apply basic machine settings.
   h: Install Homebrew software (i.e. non-GUI, command line interfaces).
@@ -123,10 +123,36 @@ You will then be presented with the following options:
   c: Check status of installed applications and extensions.
   q: Quit/Exit.
 
-By default, you'll want to choose option 'i' to run the complete install but you can choose to step through each task
-one-by-one or re-run a previous task.
+Choose option 'i' to run all install tasks or select a specific option to run a single task. Each task is designed to be re-run
+if necessary. This can also be handy for performing upgrades, re-running a missing/failed install, etc.
 
-Reboot the machine after the install process has completed. Feel free to delete the osx project directory afterwards.
+It is recommended that the machine be rebooted after all install tasks have completed. Feel free to delete the osx project
+directory afterwards...or keep it around for future upgrades.
+
+== Customization
+
+While the default settings for this project are opinionated and tailored for my specific setup, you can easily fork this project
+and customize the settings to your specific environment. Start by editing the files located in the settings project:
+
+* settings/settings.sh = Defines all install settings for machine name, applications, extensions, version info, install paths, etc. 
+* settings/rbenv-vars.txt = Defines global environment settings for Ruby development.
+
+*TIP*: The installer determines which applications/extensions to install as defined by the settings.sh script. Applications
+defined with the "APP_NAME" suffix and extensions defined with the "EXTENSION_PATH" suffix inform the installer what to
+care about. Removing/commenting out these applications/extensions within the settings.sh file will cause the installer
+to skip these applications/extensions.
+
+You can also modify the install scripts themselves by editing any of the following:
+
+* scripts/basic.sh = Configures basic system settings.
+* scripts/homebrew.sh = Defines, installs, and configures Homebrew command line interface software.
+* scripts/applications.sh = Defines how each application should be installed.
+* scripts/extensions.sh = Defines how each application extension should be installed.
+* scripts/defaults.sh = Configures useful system and application defaults.
+
+All Bash functions, used by the scripts defined above, can be found here:
+
+* functions/functions.sh = Defines functions for installing, configuring, and checking software.
 
 = App Store Software
 

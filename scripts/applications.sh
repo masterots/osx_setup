@@ -1,7 +1,10 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Installs OSX applications.
+# Defines how each application should be installed.
+
+# USAGE
+# See the functions/functions.sh script for install choices and related usage.
 
 # EXECUTION
 # Caffeine

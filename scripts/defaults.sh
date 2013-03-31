@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Configures useful defaults for OSX.
+# Configures useful system and application defaults.
 
 # EXECUTION
 echo "Disable automatic termination of inactive apps"

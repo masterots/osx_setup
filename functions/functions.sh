@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Defines functions for installing and configuring software.
+# Defines functions for installing, configuring, and checking software.
 
 # Answers the file name.
 # Parameters:
@@ -63,7 +63,7 @@ function verify_install {
 }
 export -f verify_install
 
-# Checks for missing installs.
+# Checks for missing installs suffixed by "APP_NAME" as defined in settings.sh.
 function verify_installs {
   echo "\nChecking installs..."
 
@@ -94,7 +94,7 @@ function verify_path {
 }
 export -f verify_path
 
-# Checks for missing extensions.
+# Checks for missing extensions suffixed by "EXTENSION_PATH" as defined in settings.sh.
 function verify_extensions {
   echo "\nChecking extensions..."
 

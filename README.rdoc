@@ -49,6 +49,7 @@ This project contains shell scripts for setting up a new OSX environment.
   * ExpanDrive[http://www.expandrive.com]
   * {iStat Menus}[http://bjango.com/apps/istatmenus]
   * Bartender[http://www.macbartender.com]
+  * {Source Tree}[http://www.sourcetreeapp.com]
   * GitHub[http://mac.github.com]
   * Snippets[http://www.snippetsapp.com]
   * Espresso[http://macrabbit.com/espresso]

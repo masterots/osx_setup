@@ -64,6 +64,9 @@ install_zip_app "$ISTATS_APP_URL" "$ISTATS_APP_FILE" "$ISTATS_APP_NAME"
 # Bartender
 install_zip_app "$BARTENDER_APP_URL" "$BARTENDER_APP_FILE" "$BARTENDER_APP_NAME"
 
+# Source Tree
+install_dmg_app "$SOURCE_TREE_APP_URL" "$SOURCE_TREE_APP_FILE" "SourceTree" "$SOURCE_TREE_APP_NAME"
+
 # GitHub
 install_zip_app "$GITHUB_APP_URL" "$GITHUB_APP_FILE" "$GITHUB_APP_NAME"
 

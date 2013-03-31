@@ -16,6 +16,9 @@ install_git_app "$GIST_EXTENSION_URL" "$GIST_EXTENSION_PATH"
 # Sublime Text 2 - Advanced New File
 install_git_app "$ADVANCED_NEW_FILE_EXTENSION_URL" "$ADVANCED_NEW_FILE_EXTENSION_PATH"
 
+# Sublime Text 2 - Bracket Highlighter
+install_git_app "$BRACKET_HIGHLIGHTER_FILE_EXTENSION_URL" "$BRACKET_HIGHLIGHTER_FILE_EXTENSION_PATH"
+
 # Sublime Text 2 - Xiki
 install_git_app "$XIKI_EXTENSION_URL" "$XIKI_EXTENSION_PATH"
 

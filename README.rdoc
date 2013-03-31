@@ -76,6 +76,7 @@ This project contains shell scripts for setting up a new OSX environment.
   * {Sublime Text 2 Git Gutter}[https://github.com/jisaacks/GitGutter]
   * {Sublime Text 2 Gist}[https://github.com/condemil/Gist]
   * {Sublime Text 2 Advanced New File}[https://github.com/skuroda/Sublime-AdvancedNewFile]
+  * {Sublime Text 2 Bracket Highlighter}[git://github.com/facelessuser/BracketHighlighter.git]
   * {Sublime Text 2 Xiki}[https://github.com/lunixbochs/SublimeXiki]
   * {Sublime Text 2 Easy Motion}[https://github.com/tednaleid/sublime-EasyMotion]
   * {Sublime Text 2 Emmet}[http://emmet.io]

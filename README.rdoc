@@ -113,12 +113,13 @@ Edit any of the *.sh files in the scripts folder to your liking and then open a 
 You will then be presented with the following options:
 
   b: Apply basic machine settings.
-  h: Install Homebrew software.
-  a: Install application software.
+  h: Install Homebrew software (i.e. non-GUI, command line interfaces).
+  a: Install application software (i.e. GUI-enabled).
+  x: Install application extensions (i.e. enhancements, add-ons, plug-ins, etc.)
   d: Apply software defaults.
-  w: Clean work directory.
-  i: Perform complete install (i.e. apply basic settings, Homebrew, applications, defaults, and clean work directory).
-  c: Check status of installed applications.
+  w: Clean install work directory.
+  i: Perform complete install (i.e. basic settings, Homebrew, applications, extensions, defaults, and work directory clean-up).
+  c: Check status of installed applications and extensions.
   q: Quit/Exit.
 
 By default, you'll want to choose option 'i' to run the complete install but you can choose to step through each task

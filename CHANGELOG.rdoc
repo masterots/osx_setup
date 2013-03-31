@@ -1,3 +1,20 @@
+= v1.2.0
+
+* Added application extension check and installation support.
+* Removed the Code Climate badge from the README.
+* Added Google Chrome RailsPanel extension install.
+* Added the Sublime Text 2 Web Inspector extension.
+* Added the Sublime Text 2 Emmet extension.
+* Added the Sublime Text 2 Xiki extension.
+* Added the Sublime Text 2 Advanced New File extension.
+* Added the Sublime Text 2 Gist extension.
+* Added the Sublime Text 2 Bracket Highlighter extension.
+* Added the Tree Homebrew install. Thanks Eric.
+* Added the Source Tree application install.
+* Added the Hazel application install.
+* Clarified the install options documentation.
+* Added additional project documentation for scripts, functions, and README.
+
 = v1.1.0
 
 * Upgraded to Firefox 19.0.

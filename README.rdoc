@@ -7,6 +7,7 @@ This project contains shell scripts for setting up a new OSX environment.
 * Configures default OSX settings.
 * Installs Homebrew[http://mxcl.github.com/homebrew] with the following formulas:
   * {Bash Completion}[http://bash-completion.alioth.debian.org]
+  * Tree[http://mama.indstate.edu/users/ice/tree]
   * Git[http://git-scm.com]
   * Hub[https://github.com/defunkt/hub]
   * Pigz[http://www.zlib.net/pigz]

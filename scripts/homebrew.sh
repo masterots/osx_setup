@@ -10,6 +10,9 @@
 # Bash Completion
 brew install bash-completion
 
+# Tree
+brew install tree
+
 # Git
 brew install git
 

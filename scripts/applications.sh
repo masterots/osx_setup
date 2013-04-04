@@ -40,6 +40,9 @@ install_dmg_app "$FIREFOX_APP_URL" "$FIREFOX_APP_FILE" "Firefox" "$FIREFOX_APP_N
 # Google Chrome
 install_dmg_app "$CHROME_APP_URL" "$CHROME_APP_FILE" "Google Chrome" "$CHROME_APP_NAME"
 
+# Google Chrome Canary
+install_dmg_app "$CANARY_APP_URL" "$CANARY_APP_FILE" "Google Chrome Canary" "$CANARY_APP_NAME"
+
 # Opera
 install_dmg_app "$OPERA_APP_URL" "$OPERA_APP_FILE" "Opera" "$OPERA_APP_NAME"
 

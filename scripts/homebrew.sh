@@ -10,6 +10,9 @@
 # Bash Completion
 brew install bash-completion
 
+# Z
+brew install z
+
 # Tree
 brew install tree
 

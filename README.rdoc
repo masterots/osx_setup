@@ -203,6 +203,10 @@ The following is a checklist of additional steps worth completing after the scri
 * Configure Address Book.
 * Configure iCal.
 * Configure iTunes.
+* Configure Google Chrome
+* * Open the Flags tab (i.e. chrome://flags)
+* * Enable Experimental Extension APIs
+* * Enable Developer Tools Experiments
 * Configure previously installed applications.
 
 = Resources

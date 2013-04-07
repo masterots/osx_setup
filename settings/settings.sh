@@ -51,6 +51,8 @@ export EMMET_EXTENSION_URL="git://github.com/sergeche/emmet-sublime.git"
 export EMMET_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Emmet"
 export WEB_INSPECTOR_EXTENSION_URL="git://github.com/sokolovstas/SublimeWebInspector.git"
 export WEB_INSPECTOR_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Web Inspector"
+export LINTER_EXTENSION_URL="git://github.com/SublimeLinter/SublimeLinter.git"
+export LINTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/SublimeLinter"
 
 export ALFRED_APP_URL=http://cachefly.alfredapp.com
 export ALFRED_APP_FILE=Alfred_2.0_166.zip

@@ -76,6 +76,8 @@ export CHROME_APP_NAME="Google Chrome.app"
 export CHROME_EXTENSION_ROOT="$HOME/Cache/Google/Chrome/Extensions"
 export RAILS_PANEL_EXTENSION_URL="git://github.com/dejan/rails_panel.git"
 export RAILS_PANEL_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/RailsPanel"
+export EMBER_INSPECTOR_EXTENSION_URL="git://github.com/tildeio/ember-extension.git"
+export EMBER_INSPECTOR_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/EmberInspector"
 
 export CANARY_APP_URL=https://storage.googleapis.com/chrome-canary
 export CANARY_APP_FILE=GoogleChromeCanary.dmg

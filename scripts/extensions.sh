@@ -13,6 +13,9 @@ install_git_app "$RAILS_PANEL_EXTENSION_URL" "$RAILS_PANEL_EXTENSION_PATH"
 # Google Chrome - Ember Inspector
 install_git_app "$EMBER_INSPECTOR_EXTENSION_URL" "$EMBER_INSPECTOR_EXTENSION_PATH"
 
+# Sublime Text 2 - Git
+install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"
+
 # Sublime Text 2 - Git Gutter
 install_git_app "$GIT_GUTTER_EXTENSION_URL" "$GIT_GUTTER_EXTENSION_PATH"
 

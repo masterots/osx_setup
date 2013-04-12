@@ -86,6 +86,8 @@ export RAILS_PANEL_EXTENSION_URL="git://github.com/dejan/rails_panel.git"
 export RAILS_PANEL_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/RailsPanel"
 export EMBER_INSPECTOR_EXTENSION_URL="git://github.com/tildeio/ember-extension.git"
 export EMBER_INSPECTOR_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/EmberInspector"
+export CHROME_LOGGER_EXTENSION_URL="git://github.com/ccampbell/chromelogger.git"
+export CHROME_LOGGER_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/ChromeLogger"
 
 export CANARY_APP_URL=https://storage.googleapis.com/chrome-canary
 export CANARY_APP_FILE=GoogleChromeCanary.dmg

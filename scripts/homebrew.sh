@@ -22,6 +22,9 @@ brew install git
 # GitHub
 brew install hub
 
+# CTags
+brew install ctags
+
 # Pigz
 brew install pigz
 

@@ -25,6 +25,9 @@ install_git_app "$GIT_GUTTER_EXTENSION_URL" "$GIT_GUTTER_EXTENSION_PATH"
 # Sublime Text 2 - Gist
 install_git_app "$GIST_EXTENSION_URL" "$GIST_EXTENSION_PATH"
 
+# Sublime Text 2 - CTags
+install_git_app "$CTAGS_EXTENSION_URL" "$CTAGS_EXTENSION_PATH"
+
 # Sublime Text 2 - Sidebar Enhancments
 install_git_app "$SIDEBAR_ENHANCEMENTS_EXTENSION_URL" "$SIDEBAR_ENHANCEMENTS_EXTENSION_PATH"
 

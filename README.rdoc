@@ -7,9 +7,11 @@ This project contains shell scripts for setting up a new OSX environment.
 * Configures default OSX settings.
 * Installs Homebrew[http://mxcl.github.com/homebrew] with the following formulas:
   * {Bash Completion}[http://bash-completion.alioth.debian.org]
+  * Z[https://github.com/rupa/z]
   * Tree[http://mama.indstate.edu/users/ice/tree]
   * Git[http://git-scm.com]
   * Hub[https://github.com/defunkt/hub]
+  * CTags[http://ctags.sourceforge.net]
   * Pigz[http://www.zlib.net/pigz]
   * jq[http://stedolan.github.com/jq]
   * {The Silver Surfer}[https://github.com/ggreer/the_silver_searcher]
@@ -24,6 +26,7 @@ This project contains shell scripts for setting up a new OSX environment.
   * rbenv-gem-rehash[https://github.com/sstephenson/rbenv-gem-rehash]
   * rbenv-default-gems[https://github.com/sstephenson/rbenv-default-gems]
   * rbenv-vars[https://github.com/sstephenson/rbenv-vars]
+  * rbenv-binstubs[https://github.com/ianheggie/rbenv-binstubs]
   * Ruby[http://www.ruby-lang.org]
   * Dotfiles[https://github.com/bkuhlmann/dotfiles]
   * Pow[http://pow.cx]
@@ -41,7 +44,8 @@ This project contains shell scripts for setting up a new OSX environment.
   * {Path Finder}[http://cocoatech.com]
   * Firefox[http://www.mozilla.com/en-US/firefox]
   * {Google Chrome}[http://www.google.com/chrome]
-  * Opera[http://www.opera.com] 
+  * {Google Chrome Canary}[https://www.google.com/intl/en/chrome/browser/canary.html]
+  * Opera[http://www.opera.com]
   * OmniFocus[http://www.omnigroup.com/applications/omnifocus]
   * OmniOutliner[http://www.omnigroup.com/applications/omnioutliner]
   * OmniGraffle[http://www.omnigroup.com/applications/omnigraffle]
@@ -76,14 +80,24 @@ This project contains shell scripts for setting up a new OSX environment.
   * {Eye-Fi}[http://www.eye.fi]
 * Downloads and installs software extensions:
   * {Google Chrome Rails Panel}[https://github.com/dejan/rails_panel]
+  * {Google Chrome Ember Inspector}[https://github.com/tildeio/ember-extension]
+  * {Google Chrome Chrome Logger}[https://github.com/ccampbell/chromelogger]
+  * {Sublime Text 2 Git[https://github.com/kemayo/sublime-text-2-git]
   * {Sublime Text 2 Git Gutter}[https://github.com/jisaacks/GitGutter]
   * {Sublime Text 2 Gist}[https://github.com/condemil/Gist]
+  * {Sublime Text 2 CTags[https://github.com/SublimeText/CTags]
+  * {Sublime Text 2 Sidebar Enhancements}[https://github.com/titoBouzout/SideBarEnhancements]
   * {Sublime Text 2 Advanced New File}[https://github.com/skuroda/Sublime-AdvancedNewFile]
+  * {Sublime Text 2 Apply Syntax}[https://github.com/facelessuser/ApplySyntax]
+  * {Sublime Text 2 Change Quotes}[https://github.com/colinta/SublimeChangeQuotes]
   * {Sublime Text 2 Bracket Highlighter}[git://github.com/facelessuser/BracketHighlighter.git]
+  * {Sublime Text 2 Trailing Spaces}[https://github.com/SublimeText/TrailingSpaces]
   * {Sublime Text 2 Xiki}[https://github.com/lunixbochs/SublimeXiki]
   * {Sublime Text 2 Easy Motion}[https://github.com/tednaleid/sublime-EasyMotion]
   * {Sublime Text 2 Emmet}[http://emmet.io]
   * {Sublime Text 2 Web Inspector}[http://sokolovstas.github.com/SublimeWebInspector]
+  * {Sublime Text 2 Sublime Linter}[https://github.com/SublimeLinter/SublimeLinter]
+  * {Sublime Text 2 Coffee Script}[https://github.com/Xavura/CoffeeScript-Sublime-Plugin]
 
 = Requirements
 
@@ -100,7 +114,7 @@ Current Version (stable):
 
   git clone git://github.com/bkuhlmann/osx.git
   cd osx
-  git checkout v1.2.0
+  git checkout v1.3.0
 
 Master Version (unstable):
 
@@ -136,7 +150,7 @@ directory afterwards...or keep it around for future upgrades.
 While the default settings for this project are opinionated and tailored for my specific setup, you can easily fork this project
 and customize the settings to your specific environment. Start by editing the files located in the settings project:
 
-* settings/settings.sh = Defines all install settings for machine name, applications, extensions, version info, install paths, etc. 
+* settings/settings.sh = Defines all install settings for machine name, applications, extensions, version info, install paths, etc.
 * settings/rbenv-vars.txt = Defines global environment settings for Ruby development.
 
 *TIP*: The installer determines which applications/extensions to install as defined by the settings.sh script. Applications

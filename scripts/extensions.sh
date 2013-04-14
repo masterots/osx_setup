@@ -58,7 +58,7 @@ install_git_app "$EMMET_EXTENSION_URL" "$EMMET_EXTENSION_PATH"
 # Sublime Text 2 - Web Inspector
 install_git_app "$WEB_INSPECTOR_EXTENSION_URL" "$WEB_INSPECTOR_EXTENSION_PATH"
 
-# Sublime Text 2 - Linter
+# Sublime Text 2 - Sublime Linter
 install_git_app "$LINTER_EXTENSION_URL" "$LINTER_EXTENSION_PATH"
 
 # Sublime Text 2 - Coffee Script

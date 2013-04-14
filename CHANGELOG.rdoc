@@ -1,3 +1,26 @@
+= v1.3.0
+
+* Fixed install issues with Xiki extension.
+* Upgraded to Firefox 20.0.
+* Upgraded to VirtualBox 4.2.10.
+* Added the Z[https://github.com/rupa/z] Homebrew install.
+* Added the CTags[http://ctags.sourceforge.net] homebrew install.
+* Added the rbenv-binstubs[https://github.com/ianheggie/rbenv-binstubs] plugin install.
+* Added the Sublime Text - {Change Quotes}[https://github.com/colinta/SublimeChangeQuotes] extension.
+* Added the Sublime Text - {Sublime Linter}[https://github.com/SublimeLinter/SublimeLinter] extension.
+* Added the Sublime Text - {Trailing Spaces}[https://github.com/SublimeText/TrailingSpaces] extension.
+* Added the Sublime Text - Git[https://github.com/kemayo/sublime-text-2-git] extension.
+* Added the Sublime Text - {Coffee Script}[https://github.com/Xavura/CoffeeScript-Sublime-Plugin] extension.
+* Added the Sublime Text - {Sidebar Enhancements}[https://github.com/titoBouzout/SideBarEnhancements].
+* Added the Sublime Text - {Apply Syntax}[https://github.com/facelessuser/ApplySyntax] extension.
+* Added the Sublime Text - CTags[https://github.com/SublimeText/CTags] extension.
+* Added the Google Chrome - {Ember Inspector}[https://github.com/tildeio/ember-extension] extension.
+* Added the Google Chrome - {Chrome Logger}[https://github.com/ccampbell/chromelogger] extension.
+* Added the Google Chrome Canary install.
+* Added steps for Google Chrome setup.
+* Added Mouse Pointer (http://www.2point5fish.com/index.html) to the README.
+* Fixed Eye-Fi install to download and install the package from the DMG.
+
 = v1.2.0
 
 * Added application extension check and installation support.

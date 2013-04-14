@@ -20,7 +20,7 @@
 * Added the Google Chrome - {Chrome Logger}[https://github.com/ccampbell/chromelogger] extension.
 * Added the Google Chrome Canary install.
 * Added steps for Google Chrome setup.
-* Added Mouse Pointer (http://www.2point5fish.com/index.html) to the README.
+* Added {Mouse Pointer}[http://www.2point5fish.com/index.html] to the README. Thanks Eric.
 * Fixed Eye-Fi install to download and install the package from the DMG.
 
 = v1.2.0

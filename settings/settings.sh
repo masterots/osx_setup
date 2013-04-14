@@ -67,7 +67,7 @@ export COFFEE_SCRIPT_EXTENSION_URL="git://github.com/Xavura/CoffeeScript-Sublime
 export COFFEE_SCRIPT_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/CoffeeScript"
 
 export ALFRED_APP_URL=http://cachefly.alfredapp.com
-export ALFRED_APP_FILE=Alfred_2.0_166.zip
+export ALFRED_APP_FILE=Alfred_2.0.2_178
 export ALFRED_APP_NAME="Alfred 2.app"
 
 export TEXTEXPANDER_APP_URL=http://cdn.smilesoftware.com

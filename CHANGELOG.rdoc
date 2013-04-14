@@ -2,6 +2,7 @@
 
 * Fixed install issues with Xiki extension.
 * Upgraded to Alfred 2.0.2_178.
+* Upgraded to Dropbox 2.0.6.
 * Upgraded to Firefox 20.0.
 * Upgraded to VirtualBox 4.2.10.
 * Added the Z[https://github.com/rupa/z] Homebrew install.

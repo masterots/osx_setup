@@ -90,7 +90,7 @@ This project contains shell scripts for setting up a new OSX environment.
   * {Sublime Text 2 Advanced New File}[https://github.com/skuroda/Sublime-AdvancedNewFile]
   * {Sublime Text 2 Apply Syntax}[https://github.com/facelessuser/ApplySyntax]
   * {Sublime Text 2 Change Quotes}[https://github.com/colinta/SublimeChangeQuotes]
-  * {Sublime Text 2 Bracket Highlighter}[git://github.com/facelessuser/BracketHighlighter.git]
+  * {Sublime Text 2 Bracket Highlighter}[https://github.com/facelessuser/BracketHighlighter]
   * {Sublime Text 2 Trailing Spaces}[https://github.com/SublimeText/TrailingSpaces]
   * {Sublime Text 2 Xiki}[https://github.com/lunixbochs/SublimeXiki]
   * {Sublime Text 2 Easy Motion}[https://github.com/tednaleid/sublime-EasyMotion]

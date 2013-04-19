@@ -13,10 +13,6 @@ export WORK_PATH=/private/tmp/downloads # Temporary location for processing of f
 export RUBY_VERSION=2.0.0-p0
 
 # Applications
-export CAFFEINE_APP_URL=http://lightheadsw.com/files/releases/com.lightheadsw.Caffeine
-export CAFFEINE_APP_FILE=Caffeine1.1.1.zip
-export CAFFEINE_APP_NAME=Caffeine.app
-
 export DROPBOX_APP_URL=https://dl.dropboxusercontent.com/u/17
 export DROPBOX_APP_FILE=Dropbox%202.0.6.dmg
 export DROPBOX_APP_NAME=Dropbox.app

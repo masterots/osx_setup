@@ -7,9 +7,6 @@
 # See the functions/functions.sh script for install choices and related usage.
 
 # EXECUTION
-# Caffeine
-install_zip_app "$CAFFEINE_APP_URL" "$CAFFEINE_APP_FILE" "$CAFFEINE_APP_NAME"
-
 # Dropbox
 install_dmg_app "$DROPBOX_APP_URL" "$DROPBOX_APP_FILE" "Dropbox Installer" "$DROPBOX_APP_NAME"
 

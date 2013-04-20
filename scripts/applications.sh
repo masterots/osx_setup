@@ -137,4 +137,4 @@ install_dmg_app "$PASTEBOT_SYNC_APP_URL" "$PASTEBOT_SYNC_APP_FILE" "Pastebot Syn
 install_zip_pkg "$AIR_DISPLAY_APP_URL" "$AIR_DISPLAY_APP_FILE" "$AIR_DISPLAY_APP_NAME"
 
 # Eye-Fi
-install_dmg_pkg "$EYEFI_APP_URL" "$EYEFI_APP_FILE" "Eye-Fi Installer" "Eye-Fi.mpkg"
+install_dmg_pkg "$EYEFI_APP_URL" "$EYEFI_APP_FILE" "Eye-Fi Installer" "$EYEFI_APP_NAME"

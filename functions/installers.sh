@@ -3,6 +3,24 @@
 # DESCRIPTION
 # Defines software installer functions.
 
+# Mounts a disk image.
+# Parameters:
+# $1 = The image path.
+function mount_image {
+  echo "Mounting image..."
+  hdiutil attach "$1" -noidmereveal
+}
+export -f mount_image
+
+# Unmounts a disk image.
+# Parameters:
+# $1 = The mount path.
+function unmount_image {
+  echo "Unmounting image..."
+  hdiutil detach -force "$1"
+}
+export -f unmount_image
+
 # Downloads an installer to local disk.
 # Parameters:
 # $1 = The remote URL.
@@ -34,24 +52,6 @@ function download_only {
   fi
 }
 export -f download_only
-
-# Mounts a disk image.
-# Parameters:
-# $1 = The image path.
-function mount_image {
-  echo "Mounting image..."
-  hdiutil attach "$1" -noidmereveal
-}
-export -f mount_image
-
-# Unmounts a disk image.
-# Parameters:
-# $1 = The mount path.
-function unmount_image {
-  echo "Unmounting image..."
-  hdiutil detach -force "$1"
-}
-export -f unmount_image
 
 # Installs an application.
 # Parameters:

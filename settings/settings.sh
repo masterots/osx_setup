@@ -74,10 +74,6 @@ export PATH_FINDER_APP_URL=http://get.cocoatech.com
 export PATH_FINDER_APP_FILE=PF6_LION.zip
 export PATH_FINDER_APP_NAME="Path Finder.app"
 
-export FIREFOX_APP_URL=http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/20.0/mac/en-US
-export FIREFOX_APP_FILE=Firefox%2020.0.dmg
-export FIREFOX_APP_NAME=Firefox.app
-
 export CHROME_APP_URL=https://dl.google.com/chrome/mac/stable/GGRM
 export CHROME_APP_FILE=googlechrome.dmg
 export CHROME_APP_NAME="Google Chrome.app"
@@ -93,8 +89,12 @@ export CANARY_APP_URL=https://storage.googleapis.com/chrome-canary
 export CANARY_APP_FILE=GoogleChromeCanary.dmg
 export CANARY_APP_NAME="Google Chrome Canary.app"
 
-export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/mac/1214
-export OPERA_APP_FILE=Opera_12.14_Setup_Intel.dmg
+export FIREFOX_APP_URL=http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/20.0/mac/en-US
+export FIREFOX_APP_FILE=Firefox%2020.0.dmg
+export FIREFOX_APP_NAME=Firefox.app
+
+export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/mac/1215
+export OPERA_APP_FILE=Opera_12.15_Setup_Intel.dmg
 export OPERA_APP_NAME=Opera.app
 
 export OMNIFOCUS_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6

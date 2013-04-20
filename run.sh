@@ -4,7 +4,7 @@
 # Executes all OSX setup scripts.
 
 # USAGE
-# ./run.sh
+# ./run.sh OPTION
 
 # SETTINGS
 set -e # Exit if any command returns non-zero.

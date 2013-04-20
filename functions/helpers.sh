@@ -346,7 +346,7 @@ export -f install_git_app
 # Parameters:
 # $1 = The option to process.
 function process_option {
-  case $response in
+  case $1 in
     'b')
       scripts/basic.sh
       break;;

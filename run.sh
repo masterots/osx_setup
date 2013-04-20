@@ -14,8 +14,8 @@ source settings/settings.sh
 source functions/helpers.sh
 
 # EXECUTION
-echo ''
 if [ -z "$1" ]; then
+  echo ''
   while true; do
     echo "Usage: run OPTION"
     echo "\nOSX Options:"

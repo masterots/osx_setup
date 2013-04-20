@@ -4,7 +4,7 @@
 # Executes all OSX setup scripts.
 
 # USAGE
-# ./install.sh
+# ./run.sh
 
 # SETTINGS
 set -e # Exit if any command returns non-zero.
@@ -17,7 +17,7 @@ source functions/helpers.sh
 echo ''
 if [ -z "$1" ]; then
   while true; do
-    echo "Usage: install OPTION"
+    echo "Usage: run OPTION"
     echo "\nOSX Options:"
     echo "  b: Apply basic machine settings."
     echo "  h: Install Homebrew software (i.e. non-GUI, command line interfaces)."

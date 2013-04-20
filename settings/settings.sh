@@ -221,6 +221,6 @@ export AIR_DISPLAY_APP_URL=http://avatron.com/downloads
 export AIR_DISPLAY_APP_FILE=AirDisplayInstaller.zip
 export AIR_DISPLAY_APP_NAME="Air Display Preferences.prefPane"
 
-export EYEFI_APP_URL=http://support.eye.fi/agent/download/3.4.29
-export EYEFI_APP_FILE=Eye-Fi.dmg
-export EYEFI_APP_NAME="Eye-Fi/Eye-Fi Center.app"
+# export EYEFI_APP_URL=http://support.eye.fi/agent/download/3.4.29
+# export EYEFI_APP_FILE=Eye-Fi.dmg
+# export EYEFI_APP_NAME="Eye-Fi/Eye-Fi Center.app"

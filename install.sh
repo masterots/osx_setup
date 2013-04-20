@@ -28,6 +28,6 @@ while true; do
   echo "  q: Quit/Exit."
   echo ''
   read -p "Enter selection: " response
-  process $response
+  process_option $response
 done
 echo ''

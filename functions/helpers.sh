@@ -345,7 +345,7 @@ export -f install_git_app
 # Process option selection.
 # Parameters:
 # $1 = The option to process.
-function process {
+function process_option {
   case $response in
     'b')
       scripts/basic.sh
@@ -381,4 +381,4 @@ function process {
       break;;
   esac
 }
-export -f process
+export -f process_option

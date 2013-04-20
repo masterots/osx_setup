@@ -11,7 +11,10 @@ set -e # Exit if any command returns non-zero.
 source settings/settings.sh
 
 # FUNCTIONS
-source functions/helpers.sh
+source functions/utilities.sh
+source functions/installers.sh
+source functions/verifiers.sh
+source functions/options.sh
 
 # EXECUTION
 if [ -z "$1" ]; then

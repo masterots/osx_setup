@@ -1,135 +1,19 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Defines functions for installing, configuring, and checking software.
-
-# Answers the file name.
-# Parameters:
-# $1 = The file path.
-function get_file_name {
-  echo "${1##*/}" # Answer file or directory name.
-}
-export -f get_file_name
-
-# Answers the file extension.
-# Parameters:
-# $1 = The file name.
-function get_file_extension {
-  echo "${1##*.}" # Answer the suffix (without the dot).
-}
-export -f get_file_extension
-
-# Answers the root install path for file name.
-# Parameters:
-# $1 = The file name.
-function get_install_root {
-  file_name="$1" # Make the parameter easier to read.
-  file_extension=$(get_file_extension "$file_name")
-
-  # Dynamically build the install path based on file extension.
-  case $file_extension in
-    'app')
-      install_path="/Applications";;
-    'prefPane')
-      install_path="/Library/PreferencePanes";;
-  esac
-
-  # Return the install path.
-  echo "$install_path"
-}
-export -f get_install_root
-
-# Answers the full install path (including file name) for file name.
-# Parameters:
-# $1 = The file name.
-function get_install_path {
-  file_name="$1" # Make the parameter easier to read.
-  install_path=$(get_install_root "$file_name")
-  echo "$install_path/$file_name"
-}
-export -f get_install_path
-
-# Verifies the install exists.
-# Parameters:
-# $1 = The file name.
-function verify_install {
-  file_name="$1" # Make the parameter easier to read.
-
-  # Display the missing install if not found.
-  install_path=$(get_install_path "$file_name")
-  if [ ! -e "$install_path" ]; then
-    echo " - Missing: $file_name"
-  fi
-}
-export -f verify_install
-
-# Checks for missing installs suffixed by "APP_NAME" as defined in settings.sh.
-function verify_installs {
-  echo "\nChecking installs..."
-
-  # Only use environment variables that end with "APP_NAME".
-  file_names=`set | awk -F "=" '{print $1}' | grep ".*APP_NAME"`
-
-  # For each application name, check to see if the application is installed. Otherwise, skip.
-  for name in $file_names
-  do
-    # Evaluate/extract the key (name) value and pass it on for verfication.
-    verify_install "$(eval echo \$$name)"
-  done
-
-  echo "Install check complete."
-}
-export -f verify_installs
-
-# Verifies path exists.
-# Parameters:
-# $1 = The path.
-function verify_path {
-  path="$1" # Make the parameter easier to read.
-
-  # Display the missing path if not found.
-  if [ ! -e "$path" ]; then
-    echo " - Missing: $path"
-  fi
-}
-export -f verify_path
-
-# Checks for missing extensions suffixed by "EXTENSION_PATH" as defined in settings.sh.
-function verify_extensions {
-  echo "\nChecking extensions..."
-
-  # Only use environment variables that end with "EXTENSION_PATH".
-  extensions=`set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH"`
-
-  # For each extension, check to see if the extension is installed. Otherwise, skip.
-  for extension in $extensions
-  do
-    # Evaluate/extract the key (extension) value and pass it on for verfication.
-    verify_path "$(eval echo \$$extension)"
-  done
-
-  echo "Extension check complete."
-}
-export -f verify_extensions
-
-# Cleans work path for temporary processing of installs.
-function clean_work_path {
-  echo "Cleaning: $WORK_PATH..."
-  rm -rf "$WORK_PATH"
-}
-export -f clean_work_path
+# Defines software installer functions.
 
 # Downloads an installer to local disk.
 # Parameters:
 # $1 = The remote URL.
 # $2 = The file name.
 function download_installer {
-	echo "Downloading $1/$2..."
-	clean_work_path
-	mkdir $WORK_PATH
-	cd $WORK_PATH
-	curl -LO "$1/$2"
-	cd ..
+  echo "Downloading $1/$2..."
+  clean_work_path
+  mkdir $WORK_PATH
+  cd $WORK_PATH
+  curl -LO "$1/$2"
+  cd ..
 }
 export -f download_installer
 
@@ -341,44 +225,3 @@ function install_git_app {
   fi
 }
 export -f install_git_app
-
-# Process option selection.
-# Parameters:
-# $1 = The option to process.
-function process_option {
-  case $1 in
-    'b')
-      scripts/basic.sh
-      break;;
-    'h')
-      scripts/homebrew.sh
-      break;;
-    'a')
-      scripts/applications.sh
-      break;;
-    'x')
-      scripts/extensions.sh
-      break;;
-    'd')
-      scripts/defaults.sh
-      break;;
-    'w')
-      clean_work_path
-      break;;
-    'i')
-      scripts/basic.sh
-      scripts/homebrew.sh
-      scripts/applications.sh
-      scripts/extensions.sh
-      scripts/defaults.sh
-      clean_work_path
-      break;;
-    'c')
-      verify_installs
-      verify_extensions
-      break;;
-    'q')
-      break;;
-  esac
-}
-export -f process_option

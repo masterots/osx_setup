@@ -71,7 +71,7 @@ rbenv global $RUBY_VERSION
 # Dotfiles
 git clone git://github.com/bkuhlmann/dotfiles.git
 cd dotfiles
-./install.sh
+./run.sh i
 cd $HOME
 rm -rf dotfiles
 source $HOME/.bashrc

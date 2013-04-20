@@ -130,7 +130,7 @@ export SOURCE_TREE_APP_FILE=SourceTree_1.5.8.dmg
 export SOURCE_TREE_APP_NAME=SourceTree.app
 
 export GITHUB_APP_URL=https://github-central.s3.amazonaws.com
-export GITHUB_APP_FILE=mac%2FGitHub%20for%20Mac%20107.zip
+export GITHUB_APP_FILE=mac%2FGitHub%20for%20Mac%20134.zip
 export GITHUB_APP_NAME=GitHub.app
 
 export SNIPPETS_APP_URL=http://www.snippetsapp.com/download

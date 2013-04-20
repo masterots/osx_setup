@@ -1,3 +1,21 @@
+= v2.0.0
+
+* Fixed Eye-Fi install.
+* Fixed link to Sublime Text - Bracket Highlighter in README.
+* Removed the Caffeine install (using the native OSX caffeinate CLI app via Alfred instead).
+* Updated the dotfiles install to use the run.sh script instead of install.sh.
+* Upgraded to Alfred 2.0.3_187.
+* Upgraded to Opera 12.15.
+* Upgraded to iStat Menus 4.05.
+* Upgraded to GitHub 20134.
+* Upgraded to VLC 2.0.6.
+* Upgraded to Virtual Box 4.2.12-84980.
+* Upgraded to Hazel 3.0.18.
+* Updated installer to bypass options prompt with option choice from command line.
+* Renamed install.sh to run.sh.
+* Removed the Caffeine install from the App Store list (using the OSX caffeinate CLI tool now).
+* Refactored all scripts in the functions folder.
+
 = v1.3.0
 
 * Fixed install issues with Xiki extension.

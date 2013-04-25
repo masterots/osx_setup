@@ -182,8 +182,8 @@ export MONEYWELL_APP_FILE=MoneyWell_17.zip
 export MONEYWELL_APP_NAME=MoneyWell.app
 
 export DELICIOUS_LIBRARY_APP_URL=http://www.delicious-monster.com/downloads
-export DELICIOUS_LIBRARY_APP_FILE=DeliciousLibrary2.zip
-export DELICIOUS_LIBRARY_APP_NAME="Delicious Library 2.app"
+export DELICIOUS_LIBRARY_APP_FILE=DeliciousLibrary3.zip
+export DELICIOUS_LIBRARY_APP_NAME="Delicious Library 3.app"
 
 export OPEN_OFFICE_APP_URL=http://hivelocity.dl.sourceforge.net/project/openofficeorg.mirror/stable/3.4.1
 export OPEN_OFFICE_APP_FILE=Apache_OpenOffice_incubating_3.4.1_MacOS_x86_install_en-US.dmg

@@ -189,6 +189,10 @@ export OPEN_OFFICE_APP_URL=http://hivelocity.dl.sourceforge.net/project/openoffi
 export OPEN_OFFICE_APP_FILE=Apache_OpenOffice_incubating_3.4.1_MacOS_x86_install_en-US.dmg
 export OPEN_OFFICE_APP_NAME=OpenOffice.org.app
 
+export CLOAK_APP_URL=https://s3.amazonaws.com/static.getcloak.com/osx/updates/Release
+export CLOAK_APP_FILE=Cloak-1.1.3.dmg
+export CLOAK_APP_NAME=Cloak.app
+
 export COLLOQUY_APP_URL=http://colloquy.info/downloads
 export COLLOQUY_APP_FILE=colloquy-latest.zip
 export COLLOQUY_APP_NAME=Colloquy.app

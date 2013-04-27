@@ -112,6 +112,9 @@ install_zip_app "$DELICIOUS_LIBRARY_APP_URL" "$DELICIOUS_LIBRARY_APP_FILE" "$DEL
 # OpenOffice
 install_dmg_app "$OPEN_OFFICE_APP_URL" "$OPEN_OFFICE_APP_FILE" "OpenOffice.org" "$OPEN_OFFICE_APP_NAME"
 
+# Cloak
+install_dmg_app "$CLOAK_APP_URL" "$CLOAK_APP_FILE" "Cloak" "$CLOAK_APP_NAME"
+
 # Colloquy
 install_zip_app "$COLLOQUY_APP_URL" "$COLLOQUY_APP_FILE" "$COLLOQUY_APP_NAME"
 

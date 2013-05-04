@@ -52,6 +52,9 @@ install_git_app "$TRAILING_SPACES_FILE_EXTENSION_URL" "$TRAILING_SPACES_FILE_EXT
 # Sublime Text 2 - Color Highlighter
 install_git_app "$COLOR_HIGHLIGHTER_FILE_EXTENSION_URL" "$COLOR_HIGHLIGHTER_FILE_EXTENSION_PATH"
 
+# Sublime Text 2 - Alignment
+install_git_app "$ALIGNMENT_EXTENSION_URL" "$ALIGNMENT_EXTENSION_PATH"
+
 # Sublime Text 2 - Xiki
 install_git_app "$XIKI_EXTENSION_URL" "$XIKI_EXTENSION_PATH"
 

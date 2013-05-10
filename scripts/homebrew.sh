@@ -43,6 +43,9 @@ brew install imagemagick
 # Graphviz
 brew install graphviz
 
+# FFmpeg
+brew install ffmpeg
+
 # Node
 brew install node
 

@@ -175,6 +175,10 @@ export PG_ADMIN_APP_URL=http://ftp.postgresql.org/pub/pgadmin3/release/v1.16.1/o
 export PG_ADMIN_APP_FILE=pgadmin3-1.16.1.dmg
 export PG_ADMIN_APP_NAME=pgAdmin3.app
 
+export SEQUEL_PRO_APP_URL=https://sequel-pro.googlecode.com/files
+export SEQUEL_PRO_APP_FILE=sequel-pro-1.0.2.dmg
+export SEQUEL_PRO_APP_NAME="Sequel Pro.app"
+
 export NAMEBENCH_APP_URL=https://namebench.googlecode.com/files
 export NAMEBENCH_APP_FILE=namebench-1.3.1-Mac_OS_X.dmg
 export NAMEBENCH_APP_NAME=namebench.app

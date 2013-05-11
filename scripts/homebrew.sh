@@ -5,7 +5,7 @@
 
 # EXECUTION
 # Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 # Bash Completion
 brew install bash-completion

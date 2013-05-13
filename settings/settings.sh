@@ -203,6 +203,10 @@ export CLOAK_APP_URL=https://s3.amazonaws.com/static.getcloak.com/osx/updates/Re
 export CLOAK_APP_FILE=Cloak-1.1.3.dmg
 export CLOAK_APP_NAME=Cloak.app
 
+export SCREENHERO_APP_URL=http://dl.screenhero.com/update/screenhero
+export SCREENHERO_APP_FILE=Screenhero.dmg
+export SCREENHERO_APP_NAME=Screenhero.app
+
 export COLLOQUY_APP_URL=http://colloquy.info/downloads
 export COLLOQUY_APP_FILE=colloquy-latest.zip
 export COLLOQUY_APP_NAME=Colloquy.app

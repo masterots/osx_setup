@@ -52,13 +52,6 @@ brew install node
 # Phantom.js
 brew install phantomjs
 
-# Ruby Gems
-git clone git://github.com/bkuhlmann/ruby_gem_setup.git
-cd ruby_gem_setup
-./install.sh
-cd $HOME
-rm -rf ruby_gem_setup
-
 # Ruby
 brew install rbenv
 brew install --HEAD ruby-build
@@ -70,12 +63,17 @@ mkdir -p $HOME/.rbenv/plugins
 git clone https://github.com/ianheggie/rbenv-binstubs.git $HOME/.rbenv/plugins/rbenv-binstubs
 rbenv install $RUBY_VERSION
 rbenv global $RUBY_VERSION
+rbenv rehash
+
+# Ruby Gems
+git clone git://github.com/bkuhlmann/ruby_gem_setup.git
+ruby_gem_setup/run.sh i
+ruby_gem_setup/run.sh g
+rm -rf ruby_gem_setup
 
 # Dotfiles
 git clone git://github.com/bkuhlmann/dotfiles.git
-cd dotfiles
-./run.sh i
-cd $HOME
+dotfiles/run.sh i
 rm -rf dotfiles
 source $HOME/.bashrc
 

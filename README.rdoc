@@ -126,7 +126,7 @@ Edit any of the *.sh files in the scripts folder to your liking and then open a 
 
   ./run.sh
 
-Running the install.sh script will present the following options:
+Running the run.sh script will present the following options:
 
   b: Apply basic machine settings.
   h: Install Homebrew software (i.e. non-GUI, command line interfaces).

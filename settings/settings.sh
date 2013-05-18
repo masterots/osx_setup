@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Defines all install settings.
+# Defines global settings.
 
 # SETTINGS
 # General

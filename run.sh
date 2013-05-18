@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Executes all OSX setup scripts.
+# Executes the command line interface.
 
 # USAGE
 # ./run.sh OPTION

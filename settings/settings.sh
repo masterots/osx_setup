@@ -7,7 +7,7 @@
 # General
 export SYSTEM_LABEL=RA # Placeholder for system display name.
 export SYSTEM_NAME=ra # Placeholder for system name.
-export WORK_PATH=/private/tmp/downloads # Temporary location for processing of file downloads and installers.
+export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Homebrew
 export RUBY_VERSION=2.0.0-p195

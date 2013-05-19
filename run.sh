@@ -27,7 +27,7 @@ if [ -z "$1" ]; then
     echo "  a: Install application software (i.e. GUI-enabled)."
     echo "  x: Install application extensions (i.e. enhancements, add-ons, plug-ins, etc.)"
     echo "  d: Apply software defaults."
-    echo "  p: Install custom software preferences."
+    echo "  p: Apply software preferences."
     echo "  w: Clean install work directory."
     echo "  i: Perform complete install (i.e. basic settings, Homebrew, applications, extensions, defaults, preferences, and work directory clean-up)."
     echo "  c: Check status of installed applications and extensions."

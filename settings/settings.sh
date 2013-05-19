@@ -119,10 +119,6 @@ export OMNIDAZZLE_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
 export OMNIDAZZLE_APP_FILE=OmniDazzle-1.2.dmg
 export OMNIDAZZLE_APP_NAME=OmniDazzle.app
 
-export EXPANDRIVE_APP_URL=http://downloads.expandrive.com/expandrive/v2-3-1_published_2012-03-07_at_15_18_52
-export EXPANDRIVE_APP_FILE=ExpanDrive.zip
-export EXPANDRIVE_APP_NAME=ExpanDrive.app
-
 export ISTATS_APP_URL=http://s3.amazonaws.com/bjango/files/istatmenus4
 export ISTATS_APP_FILE=istatmenus4.05.zip
 export ISTATS_APP_NAME="iStat Menus.app"

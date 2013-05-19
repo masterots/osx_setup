@@ -58,7 +58,7 @@ brew install --HEAD ruby-build
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 brew install rbenv-vars
-cp settings/rbenv-vars.txt $HOME/.rbenv/vars
+mkdir -p "$HOME/.rbenv" && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 mkdir -p $HOME/.rbenv/plugins
 git clone https://github.com/ianheggie/rbenv-binstubs.git $HOME/.rbenv/plugins/rbenv-binstubs
 rbenv install $RUBY_VERSION

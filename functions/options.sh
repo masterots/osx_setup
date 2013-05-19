@@ -26,6 +26,9 @@ function process_option {
     'p')
       scripts/preferences.sh
       break;;
+    's')
+      scripts/setup.sh
+      break;;
     'w')
       clean_work_path
       break;;

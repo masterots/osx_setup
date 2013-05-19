@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Configures basic system settings.
+# Applies basic system settings.
 
 # EXECUTION
 echo "Setting system label and name..."

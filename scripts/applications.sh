@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Defines how each application should be installed.
+# Installs OSX applications.
 
 # USAGE
 # See the functions/functions.sh script for install choices and related usage.
@@ -18,9 +18,6 @@ install_zip_app "$ITERM_APP_URL" "$ITERM_APP_FILE" "$ITERM_APP_NAME"
 
 # Sublime Text 2
 install_dmg_app "$SUBLIME_TEXT_APP_URL" "$SUBLIME_TEXT_APP_FILE" "Sublime Text 2" "$SUBLIME_TEXT_APP_NAME"
-if [ ! -e "/usr/bin/sublime" ]; then
-  sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/sublime
-fi
 
 # Alfred
 install_zip_app "$ALFRED_APP_URL" "$ALFRED_APP_FILE" "$ALFRED_APP_NAME"

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Defines, installs, and configures Homebrew command line interface software.
+# Installs Homebrew software.
 
 # EXECUTION
 # Homebrew

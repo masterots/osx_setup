@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Installs custom preferences.
+# Applies software preferences.
 
 # EXECUTION
 # Dotfiles

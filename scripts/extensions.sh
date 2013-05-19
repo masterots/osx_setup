@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Defines how each application extension should be installed.
+# Installs application extensions.
 
 # USAGE
 # See the functions/functions.sh script for install choices and related usage.

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # DESCRIPTION
-# Sets up and launched (if necessary) installed software.
+# Sets up and launches (if necessary) installed software.
 
 # rbenv vars
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
@@ -20,3 +20,8 @@ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
 /usr/local/opt/mysql/bin/mysql_secure_installation
+
+# Sublime Text
+if [ ! -e "/usr/bin/sublime" ]; then
+  sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/sublime
+fi

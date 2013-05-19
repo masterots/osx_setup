@@ -22,7 +22,7 @@ export KNOX_APP_FILE=Knox-2.2.0.zip
 export KNOX_APP_NAME=Knox.app
 
 export ITERM_APP_URL=https://iterm2.googlecode.com/files
-export ITERM_APP_FILE=iTerm2-1_0_0_20130122.zip
+export ITERM_APP_FILE=iTerm2-1_0_0_20130319.zip
 export ITERM_APP_NAME=iTerm.app
 
 export SUBLIME_TEXT_APP_URL=http://c758482.r82.cf2.rackcdn.com

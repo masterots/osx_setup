@@ -64,25 +64,6 @@ git clone https://github.com/ianheggie/rbenv-binstubs.git $HOME/.rbenv/plugins/r
 rbenv install $RUBY_VERSION
 rbenv global $RUBY_VERSION
 
-# Dotfiles
-git clone git://github.com/bkuhlmann/dotfiles.git
-cd dotfiles
-./run.sh i &
-wait $!
-cd ..
-rm -rf dotfiles
-source $HOME/.bashrc
-
-# Ruby Gems
-git clone git://github.com/bkuhlmann/ruby_gem_setup.git
-cd ruby_gem_setup
-./run.sh i &
-wait $!
-./run.sh g &
-wait $!
-cd ..
-rm -rf ruby_gem_setup
-
 # Pow
 curl get.pow.cx | sh
 

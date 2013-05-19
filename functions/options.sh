@@ -23,6 +23,9 @@ function process_option {
     'd')
       scripts/defaults.sh
       break;;
+    'p')
+      scripts/preferences.sh
+      break;;
     'w')
       clean_work_path
       break;;
@@ -32,6 +35,7 @@ function process_option {
       scripts/applications.sh
       scripts/extensions.sh
       scripts/defaults.sh
+      scripts/preferences.sh
       clean_work_path
       break;;
     'c')

@@ -14,7 +14,7 @@ export RUBY_VERSION=2.0.0-p195
 
 # Applications
 export DROPBOX_APP_URL=https://dl.dropboxusercontent.com/u/17
-export DROPBOX_APP_FILE=Dropbox%202.0.6.dmg
+export DROPBOX_APP_FILE=Dropbox%202.0.16.dmg
 export DROPBOX_APP_NAME=Dropbox.app
 
 export KNOX_APP_URL=https://d13itkw33a7sus.cloudfront.net/dist/K

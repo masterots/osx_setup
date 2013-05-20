@@ -173,11 +173,13 @@ will cause the installer to skip these applications/extensions.
 
 You can also modify the install scripts themselves by editing any of the following:
 
-* scripts/basic.sh = Configures basic system settings.
-* scripts/homebrew.sh = Defines, installs, and configures Homebrew command line interface software.
-* scripts/applications.sh = Defines how each application should be installed.
-* scripts/extensions.sh = Defines how each application extension should be installed.
-* scripts/defaults.sh = Configures useful system and application defaults.
+* scripts/basic.sh = Applies basic system settings.
+* scripts/homebrew.sh = Installs Homebrew, command line, software.
+* scripts/applications.sh = Installs OSX, GUI-based, applications.
+* scripts/extensions.sh = Installs application extensions.
+* scripts/defaults.sh = Applies system and application defaults.
+* scripts/preferences.sh = Applies software preferences.
+* scripts/setup.sh = Sets up and launches (if necessary) installed software.
 
 All Bash functions, used by the scripts defined above, can be found in the functions folder.
 

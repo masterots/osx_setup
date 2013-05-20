@@ -1,3 +1,42 @@
+= v3.0.0
+
+* Fixed README typo with install.sh (is now run.sh).
+* Upgraded to Ruby 2.0.0-p195.
+* Upgraded to Delicous Library 3.
+* Upgraded to Dropbox 2.0.16.
+* Upgraded to iTerm 1.0.0-20130319.
+* Upgraded to Alfred 2.0.3.187.
+* Upgraded to Firefox 21.0.
+* Upgraded to Skype 6.4.0.
+* Upgraded to Source Tree 1.6.0.1.
+* Upgraded to GitHub 20147.
+* Added instructions for configuring lock screen message.
+* Added instructions for enabling snippets support in Chrome.
+* Added default desktop background image customization.
+* Added the Cloak[https://www.getcloak.com] install.
+* Added the Screenhero[http://screenhero.com] install.
+* Added the {Sequel Pro}[http://www.sequelpro.com] install.
+* Added the {Sublime Text Color Highlighter}[https://github.com/Monnoroch/ColorHighlighter] extension.
+* Added the {Sublime Text Move Tab}[https://github.com/SublimeText/MoveTab] extension.
+* Added the {Sublime Text Alignment}[https://github.com/wbond/sublime_alignment] extension.
+* Added the FFmpeg[http://ffmpeg.org] Homebrew install.
+* Added the Wry[https://github.com/hoop33/wry] Homebrew install.
+* Renamed Move Tab, Apply Syntax, Change Quotes, Bracket Highlighter, Trailing Spaces, and Color Highlighter extension variables.
+* Removed the /usr/bin path from ruby when installing Homebrew.
+* Switched Google Chrome Extension install root path from ~/Cache to ~/Apps.
+* Cleaned up the ruby gem and dotfile project installs to use relative paths and new install options.
+* Updated shell script documentation.
+* Removed the Expand Drive installer.
+* Switched install order of dotfiles and ruby gem projects.
+* Extracted preference install code from homebrew.sh script to separate preference.sh script.
+* Added iTerm and Sublime Text preference.sh support.
+* Renamed software preferences option text.
+* Updated work path to use symbolic link to /tmp.
+* Added setup script and associated command prompt option.
+* Extracted Homebrew application setup to the setup.sh script.
+* Moved application setup instructions to the setup.sh script.
+* Updated script descriptions to match options prompt.
+
 = v2.0.0
 
 * Fixed Eye-Fi install.

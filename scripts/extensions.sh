@@ -25,6 +25,9 @@ install_git_app "$GIT_GUTTER_EXTENSION_URL" "$GIT_GUTTER_EXTENSION_PATH"
 # Sublime Text 2 - Gist
 install_git_app "$GIST_EXTENSION_URL" "$GIST_EXTENSION_PATH"
 
+# Sublime Text 2 - Local History
+install_git_app "$LOCAL_HISTORY_EXTENSION_URL" "$LOCAL_HISTORY_EXTENSION_PATH"
+
 # Sublime Text 2 - CTags
 install_git_app "$CTAGS_EXTENSION_URL" "$CTAGS_EXTENSION_PATH"
 

@@ -58,6 +58,9 @@ install_git_app "$COLOR_HIGHLIGHTER_EXTENSION_URL" "$COLOR_HIGHLIGHTER_EXTENSION
 # Sublime Text 2 - Alignment
 install_git_app "$ALIGNMENT_EXTENSION_URL" "$ALIGNMENT_EXTENSION_PATH"
 
+# Sublime Text 2 - Autoprefixer
+install_git_app "$AUTOPREFIXER_EXTENSION_URL" "$AUTOPREFIXER_EXTENSION_PATH"
+
 # Sublime Text 2 - Xiki
 install_git_app "$XIKI_EXTENSION_URL" "$XIKI_EXTENSION_PATH"
 

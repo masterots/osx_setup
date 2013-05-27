@@ -25,8 +25,7 @@ function verify_installs {
   file_names=`set | awk -F "=" '{print $1}' | grep ".*APP_NAME"`
 
   # For each application name, check to see if the application is installed. Otherwise, skip.
-  for name in $file_names
-  do
+  for name in $file_names; do
     # Evaluate/extract the key (name) value and pass it on for verfication.
     verify_install "$(eval echo \$$name)"
   done
@@ -56,8 +55,7 @@ function verify_extensions {
   extensions=`set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH"`
 
   # For each extension, check to see if the extension is installed. Otherwise, skip.
-  for extension in $extensions
-  do
+  for extension in $extensions; do
     # Evaluate/extract the key (extension) value and pass it on for verfication.
     verify_path "$(eval echo \$$extension)"
   done

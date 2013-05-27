@@ -147,9 +147,11 @@ function install_zip_app {
   else
     download_installer "$1" "$2"
 
-    echo "Preparing..."
-    cd "$WORK_PATH"
-    unzip -q "$2"
+    (
+      echo "Preparing..."
+      cd "$WORK_PATH"
+      unzip -q "$2"
+    )
 
     install_app "$WORK_PATH" "$app_name"
     verify_install "$app_name"
@@ -172,9 +174,11 @@ function install_tar_app {
   else
     download_installer "$1" "$2"
 
-    echo "Preparing..."
-    cd "$WORK_PATH"
-    tar "$3" "$2"
+    (
+      echo "Preparing..."
+      cd "$WORK_PATH"
+      tar "$3" "$2"
+    )
 
     install_app "$WORK_PATH" "$app_name"
     verify_install "$app_name"
@@ -196,9 +200,11 @@ function install_zip_pkg {
   else
     download_installer "$1" "$2"
 
-    echo "Preparing..."
-    cd "$WORK_PATH"
-    unzip -q "$2"
+    (
+      echo "Preparing..."
+      cd "$WORK_PATH"
+      unzip -q "$2"
+    )
 
     install_pkg "$WORK_PATH" "$app_name"
     verify_install "$app_name"

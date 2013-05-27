@@ -29,9 +29,10 @@ function download_installer {
   echo "Downloading $1/$2..."
   clean_work_path
   mkdir $WORK_PATH
-  cd $WORK_PATH
-  curl -LO "$1/$2"
-  cd ..
+  (
+    cd $WORK_PATH
+    curl -LO "$1/$2"
+  )
 }
 export -f download_installer
 
@@ -44,10 +45,7 @@ function download_only {
     echo "Downloaded: $2."
   else
     echo "Downloading $1/$2..."
-    clean_work_path
-    mkdir $WORK_PATH
-    cd $WORK_PATH
-    curl -LO "$1/$2"
+    download_installer "$1" "$2"
     mv "$WORK_PATH/$2" "$HOME/Downloads"
   fi
 }

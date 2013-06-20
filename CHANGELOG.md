@@ -1,4 +1,4 @@
-= v3.0.0
+# v3.0.0
 
 * Fixed README typo with install.sh (is now run.sh).
 * Upgraded to Ruby 2.0.0-p195.
@@ -13,14 +13,14 @@
 * Added instructions for configuring lock screen message.
 * Added instructions for enabling snippets support in Chrome.
 * Added default desktop background image customization.
-* Added the Cloak[https://www.getcloak.com] install.
-* Added the Screenhero[http://screenhero.com] install.
-* Added the {Sequel Pro}[http://www.sequelpro.com] install.
-* Added the {Sublime Text Color Highlighter}[https://github.com/Monnoroch/ColorHighlighter] extension.
-* Added the {Sublime Text Move Tab}[https://github.com/SublimeText/MoveTab] extension.
-* Added the {Sublime Text Alignment}[https://github.com/wbond/sublime_alignment] extension.
-* Added the FFmpeg[http://ffmpeg.org] Homebrew install.
-* Added the Wry[https://github.com/hoop33/wry] Homebrew install.
+* Added the Cloak install.
+* Added the Screenhero install.
+* Added the Sequel Pro install.
+* Added the Sublime Text Color Highlighter extension.
+* Added the Sublime Text Move Tab extension.
+* Added the Sublime Text Alignment extension.
+* Added the FFmpeg Homebrew install.
+* Added the Wry Homebrew install.
 * Renamed Move Tab, Apply Syntax, Change Quotes, Bracket Highlighter, Trailing Spaces, and Color Highlighter extension variables.
 * Removed the /usr/bin path from ruby when installing Homebrew.
 * Switched Google Chrome Extension install root path from ~/Cache to ~/Apps.
@@ -37,7 +37,7 @@
 * Moved application setup instructions to the setup.sh script.
 * Updated script descriptions to match options prompt.
 
-= v2.0.0
+# v2.0.0
 
 * Fixed Eye-Fi install.
 * Fixed link to Sublime Text - Bracket Highlighter in README.
@@ -55,32 +55,32 @@
 * Removed the Caffeine install from the App Store list (using the OSX caffeinate CLI tool now).
 * Refactored all scripts in the functions folder.
 
-= v1.3.0
+# v1.3.0
 
 * Fixed install issues with Xiki extension.
 * Upgraded to Alfred 2.0.2_178.
 * Upgraded to Dropbox 2.0.6.
 * Upgraded to Firefox 20.0.
 * Upgraded to VirtualBox 4.2.10.
-* Added the Z[https://github.com/rupa/z] Homebrew install.
-* Added the CTags[http://ctags.sourceforge.net] homebrew install.
-* Added the rbenv-binstubs[https://github.com/ianheggie/rbenv-binstubs] plugin install.
-* Added the Sublime Text - {Change Quotes}[https://github.com/colinta/SublimeChangeQuotes] extension.
-* Added the Sublime Text - {Sublime Linter}[https://github.com/SublimeLinter/SublimeLinter] extension.
-* Added the Sublime Text - {Trailing Spaces}[https://github.com/SublimeText/TrailingSpaces] extension.
-* Added the Sublime Text - Git[https://github.com/kemayo/sublime-text-2-git] extension.
-* Added the Sublime Text - {Coffee Script}[https://github.com/Xavura/CoffeeScript-Sublime-Plugin] extension.
-* Added the Sublime Text - {Sidebar Enhancements}[https://github.com/titoBouzout/SideBarEnhancements].
-* Added the Sublime Text - {Apply Syntax}[https://github.com/facelessuser/ApplySyntax] extension.
-* Added the Sublime Text - CTags[https://github.com/SublimeText/CTags] extension.
-* Added the Google Chrome - {Ember Inspector}[https://github.com/tildeio/ember-extension] extension.
-* Added the Google Chrome - {Chrome Logger}[https://github.com/ccampbell/chromelogger] extension.
+* Added the Z Homebrew install.
+* Added the CTags homebrew install.
+* Added the rbenv-binstubs plugin install.
+* Added the Sublime Text - Change Quotesextension.
+* Added the Sublime Text - Sublime Linter extension.
+* Added the Sublime Text - Trailing Spaces extension.
+* Added the Sublime Text - Git extension.
+* Added the Sublime Text - Coffee Script extension.
+* Added the Sublime Text - Sidebar Enhancements.
+* Added the Sublime Text - Apply Syntax extension.
+* Added the Sublime Text - CTags extension.
+* Added the Google Chrome - Ember Inspector extension.
+* Added the Google Chrome - Chrome Logger extension.
 * Added the Google Chrome Canary install.
 * Added steps for Google Chrome setup.
-* Added {Mouse Pointer}[http://www.2point5fish.com/index.html] to the README. Thanks Eric.
+* Added Mouse Pointer to the README. Thanks Eric.
 * Fixed Eye-Fi install to download and install the package from the DMG.
 
-= v1.2.0
+# v1.2.0
 
 * Added application extension check and installation support.
 * Removed the Code Climate badge from the README.
@@ -97,7 +97,7 @@
 * Clarified the install options documentation.
 * Added additional project documentation for scripts, functions, and README.
 
-= v1.1.0
+# v1.1.0
 
 * Upgraded to Firefox 19.0.
 * Upgraded to Ruby 2.0.0-p0.
@@ -116,7 +116,7 @@
 * Installs Redis before the DBs.
 * Added Twitter to the Apple App Store list.
 
-= v1.0.0
+# v1.0.0
 
 * Fixed system label and name settings.
 * Fixed the Homebrew install.
@@ -195,7 +195,7 @@
 * Removed Growl and Firefox (setup) from README.
 * Removed the GitBox mention from the README.
 
-= v0.4.0
+# v0.4.0
 
 * Upgraded to Sublime Text 2.0.1.
 * Upgraded to iStat Menus 3.24.
@@ -229,7 +229,7 @@
 * Modified the dotfiles installer to use shell script instead of ruby script.
 * Moved default install after software installation.
 
-= v0.3.0
+# v0.3.0
 
 * Upgraded the OmniFocus installer.
 * Upgraded the Firefox installer.
@@ -244,7 +244,7 @@
 * Added AquaPath app to README.
 * Cleaned up the README.
 
-= v0.2.0
+# v0.2.0
 
 * Fixed PostgreSQL install steps.
 * Fixed Redis install steps.
@@ -273,6 +273,6 @@
 * Added install instructions for software that isn't in the App Store to the README.
 * Added more OSX defaults and credited Mathias Bynens for his work in the README.
 
-= v0.1.0
+# v0.1.0
 
 * Initial version.

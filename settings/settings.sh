@@ -69,6 +69,8 @@ export WEB_INSPECTOR_EXTENSION_URL="git://github.com/sokolovstas/SublimeWebInspe
 export WEB_INSPECTOR_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Web Inspector"
 export LINTER_EXTENSION_URL="git://github.com/SublimeLinter/SublimeLinter.git"
 export LINTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/SublimeLinter"
+export SCSS_EXTENSION_URL="git://github.com/kuroir/SCSS.tmbundle.git"
+export SCSS_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/SCSS"
 export COFFEE_SCRIPT_EXTENSION_URL="git://github.com/Xavura/CoffeeScript-Sublime-Plugin.git"
 export COFFEE_SCRIPT_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/CoffeeScript"
 

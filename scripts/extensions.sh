@@ -76,5 +76,8 @@ install_git_app "$WEB_INSPECTOR_EXTENSION_URL" "$WEB_INSPECTOR_EXTENSION_PATH"
 # Sublime Text 2 - Sublime Linter
 install_git_app "$LINTER_EXTENSION_URL" "$LINTER_EXTENSION_PATH"
 
+# Sublime Text 2 - SASS/SCSS
+install_git_app "$SCSS_EXTENSION_URL" "$SCSS_EXTENSION_PATH"
+
 # Sublime Text 2 - Coffee Script
 install_git_app "$COFFEE_SCRIPT_EXTENSION_URL" "$COFFEE_SCRIPT_EXTENSION_PATH"

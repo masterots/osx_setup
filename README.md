@@ -237,12 +237,15 @@ The following is a checklist of additional steps worth completing after the scri
 * Configure iTunes.
 * Configure Google Chrome:
     * Open the Flags tab (i.e. chrome://flags)
-        * Enable Experimental Extension APIs
-        * Enable Developer Tools Experiments
+        * Enable "Experimental Extension APIs".
+        * Enable "Developer Tools Experiments".
     * Open Web Inspector Developer Tools (COMMAND+OPTION+I) and click the gear (lower right corner)
-        * Click the Experiments setting.
-            * Enable Snippets support
-            * Enable Support for Sass
+        * Click the Experiments tab.
+            * Enable "Snippets support".
+            * Enable "Support for SASS".
+        * Click the General tab.
+            * Enable "Source maps".
+            * Enable "Auto-reload CSS upon SASS save".
 * Configure previously installed applications.
 
 # Resources

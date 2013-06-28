@@ -10,7 +10,7 @@ export SYSTEM_NAME=ra # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Homebrew
-export RUBY_VERSION=2.0.0-p195
+export RUBY_VERSION=2.0.0-p247
 
 # Applications
 export DROPBOX_APP_URL=https://dl.dropboxusercontent.com/u/17

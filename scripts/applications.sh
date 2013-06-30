@@ -52,6 +52,9 @@ install_dmg_app "$OMNIGRAFFLE_APP_URL" "$OMNIGRAFFLE_APP_FILE" "OmniGrafflePro" 
 # OmniDazzle
 install_dmg_app "$OMNIDAZZLE_APP_URL" "$OMNIDAZZLE_APP_FILE" "OmniDazzle" "$OMNIDAZZLE_APP_NAME"
 
+# Transmit
+install_zip_app "$TRANSMIT_APP_URL" "$TRANSMIT_APP_FILE" "$TRANSMIT_APP_NAME"
+
 # iStat Menus (the app is the installer)
 install_zip_app "$ISTATS_APP_URL" "$ISTATS_APP_FILE" "$ISTATS_APP_NAME"
 

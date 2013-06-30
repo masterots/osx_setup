@@ -125,6 +125,10 @@ export OMNIDAZZLE_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
 export OMNIDAZZLE_APP_FILE=OmniDazzle-1.2.dmg
 export OMNIDAZZLE_APP_NAME=OmniDazzle.app
 
+export TRANSMIT_APP_URL=https://www.panic.com/transmit/d
+export TRANSMIT_APP_FILE=Transmit%204.4.zip
+export TRANSMIT_APP_NAME=Transmit.app
+
 export ISTATS_APP_URL=http://s3.amazonaws.com/bjango/files/istatmenus4
 export ISTATS_APP_FILE=istatmenus4.06.zip
 export ISTATS_APP_NAME="iStat Menus.app"

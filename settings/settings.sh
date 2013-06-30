@@ -170,8 +170,8 @@ export IMAGE_OPTIM_APP_URL=http://imageoptim.com
 export IMAGE_OPTIM_APP_FILE=ImageOptim.tbz2
 export IMAGE_OPTIM_APP_NAME=ImageOptim.app
 
-export VLC_APP_URL=http://ftp.osuosl.org/pub/videolan/vlc/2.0.6/macosx
-export VLC_APP_FILE=vlc-2.0.6.dmg
+export VLC_APP_URL=http://ftp.osuosl.org/pub/videolan/vlc/2.0.7/macosx
+export VLC_APP_FILE=vlc-2.0.7.dmg
 export VLC_APP_NAME=VLC.app
 
 export INDUCTION_APP_URL=https://mesmerize.s3.amazonaws.com/Induction

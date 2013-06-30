@@ -102,8 +102,8 @@ export CANARY_APP_URL=https://storage.googleapis.com/chrome-canary
 export CANARY_APP_FILE=GoogleChromeCanary.dmg
 export CANARY_APP_NAME="Google Chrome Canary.app"
 
-export FIREFOX_APP_URL=http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/21.0/mac/en-US
-export FIREFOX_APP_FILE=Firefox%2021.0.dmg
+export FIREFOX_APP_URL=http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/22.0/mac/en-US
+export FIREFOX_APP_FILE=Firefox%2022.0.dmg
 export FIREFOX_APP_NAME=Firefox.app
 
 export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/mac/1215

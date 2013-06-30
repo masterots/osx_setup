@@ -13,8 +13,9 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 export RUBY_VERSION=2.0.0-p247
 
 # Applications
-export DROPBOX_APP_URL=https://dl.dropboxusercontent.com/u/17
-export DROPBOX_APP_FILE=Dropbox%202.0.16.dmg
+
+export DROPBOX_APP_URL=https://d1ilhw0800yew8.cloudfront.net/client
+export DROPBOX_APP_FILE=Dropbox%202.2.8.dmg
 export DROPBOX_APP_NAME=Dropbox.app
 
 export KNOX_APP_URL=https://d13itkw33a7sus.cloudfront.net/dist/K

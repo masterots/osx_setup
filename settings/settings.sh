@@ -126,7 +126,7 @@ export OMNIDAZZLE_APP_FILE=OmniDazzle-1.2.dmg
 export OMNIDAZZLE_APP_NAME=OmniDazzle.app
 
 export ISTATS_APP_URL=http://s3.amazonaws.com/bjango/files/istatmenus4
-export ISTATS_APP_FILE=istatmenus4.05.zip
+export ISTATS_APP_FILE=istatmenus4.06.zip
 export ISTATS_APP_NAME="iStat Menus.app"
 
 export BARTENDER_APP_URL=http://www.macbartender.com/Demo

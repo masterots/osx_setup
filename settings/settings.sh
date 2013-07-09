@@ -106,8 +106,8 @@ export FIREFOX_APP_URL=http://download.cdn.mozilla.net/pub/mozilla.org/firefox/r
 export FIREFOX_APP_FILE=Firefox%2022.0.dmg
 export FIREFOX_APP_NAME=Firefox.app
 
-export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/mac/1215
-export OPERA_APP_FILE=Opera_12.15_Setup_Intel.dmg
+export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/desktop/15.0.1147.132/mac
+export OPERA_APP_FILE=Opera_15.0.1147.132_Setup.dmg
 export OPERA_APP_NAME=Opera.app
 
 export OMNIFOCUS_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6

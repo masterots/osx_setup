@@ -206,6 +206,7 @@ I also recommend installing the following software found via the {App Store](htt
 * [GarageBand](http://www.apple.com/ilife/garageband)
 * [iMovie](http://www.apple.com/ilife/imovie)
 * [iPhoto](http://www.apple.com/ilife/iphoto)
+* [Flint](http://giantcomet.com/flint)
 * [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
 
 # Miscellaneous Software

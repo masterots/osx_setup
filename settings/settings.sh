@@ -151,7 +151,7 @@ export SNIPPETS_APP_FILE=Snippets-1.4.1.zip
 export SNIPPETS_APP_NAME=Snippets.app
 
 export ESPRESSO_APP_URL=https://s3.amazonaws.com/macrabbit/downloads
-export ESPRESSO_APP_FILE=Espresso%202.0.5.zip
+export ESPRESSO_APP_FILE=Espresso%202.1.zip
 export ESPRESSO_APP_NAME=Espresso.app
 
 export CODEKIT_APP_URL=http://incident57.com/codekit/files

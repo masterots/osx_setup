@@ -241,6 +241,7 @@ The following is a checklist of additional steps worth completing after the scri
         * Enable "Developer Tools Experiments".
     * Open Web Inspector Developer Tools (COMMAND+OPTION+I) and click the gear (lower right corner)
         * Click the Experiments tab.
+            * Enable "File system folders in Sources Panel".
             * Enable "Snippets support".
             * Enable "Support for SASS".
         * Click the General tab.

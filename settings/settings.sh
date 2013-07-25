@@ -119,7 +119,7 @@ export OMNIOUTLINER_APP_FILE=OmniOutliner-3.10.6.dmg
 export OMNIOUTLINER_APP_NAME=OmniOutliner.app
 
 export OMNIGRAFFLE_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
-export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.3.dmg
+export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.4.dmg
 export OMNIGRAFFLE_APP_NAME="OmniGraffle Professional 5.app"
 
 export OMNIDAZZLE_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6

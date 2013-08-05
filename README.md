@@ -1,6 +1,6 @@
 # Overview
 
-This project contains shell scripts for setting up a new OSX environment.
+Shell scripts for automated OSX machine setup.
 
 # Features
 

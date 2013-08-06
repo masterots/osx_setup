@@ -10,6 +10,9 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 # Bash Completion
 brew install bash-completion
 
+# tmux
+brew install tmux
+
 # Z
 brew install z
 

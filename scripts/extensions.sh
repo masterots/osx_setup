@@ -70,6 +70,9 @@ install_git_app "$EASY_MOTION_EXTENSION_URL" "$EASY_MOTION_EXTENSION_PATH"
 # Sublime Text 2 - Emmet
 install_git_app "$EMMET_EXTENSION_URL" "$EMMET_EXTENSION_PATH"
 
+# Sublime Text 2 - Emmet LiveStyle
+install_git_app "$EMMET_LIVE_STYLE_EXTENSION_URL" "$EMMET_LIVE_STYLE_EXTENSION_PATH"
+
 # Sublime Text 2 - Web Inspector
 install_git_app "$WEB_INSPECTOR_EXTENSION_URL" "$WEB_INSPECTOR_EXTENSION_PATH"
 

@@ -25,6 +25,9 @@ brew install git
 # GitHub
 brew install hub
 
+# GitHub Issues
+brew install ghi
+
 # CTags
 brew install ctags
 

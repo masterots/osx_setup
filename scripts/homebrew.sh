@@ -31,6 +31,9 @@ brew install ghi
 # CTags
 brew install ctags
 
+# Parallel
+brew install parallel
+
 # Pigz
 brew install pigz
 

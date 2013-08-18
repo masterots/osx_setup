@@ -77,6 +77,10 @@ export SCSS_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/SCSS"
 export COFFEE_SCRIPT_EXTENSION_URL="git://github.com/Xavura/CoffeeScript-Sublime-Plugin.git"
 export COFFEE_SCRIPT_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/CoffeeScript"
 
+export SUBLIME_URL_HANDLER_APP_URL=https://github.com/downloads/asuth/subl-handler
+export SUBLIME_URL_HANDLER_APP_FILE=SublHandler.zip
+export SUBLIME_URL_HANDLER_APP_NAME="SublHandler.app"
+
 export ALFRED_APP_URL=http://cachefly.alfredapp.com
 export ALFRED_APP_FILE=Alfred_2.0.7_205.zip
 export ALFRED_APP_NAME="Alfred 2.app"

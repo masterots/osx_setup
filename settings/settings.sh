@@ -217,7 +217,7 @@ export OPEN_OFFICE_APP_FILE=Apache_OpenOffice_4.0.0_MacOS_x86_install_en-US.dmg
 export OPEN_OFFICE_APP_NAME=OpenOffice.org.app
 
 export CLOAK_APP_URL=https://s3.amazonaws.com/static.getcloak.com/osx/updates/Release
-export CLOAK_APP_FILE=Cloak-1.2.2.dmg
+export CLOAK_APP_FILE=Cloak-1.2.3.dmg
 export CLOAK_APP_NAME=Cloak.app
 
 export SCREENHERO_APP_URL=http://dl.screenhero.com/update/screenhero

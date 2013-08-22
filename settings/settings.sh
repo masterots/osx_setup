@@ -236,8 +236,8 @@ export SKYPE_APP_URL=http://download.skype.com/macosx
 export SKYPE_APP_FILE=Skype_6.7.59.373.dmg
 export SKYPE_APP_NAME=Skype.app
 
-export VIRTUAL_BOX_APP_URL=http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12
-export VIRTUAL_BOX_APP_FILE=VirtualBox-4.2.12-84980-OSX.dmg
+export VIRTUAL_BOX_APP_URL=http://dlc.sun.com.edgesuite.net/virtualbox/4.2.16
+export VIRTUAL_BOX_APP_FILE=VirtualBox-4.2.16-86992-OSX.dmg
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
 
 export DOXIE_APP_URL=http://www.getdoxie.com/resources/files

@@ -209,7 +209,7 @@ export DELICIOUS_LIBRARY_APP_FILE=DeliciousLibrary3.zip
 export DELICIOUS_LIBRARY_APP_NAME="Delicious Library 3.app"
 
 export CHEATSHEET_APP_URL=http://mediaatelier.com/CheatSheet
-export CHEATSHEET_APP_FILE=CheatSheet_1.1.1.zip
+export CHEATSHEET_APP_FILE=CheatSheet_1.1.2.zip
 export CHEATSHEET_APP_NAME=CheatSheet.app
 
 export OPEN_OFFICE_APP_URL=http://hivelocity.dl.sourceforge.net/project/openofficeorg.mirror/stable/3.4.1

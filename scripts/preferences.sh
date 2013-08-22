@@ -18,7 +18,7 @@ git clone git://github.com/bkuhlmann/ruby_gem_setup.git
 (
   cd ruby_gem_setup
   ./run.sh i
-  ./run.sh g
+  ./run.sh I
 )
 rm -rf ruby_gem_setup
 

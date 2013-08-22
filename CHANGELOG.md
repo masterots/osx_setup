@@ -22,17 +22,17 @@
 * Upgraded to Cloak 1.2.3.
 * Upgraded to Virtual Box 4.2.16-86992.
 * Upgraded to Hazel 3.1.5.
-* Added Marked(http://markedapp.com) to the App Store section of the README.
+* Added Marked to the App Store section of the README.
 * Added the Transmit installer.
 * Added Flint to the AppStore section of the README.
 * Added the tmux homebrew installer: http://tmux.sourceforge.net.
 * Added the GitHub Issues (ghi) homebrew install.
 * Added the Parallel Homebrew install.
 * Added the Sublime Text URL Handler install.
-* Added the Sublime Text - Local History Extension: https://github.com/vishr/local-history.
-* Added the Sublime Text - Autoprefixer Extension: https://github.com/sindresorhus/sublime-autoprefixer.
-* Added the Sublime Text - SCSS Extension: https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2.
-* Added the Sublime Text - Emmet LiveStyle Extension: http://livestyle.emmet.io.
+* Added the Sublime Text - Local History Extension
+* Added the Sublime Text - Autoprefixer Extension
+* Added the Sublime Text - SCSS Extension
+* Added the Sublime Text - Emmet LiveStyle Extension
 * Removed duplicate functionality from the download_only function (calls download_installer instead).
 * Removed 3Hub from the README in favor of Transmit.
 * Updated scripts to use sub-shells when traversing directories.

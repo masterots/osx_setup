@@ -19,7 +19,7 @@ export -f verify_install
 
 # Checks for missing installs suffixed by "APP_NAME" as defined in settings.sh.
 function verify_installs {
-  echo "\nChecking installs..."
+  echo "\nChecking applications..."
 
   # Only use environment variables that end with "APP_NAME".
   file_names=`set | awk -F "=" '{print $1}' | grep ".*APP_NAME"`

@@ -64,11 +64,10 @@ brew install phantomjs
 # rbenv
 brew install rbenv
 brew install --HEAD ruby-build
+brew install rbenv-vars
+brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
-brew install rbenv-vars
-mkdir -p $HOME/.rbenv/plugins
-git clone https://github.com/ianheggie/rbenv-binstubs.git $HOME/.rbenv/plugins/rbenv-binstubs
 rbenv install $RUBY_VERSION
 rbenv global $RUBY_VERSION
 

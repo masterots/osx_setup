@@ -7,11 +7,14 @@ Shell scripts for automated OSX machine setup.
 * Configures default OSX settings.
 * Downloads, installs, and configures [Homebrew](http://mxcl.github.com/homebrew) command line software:
     * [Bash Completion](http://bash-completion.alioth.debian.org)
+    * [tmux](http://tmux.sourceforge.net)
     * [Z](https://github.com/rupa/z)
     * [Tree](http://mama.indstate.edu/users/ice/tree)
     * [Git](http://git-scm.com)
     * [Hub](https://github.com/defunkt/hub)
+    * [GHI](https://github.com/stephencelis/ghi)
     * [CTags](http://ctags.sourceforge.net)
+    * [Parallel](https://savannah.gnu.org/projects/parallel)
     * [Pigz](http://www.zlib.net/pigz)
     * [jq](http://stedolan.github.com/jq)
     * [The Silver Surfer](https://github.com/ggreer/the_silver_searcher)
@@ -24,10 +27,10 @@ Shell scripts for automated OSX machine setup.
     * [Ruby Gems](https://github.com/bkuhlmann/ruby_gem_setup)
     * [rbenv](https://github.com/sstephenson/rbenv)
     * [rbenv-build](https://github.com/sstephenson/ruby-build)
-    * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
-    * [rbenv-default-gems](https://github.com/sstephenson/rbenv-default-gems)
     * [rbenv-vars](https://github.com/sstephenson/rbenv-vars)
     * [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
+    * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
+    * [rbenv-default-gems](https://github.com/sstephenson/rbenv-default-gems)
     * [Ruby](http://www.ruby-lang.org)
     * [Dotfiles](https://github.com/bkuhlmann/dotfiles)
     * [Pow](http://pow.cx)
@@ -40,6 +43,7 @@ Shell scripts for automated OSX machine setup.
     * [Knox](https://agilebits.com/knox)
     * [iTerm2](http://www.iterm2.com)
     * [Sublime Text 2](http://www.sublimetext.com/2)
+    * [Sublime Text 2 URL Handler](https://github.com/asuth/subl-handler)
     * [Alfred](http://www.alfredapp.com)
     * [TextExpander](http://www.smilesoftware.com/TextExpander)
     * [Path Finder](http://cocoatech.com)
@@ -51,7 +55,7 @@ Shell scripts for automated OSX machine setup.
     * [OmniOutliner](http://www.omnigroup.com/applications/omnioutliner)
     * [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle)
     * [OmniDazzle](http://www.omnigroup.com/products/omnidazzle)
-    * [ExpanDrive](http://www.expandrive.com)
+    * [Transmit](https://panic.com/transmit)
     * [iStat Menus](http://bjango.com/apps/istatmenus)
     * [Bartender](http://www.macbartender.com)
     * [Source Tree](http://www.sourcetreeapp.com)
@@ -90,6 +94,7 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 Git](https://github.com/kemayo/sublime-text-2-git)
     * [Sublime Text 2 Git Gutter](https://github.com/jisaacks/GitGutter)
     * [Sublime Text 2 Gist](https://github.com/condemil/Gist)
+    * [Sublime Text 2 Local History](https://github.com/vishr/local-history)
     * [Sublime Text 2 CTags](https://github.com/SublimeText/CTags)
     * [Sublime Text 2 Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
     * [Sublime Text 2 Advanced New File](https://github.com/skuroda/Sublime-AdvancedNewFile)
@@ -100,11 +105,14 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
     * [Sublime Text 2 Color Highlighter](https://github.com/Monnoroch/ColorHighlighter)
     * [Sublime Text 2 Alignment](https://github.com/wbond/sublime_alignment)
+    * [Sublime Text 2 Autoprefixer](https://github.com/sindresorhus/sublime-autoprefixer)
     * [Sublime Text 2 Xiki](https://github.com/lunixbochs/SublimeXiki)
     * [Sublime Text 2 Easy Motion](https://github.com/tednaleid/sublime-EasyMotion)
     * [Sublime Text 2 Emmet](http://emmet.io)
+    * [Sublime Text 2 Emmet LiveStyle](http://livestyle.emmet.io)
     * [Sublime Text 2 Web Inspector](http://sokolovstas.github.com/SublimeWebInspector)
     * [Sublime Text 2 Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
+    * [Sublime Text 2 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
     * [Sublime Text 2 Coffee Script](https://github.com/Xavura/CoffeeScript-Sublime-Plugin)
 
 # Requirements
@@ -122,7 +130,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v3.0.0
+    git checkout v4.0.0
 
 Master Version (unstable):
 
@@ -145,7 +153,7 @@ Running the run.sh script will present the following options:
     p: Apply software preferences.
     s: Setup installed software.
     w: Clean work directory.
-    i: Perform complete install (i.e. executes all options, listed above, from top to bottom).
+    i: Perform complete install (i.e. executes all options, listed above, top to bottom).
     c: Check status of installed applications and extensions.
     q: Quit/Exit.
 

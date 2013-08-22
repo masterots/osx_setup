@@ -1,3 +1,50 @@
+# v4.0.0
+
+* Fixed bug with wrong disk image name for VLC DMG mount.
+* Fixed typo when checking applications to say 'applications' instead of 'installs'.
+* Fixed PostgreSQL and MySQL setup steps.
+* Upgraded to Ruby 2.0.0-p247.
+* Upgraded to iStat Menus 4.06.
+* Upgraded to VLC 2.0.7.
+* Upgraded to Sublime Text 2.0.2.
+* Upgraded to OmniGraffle Pro 5.4.4.
+* Upgraded to Skype 6.7.59.373.
+* Upgraded to Alfred 2.0.7_205.
+* Upgraded to Dropbox 2.0.26.
+* Upgraded to Firefox 23.0.1.
+* Upgraded to Opera 15.0.1147.153.
+* Upgraded to SourceTree 1.6.3.1.
+* Upgraded to GitHub July 18th, 2013.
+* Upgraded to Espresso 2.1.3.
+* Upgraded to CodeKit 8317.
+* Upgraded to CheatSheet 1.1.2.
+* Upgraded to OpenOffice 4.0.0.
+* Upgraded to Cloak 1.2.3.
+* Upgraded to Virtual Box 4.2.16-86992.
+* Upgraded to Hazel 3.1.5.
+* Added Marked(http://markedapp.com) to the App Store section of the README.
+* Added the Transmit installer.
+* Added Flint to the AppStore section of the README.
+* Added the tmux homebrew installer: http://tmux.sourceforge.net.
+* Added the GitHub Issues (ghi) homebrew install.
+* Added the Parallel Homebrew install.
+* Added the Sublime Text URL Handler install.
+* Added the Sublime Text - Local History Extension: https://github.com/vishr/local-history.
+* Added the Sublime Text - Autoprefixer Extension: https://github.com/sindresorhus/sublime-autoprefixer.
+* Added the Sublime Text - SCSS Extension: https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2.
+* Added the Sublime Text - Emmet LiveStyle Extension: http://livestyle.emmet.io.
+* Removed duplicate functionality from the download_only function (calls download_installer instead).
+* Removed 3Hub from the README in favor of Transmit.
+* Updated scripts to use sub-shells when traversing directories.
+* Added a Versioning section to the README.
+* Converted from RDoc to Markdown documentation.
+* Cleaned up the instructions for configuring Google Chrome with better instructions for SASS source maps.
+* Converted CheatSheet to an automated install since it is no longer recommended to be installed via the App Store.
+* Added [Enable file system folders in Sources Panel](http://remysharp.com/2013/07/18/my-workflow-v3-full-coding-stack) to README.
+* Updated README to match GitHub project description.
+* Switched to brew install for rbenv-binstubs.
+* Updated option for full install of default Ruby gems.
+
 # v3.0.0
 
 * Fixed README typo with install.sh (is now run.sh).

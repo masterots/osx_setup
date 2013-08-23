@@ -200,6 +200,7 @@ I also recommend installing the following software found via the {App Store](htt
 * [1Password](http://agilewebsolutions.com/products/1Password)
 * [Fantastical](http://flexibits.com/fantastical)
 * [Cobook](http://www.cobookapp.com)
+* [Dash](http://kapeli.com/dash)
 * [PDFpenPro](http://www.smilesoftware.com/PDFpenPro/index.html)
 * [Marked](http://markedapp.com)
 * [Patterns](http://krillapps.com/patterns)

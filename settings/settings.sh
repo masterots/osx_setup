@@ -76,6 +76,8 @@ export SCSS_EXTENSION_URL="git://github.com/kuroir/SCSS.tmbundle.git"
 export SCSS_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/SCSS"
 export COFFEE_SCRIPT_EXTENSION_URL="git://github.com/Xavura/CoffeeScript-Sublime-Plugin.git"
 export COFFEE_SCRIPT_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/CoffeeScript"
+export DASH_DOC_EXTENSION_URL="git://github.com/farcaller/DashDoc.git"
+export DASH_DOC_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/DashDoc"
 
 export SUBLIME_URL_HANDLER_APP_URL=https://github.com/downloads/asuth/subl-handler
 export SUBLIME_URL_HANDLER_APP_FILE=SublHandler.zip

@@ -84,3 +84,6 @@ install_git_app "$SCSS_EXTENSION_URL" "$SCSS_EXTENSION_PATH"
 
 # Sublime Text 2 - Coffee Script
 install_git_app "$COFFEE_SCRIPT_EXTENSION_URL" "$COFFEE_SCRIPT_EXTENSION_PATH"
+
+# Sublime Text 2 - DashDoc
+install_git_app "$DASH_DOC_EXTENSION_URL" "$DASH_DOC_EXTENSION_PATH"

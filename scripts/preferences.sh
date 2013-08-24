@@ -22,14 +22,6 @@ git clone git://github.com/bkuhlmann/ruby_gem_setup.git
 )
 rm -rf ruby_gem_setup
 
-# iTerm
-git clone git://github.com/bkuhlmann/iterm.git
-(
-  cd iterm
-  ./run.sh i
-)
-rm -rf iterm
-
 # Sublime Text
 git clone git://github.com/bkuhlmann/sublime_text.git
 (

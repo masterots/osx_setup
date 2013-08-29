@@ -194,7 +194,8 @@ All Bash functions, used by the scripts defined above, can be found in the funct
 
 # App Store Software
 
-I also recommend installing the following software found via the {App Store](http://www.apple.com/macosx/whats-new/app-store.html]:
+I also recommend installing the following software found via the
+[App Store](http://www.apple.com/macosx/whats-new/app-store.html):
 
 * [Keymo](http://manytricks.com/keymo)
 * [Moom](http://manytricks.com/moom)

@@ -226,7 +226,6 @@ I also recommend installing the following software found via the
 
 The following software is optional:
 
-* [Mouse Pointer](http://www.2point5fish.com/index.html)
 * [Hardware IO Tools for Xcode](https://developer.apple.com/downloads) - Includes the Network Link Conditioner, etc.
 * [VMWare Fusion](http://www.vmware.com/products/fusion) (requires a registered account, download only)
 * [Logitech Control Center](http://www.logitech.com/en-us/584/3129)

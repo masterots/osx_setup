@@ -214,6 +214,7 @@ I also recommend installing the following software found via the
 * [GIF Brewery](http://www.helloresolven.com/portfolio/gifbrewery)
 * [Prepo](http://wearemothership.com/work/prepo)
 * [Name Mangler](http://manytricks.com/namemangler)
+* [Kaleidoscope](http://www.kaleidoscopeapp.com)
 * [Cocoa JSON Editor](http://www.cocoajsoneditor.com)
 * [AquaPath](http://ditchnet.org/aquapath)
 * [GarageBand](http://www.apple.com/ilife/garageband)

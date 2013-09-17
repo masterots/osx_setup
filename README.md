@@ -257,6 +257,7 @@ The following is a checklist of additional steps worth completing after the scri
             * Enable "File system folders in Sources Panel".
             * Enable "Snippets support".
             * Enable "Support for SASS".
+            * Enable "Canvas inspection."
         * Click the General tab.
             * Enable "Source maps".
             * Enable "Auto-reload CSS upon SASS save".

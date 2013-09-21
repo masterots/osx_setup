@@ -6,7 +6,7 @@
 # Mounts a disk image.
 # Parameters:
 # $1 = The image path.
-function mount_image {
+function mount_image() {
   echo "Mounting image..."
   hdiutil attach "$1" -noidmereveal
 }
@@ -15,7 +15,7 @@ export -f mount_image
 # Unmounts a disk image.
 # Parameters:
 # $1 = The mount path.
-function unmount_image {
+function unmount_image() {
   echo "Unmounting image..."
   hdiutil detach -force "$1"
 }
@@ -25,7 +25,7 @@ export -f unmount_image
 # Parameters:
 # $1 = The remote URL.
 # $2 = The file name.
-function download_installer {
+function download_installer() {
   echo "Downloading $1/$2..."
   clean_work_path
   mkdir $WORK_PATH
@@ -40,7 +40,7 @@ export -f download_installer
 # Parameters:
 # $1 = The remote URL.
 # $2 = The file name.
-function download_only {
+function download_only() {
   if [ -e "$HOME/Downloads/$2" ]; then
     echo "Downloaded: $2."
   else
@@ -55,7 +55,7 @@ export -f download_only
 # Parameters:
 # $1 = The application source path.
 # $2 = The application name.
-function install_app {
+function install_app() {
   install_root=$(get_install_root "$2")
 
   echo "Installing $2 in $install_root..."
@@ -72,7 +72,7 @@ export -f install_app
 # Parameters:
 # $1 = The package source path.
 # $2 = The application name.
-function install_pkg {
+function install_pkg() {
   install_root=$(get_install_root "$2")
 
   echo "Installing $2 in $install_root..."
@@ -87,7 +87,7 @@ export -f install_pkg
 # $2 = The download file name.
 # $3 = The mount path.
 # $4 = The application name.
-function install_dmg_app {
+function install_dmg_app() {
   app_name="$4"
   install_path=$(get_install_path "$app_name")
 
@@ -113,7 +113,7 @@ export -f install_dmg_app
 # $2 = The download file name.
 # $3 = The mount path.
 # $4 = The application name.
-function install_dmg_pkg {
+function install_dmg_pkg() {
   app_name="$4"
   install_path=$(get_install_path "$app_name")
 
@@ -138,7 +138,7 @@ export -f install_dmg_pkg
 # $1 = The remote URL.
 # $2 = The download file name.
 # $3 = The application name.
-function install_zip_app {
+function install_zip_app() {
   app_name="$3"
   install_path=$(get_install_path "$app_name")
 
@@ -165,7 +165,7 @@ export -f install_zip_app
 # $2 = The download file name.
 # $3 = The uncompress options.
 # $4 = The application name.
-function install_tar_app {
+function install_tar_app() {
   app_name="$4"
   install_path=$(get_install_path "$app_name")
 
@@ -191,7 +191,7 @@ export -f install_tar_app
 # $1 = The remote URL.
 # $2 = The download file name.
 # $3 = The application name.
-function install_zip_pkg {
+function install_zip_pkg() {
   app_name="$3"
   install_path=$(get_install_path "$app_name")
 
@@ -216,7 +216,7 @@ export -f install_zip_pkg
 # Parameters:
 # $1 = The remote URL.
 # $2 = The install path.
-function install_git_app {
+function install_git_app() {
   app_name=$(get_file_name "$2")
   install_path="$2"
 

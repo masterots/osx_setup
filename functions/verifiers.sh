@@ -6,7 +6,7 @@
 # Verifies the install exists.
 # Parameters:
 # $1 = The file name.
-function verify_install {
+function verify_install() {
   file_name="$1" # Make the parameter easier to read.
 
   # Display the missing install if not found.
@@ -18,7 +18,7 @@ function verify_install {
 export -f verify_install
 
 # Checks for missing installs suffixed by "APP_NAME" as defined in settings.sh.
-function verify_installs {
+function verify_installs() {
   echo "\nChecking applications..."
 
   # Only use environment variables that end with "APP_NAME".
@@ -37,7 +37,7 @@ export -f verify_installs
 # Verifies path exists.
 # Parameters:
 # $1 = The path.
-function verify_path {
+function verify_path() {
   path="$1" # Make the parameter easier to read.
 
   # Display the missing path if not found.
@@ -48,7 +48,7 @@ function verify_path {
 export -f verify_path
 
 # Checks for missing extensions suffixed by "EXTENSION_PATH" as defined in settings.sh.
-function verify_extensions {
+function verify_extensions() {
   echo "\nChecking extensions..."
 
   # Only use environment variables that end with "EXTENSION_PATH".

@@ -252,6 +252,7 @@ The following is a checklist of additional steps worth completing after the scri
     * Open the Flags tab (i.e. chrome://flags)
         * Enable "Experimental Extension APIs".
         * Enable "Developer Tools Experiments".
+        * Enable "Enable experimental Web Platform features". Enables the `<dialog>` element.
     * Open Web Inspector Developer Tools (COMMAND+OPTION+I) and click the gear (lower right corner)
         * Click the Experiments tab.
             * Enable "File system folders in Sources Panel".

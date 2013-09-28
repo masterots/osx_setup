@@ -124,6 +124,9 @@ install_dmg_app "$CLOAK_APP_URL" "$CLOAK_APP_FILE" "Cloak" "$CLOAK_APP_NAME"
 # Screenhero
 install_dmg_app "$SCREENHERO_APP_URL" "$SCREENHERO_APP_FILE" "Screenhero" "$SCREENHERO_APP_NAME"
 
+# Hall
+install_dmg_pkg "$HALL_APP_URL" "$HALL_APP_FILE" "Hall Installer" "$HALL_APP_NAME"
+
 # Colloquy
 install_zip_app "$COLLOQUY_APP_URL" "$COLLOQUY_APP_FILE" "$COLLOQUY_APP_NAME"
 

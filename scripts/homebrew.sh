@@ -74,6 +74,9 @@ rbenv global $RUBY_VERSION
 # Pow
 curl get.pow.cx | sh
 
+# Memcached
+brew install memcached
+
 # Redis
 brew install redis
 

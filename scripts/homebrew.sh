@@ -71,6 +71,9 @@ brew install rbenv-default-gems
 rbenv install $RUBY_VERSION
 rbenv global $RUBY_VERSION
 
+# Nginx
+brew install nginx
+
 # Pow
 curl get.pow.cx | sh
 

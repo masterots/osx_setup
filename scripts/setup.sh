@@ -6,6 +6,10 @@
 # rbenv vars
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 
+# Nginx
+sudo cp /usr/local/opt/nginx/*.plist /Library/LaunchAgents
+sudo launchctl load /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+
 # Memcached
 ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist

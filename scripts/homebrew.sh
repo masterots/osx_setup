@@ -9,13 +9,9 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 # Bash
 brew install bash
-sudo -i
-echo "/usr/local/bin/bash" >> /etc/shells
-exit
 
 # Bash Completion
 brew install bash-completion
-chsh -s /usr/local/bin/bash
 
 # tmux
 brew install tmux

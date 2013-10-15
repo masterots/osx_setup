@@ -3,6 +3,14 @@
 # DESCRIPTION
 # Sets up and launches (if necessary) installed software.
 
+# Bash
+sudo -i
+echo "/usr/local/bin/bash" >> /etc/shells
+exit
+
+# Bash Completion
+chsh -s /usr/local/bin/bash
+
 # rbenv vars
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 

@@ -123,7 +123,7 @@ export OPERA_APP_FILE=Opera_15.0.1147.153_Setup.dmg
 export OPERA_APP_NAME=Opera.app
 
 export OMNIFOCUS_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
-export OMNIFOCUS_APP_FILE=OmniFocus-1.10.4.dmg
+export OMNIFOCUS_APP_FILE=OmniFocus-1.10.5.dmg
 export OMNIFOCUS_APP_NAME=OmniFocus.app
 
 export OMNIOUTLINER_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.4

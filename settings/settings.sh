@@ -139,7 +139,7 @@ export OMNIDAZZLE_APP_FILE=OmniDazzle-1.2.dmg
 export OMNIDAZZLE_APP_NAME=OmniDazzle.app
 
 export TRANSMIT_APP_URL=https://www.panic.com/transmit/d
-export TRANSMIT_APP_FILE=Transmit%204.4.zip
+export TRANSMIT_APP_FILE=Transmit%204.4.3.zip
 export TRANSMIT_APP_NAME=Transmit.app
 
 export ISTATS_APP_URL=http://s3.amazonaws.com/bjango/files/istatmenus4

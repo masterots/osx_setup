@@ -61,9 +61,6 @@ install_zip_app "$ISTATS_APP_URL" "$ISTATS_APP_FILE" "$ISTATS_APP_NAME"
 # Bartender
 install_zip_app "$BARTENDER_APP_URL" "$BARTENDER_APP_FILE" "$BARTENDER_APP_NAME"
 
-# GitHub
-install_zip_app "$GITHUB_APP_URL" "$GITHUB_APP_FILE" "$GITHUB_APP_NAME"
-
 # Snippets
 install_zip_app "$SNIPPETS_APP_URL" "$SNIPPETS_APP_FILE" "$SNIPPETS_APP_NAME"
 

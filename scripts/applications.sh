@@ -52,9 +52,6 @@ install_dmg_app "$OMNIOUTLINER_APP_URL" "$OMNIOUTLINER_APP_FILE" "OmniOutliner" 
 # OmniGraffle
 install_dmg_app "$OMNIGRAFFLE_APP_URL" "$OMNIGRAFFLE_APP_FILE" "OmniGrafflePro" "$OMNIGRAFFLE_APP_NAME"
 
-# OmniDazzle
-install_dmg_app "$OMNIDAZZLE_APP_URL" "$OMNIDAZZLE_APP_FILE" "OmniDazzle" "$OMNIDAZZLE_APP_NAME"
-
 # Transmit
 install_zip_app "$TRANSMIT_APP_URL" "$TRANSMIT_APP_FILE" "$TRANSMIT_APP_NAME"
 

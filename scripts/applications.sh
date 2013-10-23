@@ -82,9 +82,6 @@ install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_FILE" "-xjf" "$IMAGE_OP
 # VLC
 install_dmg_app "$VLC_APP_URL" "$VLC_APP_FILE" "vlc-2.0.7" "$VLC_APP_NAME"
 
-# Induction
-install_zip_app "$INDUCTION_APP_URL" "$INDUCTION_APP_FILE" "$INDUCTION_APP_NAME"
-
 # PG Admin
 install_dmg_app "$PG_ADMIN_APP_URL" "$PG_ADMIN_APP_FILE" "pgAdmin3" "$PG_ADMIN_APP_NAME"
 

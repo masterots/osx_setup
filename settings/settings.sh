@@ -174,10 +174,6 @@ export VLC_APP_URL=http://ftp.osuosl.org/pub/videolan/vlc/2.0.7/macosx
 export VLC_APP_FILE=vlc-2.0.7.dmg
 export VLC_APP_NAME=VLC.app
 
-export INDUCTION_APP_URL=https://mesmerize.s3.amazonaws.com/Induction
-export INDUCTION_APP_FILE=Induction-28.zip
-export INDUCTION_APP_NAME=Induction.app
-
 export PG_ADMIN_APP_URL=http://ftp.postgresql.org/pub/pgadmin3/release/v1.16.1/osx
 export PG_ADMIN_APP_FILE=pgadmin3-1.16.1.dmg
 export PG_ADMIN_APP_NAME=pgAdmin3.app

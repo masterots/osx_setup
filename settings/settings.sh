@@ -239,7 +239,7 @@ export DOXIE_APP_FILE=Doxie.dmg
 export DOXIE_APP_NAME=Doxie.app
 
 export HAZEL_APP_URL=https://s3.amazonaws.com/Noodlesoft
-export HAZEL_APP_FILE=Hazel-3.1.5.dmg
+export HAZEL_APP_FILE=Hazel-3.2.dmg
 export HAZEL_APP_NAME=Hazel.prefPane
 
 export PASTEBOT_SYNC_APP_URL=http://tapbots.net/pastebot

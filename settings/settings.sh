@@ -29,6 +29,8 @@ export ITERM_APP_NAME=iTerm.app
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
 export VIM_PATHOGEN_EXTENSION_URL="https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim"
 export VIM_PATHOGEN_EXTENSION_PATH="$HOME/.vim/autoload/pathogen.vim"
+export VIM_BUNDLER_EXTENSION_URL="https://github.com/tpope/vim-bundler"
+export VIM_BUNDLER_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-bundler"
 export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 

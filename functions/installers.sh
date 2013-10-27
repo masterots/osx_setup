@@ -31,7 +31,7 @@ function download_installer() {
   mkdir $WORK_PATH
   (
     cd $WORK_PATH
-    curl -LO "$1/$2"
+    curl --location --remote-name "$1/$2"
   )
 }
 export -f download_installer
@@ -229,3 +229,24 @@ function install_git_app() {
   fi
 }
 export -f install_git_app
+
+# Installs a single file.
+# Parameters:
+# $1 = The remote URL.
+# $2 = The install path.
+function install_file() {
+  file_url=$(dirname "$1")
+  file_name=$(get_file_name "$1")
+  install_path="$2"
+
+  if [ -e "$install_path" ]; then
+    echo "Installed: $file_name."
+  else
+    echo "Installing into: $install_path..."
+    download_installer "$file_url" "$file_name"
+    mkdir -p $(dirname "$install_path")
+    mv "$WORK_PATH/$file_name" "$install_path"
+    verify_path "$install_path"
+  fi
+}
+export -f install_file

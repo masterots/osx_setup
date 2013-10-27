@@ -10,6 +10,9 @@
 # Vim - Pathogen
 install_file "$VIM_PATHOGEN_EXTENSION_URL" "$VIM_PATHOGEN_EXTENSION_PATH"
 
+# Vim - Rails
+install_git_app "$VIM_RAILS_EXTENSION_URL" "$VIM_RAILS_EXTENSION_PATH"
+
 # Google Chrome - Rails Panel
 install_git_app "$RAILS_PANEL_EXTENSION_URL" "$RAILS_PANEL_EXTENSION_PATH"
 

@@ -26,6 +26,10 @@ export ITERM_APP_URL=http://www.iterm2.com/downloads/beta
 export ITERM_APP_FILE=iTerm2-1_0_0_20130811.zip
 export ITERM_APP_NAME=iTerm.app
 
+export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
+export VIM_PATHOGEN_EXTENSION_URL="https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim"
+export VIM_PATHOGEN_EXTENSION_PATH="$HOME/.vim/autoload/pathogen.vim"
+
 export SUBLIME_TEXT_APP_URL=http://c758482.r82.cf2.rackcdn.com
 export SUBLIME_TEXT_APP_FILE=Sublime%20Text%202.0.2.dmg
 export SUBLIME_TEXT_APP_NAME="Sublime Text 2.app"

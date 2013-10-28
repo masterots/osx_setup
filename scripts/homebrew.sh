@@ -46,6 +46,9 @@ brew install jq
 # The Silver Searcher
 brew install the_silver_searcher
 
+# Pipe Viewer
+brew install pv
+
 # Network Grep
 brew install ngrep
 

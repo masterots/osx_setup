@@ -75,6 +75,7 @@ brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 rbenv install $RUBY_VERSION
+rbenv install $RUBINIUS
 rbenv global $RUBY_VERSION
 
 # Nginx

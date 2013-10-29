@@ -11,6 +11,7 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 
 # Homebrew
 export RUBY_VERSION=2.0.0-p247
+export RUBINIUS=rbx-2.1.1
 
 # Applications
 

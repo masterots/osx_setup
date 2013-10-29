@@ -222,6 +222,7 @@ I also recommend installing the following software found via the
 * [iPhoto](http://www.apple.com/ilife/iphoto)
 * [Flint](http://giantcomet.com/flint)
 * [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
+* [Day One](http://dayoneapp.com)
 
 # Miscellaneous Software
 

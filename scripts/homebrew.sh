@@ -13,6 +13,9 @@ brew install bash
 # Bash Completion
 brew install bash-completion
 
+# SSHFS
+brew install sshfs
+
 # tmux
 brew install tmux
 

@@ -11,6 +11,10 @@ exit
 # Bash Completion
 chsh -s /usr/local/bin/bash
 
+# SSHFS
+sudo /bin/cp -rfX /usr/local/Cellar/fuse4x-kext/0.9.2/Library/Extensions/fuse4x.kext /Library/Extensions
+sudo chmod +s /Library/Extensions/fuse4x.kext/Support/load_fuse4x
+
 # rbenv vars
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 

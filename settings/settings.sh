@@ -148,7 +148,7 @@ export TRANSMIT_APP_FILE=Transmit%204.4.3.zip
 export TRANSMIT_APP_NAME=Transmit.app
 
 export ISTATS_APP_URL=http://s3.amazonaws.com/bjango/files/istatmenus4
-export ISTATS_APP_FILE=istatmenus4.06.zip
+export ISTATS_APP_FILE=istatmenus4.10.zip
 export ISTATS_APP_NAME="iStat Menus.app"
 
 export BARTENDER_APP_URL=http://www.macbartender.com/Demo

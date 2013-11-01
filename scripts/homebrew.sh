@@ -102,3 +102,6 @@ brew install mysql
 
 # Wry
 brew install wry
+
+# lnav
+brew install lnav

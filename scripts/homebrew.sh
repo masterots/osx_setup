@@ -70,6 +70,9 @@ brew install node
 # Phantom.js
 brew install phantomjs
 
+# Slimer.js
+brew install slimerjs
+
 # rbenv
 brew install rbenv
 brew install --HEAD ruby-build

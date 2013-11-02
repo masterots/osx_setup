@@ -4,38 +4,38 @@
 # Applies system and application defaults.
 
 # EXECUTION
-echo "Disable System boot sound effects"
+echo "System - Disable boot sound effects"
 sudo nvram SystemAudioVolume=" "
 
-echo "Reveal IP address, hostname, OS version, etc. when clicking the login window clock"
+echo "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock"
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
-echo "Disable automatic termination of inactive apps"
+echo "System - Disable automatic termination of inactive apps"
 defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
-echo "Expand save panel by default"
+echo "System - Expand save panel by default"
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
-echo "Disable the 'Are you sure you want to open this application?' dialog"
+echo "System - Disable the 'Are you sure you want to open this application?' dialog"
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-echo "Increase window resize speed for Cocoa applications"
+echo "System - Increase window resize speed for Cocoa applications"
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
-echo "Disable window resume system-wide"
+echo "System - Disable window resume system-wide"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-echo "Disable press-and-hold for keys in favor of key repeat"
+echo "System - Disable press-and-hold for keys in favor of key repeat"
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-echo "Disable auto-correct"
+echo "System - Disable auto-correct"
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-echo "Require password immediately after sleep or screen saver begins"
+echo "System - Require password immediately after sleep or screen saver begins"
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-echo "Avoid creating .DS_Store files on network volumes"
+echo "System - Avoid creating .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 echo "System - Automatically restart if system freezes"

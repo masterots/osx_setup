@@ -4,6 +4,9 @@
 # Applies system and application defaults.
 
 # EXECUTION
+echo "Disable System boot sound effects"
+sudo nvram SystemAudioVolume=" "
+
 echo "Disable automatic termination of inactive apps"
 defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 

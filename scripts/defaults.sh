@@ -70,6 +70,9 @@ defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreS
 echo "Save to disk (not to iCloud) by default"
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
+echo "Wipe all (default) app icons from the Dock"
+defaults write com.apple.dock persistent-apps -array
+
 echo "Dock - Automatically hide and show"
 defaults write com.apple.dock autohide -bool true
 
@@ -111,6 +114,9 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 echo "Finder - Allow text selection in Quick Look"
 defaults write com.apple.finder QLEnableTextSelection -bool true
+
+echo "iOS Simulator - Symlink the iOS Simulator application"
+sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
 
 echo "Safari - Hide bookmarks bar"
 defaults write com.apple.Safari ShowFavoritesBar -bool false

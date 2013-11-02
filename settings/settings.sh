@@ -212,8 +212,8 @@ export CHEATSHEET_APP_URL=http://mediaatelier.com/CheatSheet
 export CHEATSHEET_APP_FILE=CheatSheet_1.2.zip
 export CHEATSHEET_APP_NAME=CheatSheet.app
 
-export OPEN_OFFICE_APP_URL=http://softlayer-dal.dl.sourceforge.net/project/openofficeorg.mirror/4.0.0/binaries/en-US
-export OPEN_OFFICE_APP_FILE=Apache_OpenOffice_4.0.0_MacOS_x86_install_en-US.dmg
+export OPEN_OFFICE_APP_URL=http://hivelocity.dl.sourceforge.net/project/openofficeorg.mirror/4.0.1/binaries/en-US
+export OPEN_OFFICE_APP_FILE=Apache_OpenOffice_4.0.1_MacOS_x86_install_en-US.dmg
 export OPEN_OFFICE_APP_NAME=OpenOffice.org.app
 
 export CLOAK_APP_URL=https://s3.amazonaws.com/static.getcloak.com/osx/updates/Release

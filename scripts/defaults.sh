@@ -7,14 +7,14 @@
 echo "Disable System boot sound effects"
 sudo nvram SystemAudioVolume=" "
 
+echo "Reveal IP address, hostname, OS version, etc. when clicking the login window clock"
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
 echo "Disable automatic termination of inactive apps"
 defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 echo "Expand save panel by default"
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-
-echo "Expand print panel by default"
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 
 echo "Disable the 'Are you sure you want to open this application?' dialog"
 defaults write com.apple.LaunchServices LSQuarantine -bool false
@@ -144,6 +144,9 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 echo "Time Machine - Prevent prompting to use new hard drives as backup volume"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+echo "Printer - Expand print panel by default"
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 
 echo "Printer - Automatically quit printer app once the print jobs complete"
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true

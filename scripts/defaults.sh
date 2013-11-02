@@ -64,13 +64,13 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+echo "Bluetooth - Increase sound quality for headphones/headsets"
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+
 echo "Menu Bar - Show only Bluetooth and Airport"
 defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu"
 
-echo "Save to disk (not to iCloud) by default"
-defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
-
-echo "Wipe all (default) app icons from the Dock"
+echo "Dock - Remove all default app icons"
 defaults write com.apple.dock persistent-apps -array
 
 echo "Dock - Automatically hide and show"
@@ -81,6 +81,9 @@ defaults write com.apple.Dock autohide-delay -float 0
 
 echo "Dock - Don’t show Dashboard as a Space"
 defaults write com.apple.dock "dashboard-in-overlay" -bool true
+
+echo "iCloud - Save to disk by default"
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
 echo "Finder - Show the $HOME/Library folder"
 chflags nohidden $HOME/Library

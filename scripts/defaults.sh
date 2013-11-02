@@ -25,9 +25,6 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 echo "System - Disable window resume system-wide"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-echo "System - Disable press-and-hold for keys in favor of key repeat"
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-
 echo "System - Disable auto-correct"
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
@@ -52,6 +49,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 echo "Keyboard - Set a fast keyboard repeat rate"
 defaults write NSGlobalDomain KeyRepeat -int 0
+
+echo "Keyboard - Disable press-and-hold for keys in favor of key repeat"
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 echo "Trackpad - Map bottom right corner to right-click"
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
@@ -90,6 +90,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 echo "Finder - Disable the warning when changing a file extension"
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+echo "Finder - Show path bar"
+defaults write com.apple.finder ShowPathbar -bool true
 
 echo "Finder - Show status bar"
 defaults write com.apple.finder ShowStatusBar -bool true

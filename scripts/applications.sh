@@ -80,7 +80,7 @@ install_dmg_app "$DOUBLETAKE_APP_URL" "$DOUBLETAKE_APP_FILE" "DoubleTake" "$DOUB
 install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_FILE" "-xjf" "$IMAGE_OPTIM_APP_NAME"
 
 # VLC
-install_dmg_app "$VLC_APP_URL" "$VLC_APP_FILE" "vlc-2.0.7" "$VLC_APP_NAME"
+install_dmg_app "$VLC_APP_URL" "$VLC_APP_FILE" "vlc-2.1.0" "$VLC_APP_NAME"
 
 # PG Admin
 install_dmg_app "$PG_ADMIN_APP_URL" "$PG_ADMIN_APP_FILE" "pgAdmin3" "$PG_ADMIN_APP_NAME"

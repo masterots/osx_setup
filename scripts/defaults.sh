@@ -163,6 +163,10 @@ echo "TextEdit - Open and save files as UTF-8 encoding"
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
+echo "Disk Utility - Enable debug menu"
+defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
+defaults write com.apple.DiskUtility advanced-image-options -bool true
+
 echo "Time Machine - Prevent prompting to use new hard drives as backup volume"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 

@@ -184,8 +184,8 @@ export VLC_APP_URL=https://get.videolan.org/vlc/2.1.0/macosx
 export VLC_APP_FILE=vlc-2.1.0.dmg
 export VLC_APP_NAME=VLC.app
 
-export PG_ADMIN_APP_URL=http://ftp.postgresql.org/pub/pgadmin3/release/v1.16.1/osx
-export PG_ADMIN_APP_FILE=pgadmin3-1.16.1.dmg
+export PG_ADMIN_APP_URL=http://ftp.postgresql.org/pub/pgadmin3/release/v1.18.1/osx
+export PG_ADMIN_APP_FILE=pgadmin3-1.18.1.dmg
 export PG_ADMIN_APP_NAME=pgAdmin3.app
 
 export SEQUEL_PRO_APP_URL=https://sequel-pro.googlecode.com/files

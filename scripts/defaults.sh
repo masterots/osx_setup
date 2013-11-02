@@ -38,6 +38,9 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 echo "Avoid creating .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
+echo "System - Automatically restart if system freezes"
+systemsetup -setrestartfreeze on
+
 echo "Keyboard - Automatically illuminate built-in MacBook keyboard in low light"
 defaults write com.apple.BezelServices kDim -bool true
 

@@ -224,10 +224,6 @@ export SCREENHERO_APP_URL=http://dl.screenhero.com/update/screenhero
 export SCREENHERO_APP_FILE=Screenhero.dmg
 export SCREENHERO_APP_NAME=Screenhero.app
 
-export HALL_APP_URL=https://hall.com/desktop/osx/installers
-export HALL_APP_FILE=Hall_1_0_5.dmg
-export HALL_APP_NAME=Hall.app
-
 export COLLOQUY_APP_URL=http://colloquy.info/downloads
 export COLLOQUY_APP_FILE=colloquy-latest.zip
 export COLLOQUY_APP_NAME=Colloquy.app

@@ -85,6 +85,9 @@ rbenv install $RUBINIUS
 rbenv install $JRUBY
 rbenv global $RUBY_VERSION
 
+# Go
+brew install go
+
 # Nginx
 brew install nginx
 

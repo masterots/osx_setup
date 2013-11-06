@@ -237,12 +237,13 @@ I also recommend installing the following software found via the
 * [Kaleidoscope](http://www.kaleidoscopeapp.com)
 * [Cocoa JSON Editor](http://www.cocoajsoneditor.com)
 * [AquaPath](http://ditchnet.org/aquapath)
+* [Day One](http://dayoneapp.com)
+* [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931)
 * [GarageBand](http://www.apple.com/ilife/garageband)
 * [iMovie](http://www.apple.com/ilife/imovie)
 * [iPhoto](http://www.apple.com/ilife/iphoto)
 * [Flint](http://giantcomet.com/flint)
 * [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
-* [Day One](http://dayoneapp.com)
 
 # Miscellaneous Software
 

@@ -258,7 +258,9 @@ The following software is optional:
 
 The following is a checklist of additional steps worth completing after the scripts have been executed:
 
-* Enable FileVault (via System Preferences - Security and Privacy).
+* Configure Security & Privacy:
+    * Require password immediately after sleep or screen saver begins.
+    * Enable FileVault (via System Preferences - Security and Privacy).
 * Configure login screen message:
     * Open System Preferences.
     * Click Security and Privacy.

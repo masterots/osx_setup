@@ -15,8 +15,14 @@ chsh -s /usr/local/bin/bash
 sudo /bin/cp -rfX /usr/local/Cellar/fuse4x-kext/0.9.2/Library/Extensions/fuse4x.kext /Library/Extensions
 sudo chmod +s /Library/Extensions/fuse4x.kext/Support/load_fuse4x
 
-# rbenv vars
+# rbenv
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
+for ruby in ${RUBIES[@]}; do
+  (
+    rbenv shell $ruby
+    gem ctags
+  )
+done
 
 # Nginx
 sudo cp /usr/local/opt/nginx/*.plist /Library/LaunchAgents

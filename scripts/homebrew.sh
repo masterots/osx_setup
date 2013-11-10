@@ -80,10 +80,10 @@ brew install rbenv-vars
 brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
-rbenv install $RUBY_VERSION
+rbenv install $MRI
 rbenv install $RUBINIUS
 rbenv install $JRUBY
-rbenv global $RUBY_VERSION
+rbenv global $MRI
 
 # Go
 brew install go

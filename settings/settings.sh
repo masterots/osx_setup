@@ -38,6 +38,8 @@ export VIM_UNIMPAIRED_EXTENSION_URL="https://github.com/tpope/vim-unimpaired.git
 export VIM_UNIMPAIRED_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-unimpaired"
 export VIM_BUNDLER_EXTENSION_URL="https://github.com/tpope/vim-bundler"
 export VIM_BUNDLER_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-bundler"
+export VIM_RUBY_EXTENSION_URL="git://github.com/vim-ruby/vim-ruby.git"
+export VIM_RUBY_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-ruby"
 export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 

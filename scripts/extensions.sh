@@ -10,6 +10,9 @@
 # Vim - Pathogen
 install_file "$VIM_PATHOGEN_EXTENSION_URL" "$VIM_PATHOGEN_EXTENSION_PATH"
 
+# Vim - Fugitive
+install_git_app "$VIM_FUGITIVE_EXTENSION_URL" "$VIM_FUGITIVE_EXTENSION_PATH"
+
 # Vim - Bundler
 install_git_app "$VIM_BUNDLER_EXTENSION_URL" "$VIM_BUNDLER_EXTENSION_PATH"
 

@@ -80,6 +80,7 @@ brew install rbenv-vars
 brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
+git clone git://github.com/tpope/rbenv-ctags.git $HOME/.rbenv/plugins/rbenv-ctags
 rbenv install $MRI
 rbenv install $RUBINIUS
 rbenv install $JRUBY

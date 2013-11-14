@@ -132,6 +132,3 @@ install_dmg_app "$HAZEL_APP_URL" "$HAZEL_APP_FILE" "Hazel" "$HAZEL_APP_NAME"
 
 # Air Display (preference pane)
 install_zip_pkg "$AIR_DISPLAY_APP_URL" "$AIR_DISPLAY_APP_FILE" "$AIR_DISPLAY_APP_NAME"
-
-# Eye-Fi
-install_dmg_pkg "$EYEFI_APP_URL" "$EYEFI_APP_FILE" "Eye-Fi Installer" "$EYEFI_APP_NAME"

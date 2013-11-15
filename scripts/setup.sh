@@ -4,9 +4,7 @@
 # Sets up and launches (if necessary) installed software.
 
 # Bash
-sudo -i
-echo "/usr/local/bin/bash" >> /etc/shells
-exit
+sudo bash -c "echo '/usr/local/bin/bash' >> /etc/shells"
 
 # Bash Completion
 chsh -s /usr/local/bin/bash

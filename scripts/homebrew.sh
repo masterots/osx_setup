@@ -55,6 +55,9 @@ brew install the_silver_searcher
 # Pipe Viewer
 brew install pv
 
+# Ioping
+brew install ioping
+
 # Network Grep
 brew install ngrep
 

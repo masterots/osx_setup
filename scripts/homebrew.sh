@@ -37,6 +37,9 @@ brew install ghi
 # CTags
 brew install ctags
 
+# Tag
+brew install tag
+
 # Parallel
 brew install parallel
 

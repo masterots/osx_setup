@@ -88,9 +88,6 @@ install_dmg_app "$PG_ADMIN_APP_URL" "$PG_ADMIN_APP_FILE" "pgAdmin3" "$PG_ADMIN_A
 # Sequel Pro
 install_dmg_app "$SEQUEL_PRO_APP_URL" "$SEQUEL_PRO_APP_FILE" "Sequel Pro 1.0.2" "$SEQUEL_PRO_APP_NAME"
 
-# Namebench
-install_dmg_app "$NAMEBENCH_APP_URL" "$NAMEBENCH_APP_FILE" "namebench" "$NAMEBENCH_APP_NAME"
-
 # MoneyWell
 install_zip_app "$MONEYWELL_APP_URL" "$MONEYWELL_APP_FILE" "$MONEYWELL_APP_NAME"
 

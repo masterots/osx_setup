@@ -61,6 +61,9 @@ brew install ioping
 # Network Grep
 brew install ngrep
 
+# Namebench
+brew install namebench
+
 # ImageMagick
 brew install imagemagick
 

@@ -91,9 +91,6 @@ install_dmg_app "$SEQUEL_PRO_APP_URL" "$SEQUEL_PRO_APP_FILE" "Sequel Pro 1.0.2" 
 # Namebench
 install_dmg_app "$NAMEBENCH_APP_URL" "$NAMEBENCH_APP_FILE" "namebench" "$NAMEBENCH_APP_NAME"
 
-# Billings
-install_zip_app "$BILLINGS_APP_URL" "$BILLINGS_APP_FILE" "$BILLINGS_APP_NAME"
-
 # MoneyWell
 install_zip_app "$MONEYWELL_APP_URL" "$MONEYWELL_APP_FILE" "$MONEYWELL_APP_NAME"
 

@@ -203,10 +203,6 @@ export NAMEBENCH_APP_URL=https://namebench.googlecode.com/files
 export NAMEBENCH_APP_FILE=namebench-1.3.1-Mac_OS_X.dmg
 export NAMEBENCH_APP_NAME=namebench.app
 
-export BILLINGS_APP_URL=http://download.marketcircle.com/billings
-export BILLINGS_APP_FILE=Billings376.zip
-export BILLINGS_APP_NAME=Billings.app
-
 export MONEYWELL_APP_URL=http://downloads.nothirst.com
 export MONEYWELL_APP_FILE=MoneyWell_17.zip
 export MONEYWELL_APP_NAME=MoneyWell.app

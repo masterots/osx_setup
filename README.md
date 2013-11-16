@@ -142,6 +142,11 @@ Shell scripts for automated OSX machine setup.
 0. Format the machine using Disk Utility.
 0. Install the new OS.
 
+# OSX Mavericks Reinstall
+
+If you have already installed OSX but want to reinstall it, simply reboot the machine and hold down CONTROL+r.
+This will load the installer from the recovery partition and allow you to use Disk Utility, reinstall the system, etc.
+
 # Setup
 
 Open a terminal window and execute one of the following setup sequences depending on your version preference:

@@ -39,7 +39,7 @@ function process_option() {
       scripts/extensions.sh
       scripts/defaults.sh
       scripts/preferences.sh
-      scripts/setups.sh
+      scripts/setup.sh
       clean_work_path
       break;;
     'c')

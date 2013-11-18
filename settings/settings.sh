@@ -26,7 +26,7 @@ export KNOX_APP_FILE=Knox-2.2.0.zip
 export KNOX_APP_NAME=Knox.app
 
 export ITERM_APP_URL=http://www.iterm2.com/downloads/beta
-export ITERM_APP_FILE=iTerm2-1_0_0_20131109.zip
+export ITERM_APP_FILE=iTerm2-1_0_0_20131116.zip
 export ITERM_APP_NAME=iTerm.app
 
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"

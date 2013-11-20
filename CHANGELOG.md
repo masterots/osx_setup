@@ -1,3 +1,86 @@
+# v5.0.0
+
+* Fixed bug with Bash setup script.
+* Fixed bug where software setup was not performed as part of the install process.
+* Removed iTerm perferences from preferences.sh.
+* Removed Mouse Pointer from the README.
+* Removed OmniDazzle.
+* Removed SourceTree.
+* Removed GitHub.
+* Removed Induction.
+* Removed Pastebot Sync.
+* Removed the Skype application.
+* Removed the Eye-Fi install.
+* Removed the Billings app.
+* Removed boot startup sounds.
+* Updated to CheatSheet 1.2.
+* Updated to TextExpander 4.1.1.
+* Updated to iStatMenus 4.10.
+* Updated to Firefox 25.0.
+* Updated to Opera 17.0.1241.53.
+* Updated to Transmit 4.4.4.
+* Updated to CodeKit 8376.
+* Updated to VLC 2.1.0.
+* Updated to pgAdmin3 1.18.1.
+* Updated to OpenOffice 4.0.1.
+* Updated to VirtualBox 4.3.2.
+* Updated to Hazel 3.2.1.
+* Updated to OmniFocus 1.10.6.
+* Updated to Dropbox v2.5.35.
+* Updated to Alfred v2.1.1_227.
+* Updated to iTerm v1_0_0_20131116.
+* Updated the Namebench install to be a Homebrew install instead of a standard application install.
+* Updated defaults to expand print panel by default.
+* Updated default settings to properly echo out system updates.
+* Updated Finder defaults to show path bar.
+* Updated system defaults to wipe all default app icons from the dock and symlink the iOS Simulator app to the /Applications folder.
+* Updated Safari defaults to load the about:blank page for faster load times.
+* Updated Mail.app defaults to disable send and reploy animations.
+* Updated Disk Utility defaults to enable debug mode.
+* Updated Bluetooth defaults to have increased sound quality for headphones/headsets.
+* Updated README post install security and privacy settings.
+* Added Prepo to the README (App Store section).
+* Added Dash to the README (App Store section).
+* Added Keymo to the README (App Store section).
+* Added Name Mangler to the README (App Store section).
+* Added Kaleidoscope to the README (App Store section).
+* Added Day One app to the README (App Store section).
+* Added the [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931) to the README.
+* Added the [Bash](https://www.gnu.org/software/bash) Homebrew install (ensures the latest version is installed).
+* Added the [SSHFS](http://fuse.sourceforge.net/sshfs.html) Homebrew install.
+* Added the [Tag](https://github.com/jdberry/tag) Homebrew install.
+* Added the [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml) Homebrew install.
+* Added the [Ioping](https://code.google.com/p/ioping) Homebrew install.
+* Added the [Go](http://golang.org) Homebrew install.
+* Added the [Nginx](http://wiki.nginx.org) Homebrew install.
+* Added the [Memcached](http://memcached.org) Homebrew install.
+* Added the [Slimer.js](http://slimerjs.org) Homebrew install.
+* Added the [Rubinius](http://rubini.us) rbenv install.
+* Added the [JRuby](http://jruby.org) rbenv install.
+* Added the [rbenv-ctags](https://github.com/tpope/rbenv-ctags) plugin.
+* Added the [lnav](http://braumeister.org/formula/lnav) Homebrew install.
+* Added the [Sublime Text - DashDoc](https://github.com/farcaller/DashDoc) Extension.
+* Added the [Sublime Text - Wrap+](https://github.com/ehuss/Sublime-Wrap-Plus) Extension.
+* Added the [Sublime Text - CSScomb](https://github.com/csscomb/csscomb-for-sublime) Extension.
+* Added the [Vim Pathogen](https://github.com/tpope/vim-pathogen) extension.
+* Added the [Vim Fugitive](https://github.com/tpope/vim-fugitive) extension.
+* Added the [Vim Unimpaired](https://github.com/tpope/vim-unimpaired) extension.
+* Added the [Vim Bundler](https://github.com/tpope/vim-bundler) extension.
+* Added the [Vim Ruby](https://github.com/vim-ruby/vim-ruby) extension.
+* Added the [Vim Text Object User](https://github.com/kana/vim-textobj-user) extension.
+* Added the [Vim Text Object Ruby Block](https://github.com/nelstrom/vim-textobj-rubyblock) extension.
+* Added the [Vim Rails](https://github.com/tpope/vim-rails) extension.
+* Added the [App Cleaner](http://www.freemacsoft.net/appcleaner) install.
+* Added multi-Ruby CTag support for all installed gems.
+* Added Google setup steps to enable canvas inspection for dev tools.
+* Added steps for enabling experimental web platform features in Chrome to the README.
+* Added Bash and Bash Completion setup to the setup.sh.
+* Added support for installation of a single file.
+* Added OSX Mavericks bootdisk and upgrade instructions to the README.
+* Added default for revealing IP address, hostname, OS version, etc. when clicking the login window clock.
+* Added default for auto-restart of system if it freezed.
+* Added OSX Mavericks reinstallation notes to README.
+
 # v4.0.0
 
 * Fixed bug with wrong disk image name for VLC DMG mount.

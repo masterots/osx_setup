@@ -6,7 +6,9 @@ Shell scripts for automated OSX machine setup.
 
 * Configures default OSX settings.
 * Downloads, installs, and configures [Homebrew](http://mxcl.github.com/homebrew) command line software:
+    * [Bash](https://www.gnu.org/software/bash)
     * [Bash Completion](http://bash-completion.alioth.debian.org)
+    * [SSHFS](http://fuse.sourceforge.net/sshfs.html)
     * [tmux](http://tmux.sourceforge.net)
     * [Z](https://github.com/rupa/z)
     * [Tree](http://mama.indstate.edu/users/ice/tree)
@@ -14,16 +16,21 @@ Shell scripts for automated OSX machine setup.
     * [Hub](https://github.com/defunkt/hub)
     * [GHI](https://github.com/stephencelis/ghi)
     * [CTags](http://ctags.sourceforge.net)
+    * [Tag](https://github.com/jdberry/tag)
     * [Parallel](https://savannah.gnu.org/projects/parallel)
     * [Pigz](http://www.zlib.net/pigz)
     * [jq](http://stedolan.github.com/jq)
     * [The Silver Surfer](https://github.com/ggreer/the_silver_searcher)
+    * [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
+    * [Ioping](https://code.google.com/p/ioping)
     * [Network Grep](http://ngrep.sourceforge.net)
+    * [Namebench](https://code.google.com/p/namebench)
     * [ImageMagick](http://www.imagemagick.org)
     * [Graphviz](http://www.graphviz.org)
     * [FFmpeg](http://ffmpeg.org)
     * [Node.js](http://nodejs.org)
     * [Phantom.js](http://phantomjs.org)
+    * [Slimer.js](http://slimerjs.org)
     * [Ruby Gems](https://github.com/bkuhlmann/ruby_gem_setup)
     * [rbenv](https://github.com/sstephenson/rbenv)
     * [rbenv-build](https://github.com/sstephenson/ruby-build)
@@ -31,13 +38,20 @@ Shell scripts for automated OSX machine setup.
     * [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
     * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
     * [rbenv-default-gems](https://github.com/sstephenson/rbenv-default-gems)
+    * [rbenv-ctags](https://github.com/tpope/rbenv-ctags)
     * [Ruby](http://www.ruby-lang.org)
+    * [Rubinius](http://rubini.us)
+    * [JRuby](http://jruby.org)
     * [Dotfiles](https://github.com/bkuhlmann/dotfiles)
+    * [Go](http://golang.org)
+    * [Nginx](http://wiki.nginx.org)
     * [Pow](http://pow.cx)
+    * [Memcached](http://memcached.org)
     * [Redis](http://redis.io)
     * [PostgreSQL](http://www.postgresql.org)
     * [MySQL](https://www.mysql.com)
     * [Wry](https://github.com/hoop33/wry)
+    * [lnav](http://braumeister.org/formula/lnav)
 * Downloads, installs, and configures software applications generally not in the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
     * [Dropbox](https://www.dropbox.com)
     * [Knox](https://agilebits.com/knox)
@@ -54,12 +68,9 @@ Shell scripts for automated OSX machine setup.
     * [OmniFocus](http://www.omnigroup.com/applications/omnifocus)
     * [OmniOutliner](http://www.omnigroup.com/applications/omnioutliner)
     * [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle)
-    * [OmniDazzle](http://www.omnigroup.com/products/omnidazzle)
     * [Transmit](https://panic.com/transmit)
     * [iStat Menus](http://bjango.com/apps/istatmenus)
     * [Bartender](http://www.macbartender.com)
-    * [Source Tree](http://www.sourcetreeapp.com)
-    * [GitHub](http://mac.github.com)
     * [Snippets](http://www.snippetsapp.com)
     * [Espresso](http://macrabbit.com/espresso)
     * [CodeKit](http://incident57.com/codekit)
@@ -67,11 +78,8 @@ Shell scripts for automated OSX machine setup.
     * [DoubleTake](http://echoone.com/doubletake)
     * [ImageOptim](http://imageoptim.pornel.net)
     * [VLC](http://www.videolan.org/vlc)
-    * [Induction](http://inductionapp.com)
     * [pgAdmin](http://www.pgadmin.org/index.php)
     * [Sequel Pro](http://www.sequelpro.com)
-    * [Namebench](https://code.google.com/p/namebench)
-    * [Billings](http://www.billingsapp.com)
     * [MoneyWell](http://nothirst.com/moneywell)
     * [Delicious Library](http://www.delicious-monster.com)
     * [Cheatsheet](http://www.cheatsheetapp.com/CheatSheet)
@@ -80,17 +88,20 @@ Shell scripts for automated OSX machine setup.
     * [Screenhero](http://screenhero.com)
     * [Colloquy](http://colloquy.info)
     * [Wedge](http://wedge.natestedman.com)
-    * [Skype](http://www.skype.com)
     * [VirtualBox](https://www.virtualbox.org)
     * [Doxie](http://www.getdoxie.com)
+    * [App Cleaner](http://www.freemacsoft.net/appcleaner)
     * [Hazel](http://www.noodlesoft.com/hazel.php)
-    * [Pastebot Sync](http://tapbots.com/software/pastebot/#sync)
     * [Air Display](http://avatron.com/apps/air-display)
-    * [Eye-Fi](http://www.eye.fi)
 * Downloads, installs, and configures software extensions:
-    * [Google Chrome Rails Panel](https://github.com/dejan/rails_panel)
-    * [Google Chrome Ember Inspector](https://github.com/tildeio/ember-extension)
-    * [Google Chrome Chrome Logger](https://github.com/ccampbell/chromelogger)
+    * [Vim Pathogen](https://github.com/tpope/vim-pathogen)
+    * [Vim Fugitive](https://github.com/tpope/vim-fugitive)
+    * [Vim Unimpaired](https://github.com/tpope/vim-unimpaired)
+    * [Vim Bundler](https://github.com/tpope/vim-bundler)
+    * [Vim Ruby](https://github.com/vim-ruby/vim-ruby)
+    * [Vim Text Object User](https://github.com/kana/vim-textobj-user).
+    * [Vim Text Object Ruby Block](https://github.com/nelstrom/vim-textobj-rubyblock).
+    * [Vim Rails](https://github.com/tpope/vim-rails)
     * [Sublime Text 2 Git](https://github.com/kemayo/sublime-text-2-git)
     * [Sublime Text 2 Git Gutter](https://github.com/jisaacks/GitGutter)
     * [Sublime Text 2 Gist](https://github.com/condemil/Gist)
@@ -105,6 +116,7 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
     * [Sublime Text 2 Color Highlighter](https://github.com/Monnoroch/ColorHighlighter)
     * [Sublime Text 2 Alignment](https://github.com/wbond/sublime_alignment)
+    * [Sublime Text 2 Wrap+](https://github.com/ehuss/Sublime-Wrap-Plus)
     * [Sublime Text 2 Autoprefixer](https://github.com/sindresorhus/sublime-autoprefixer)
     * [Sublime Text 2 Xiki](https://github.com/lunixbochs/SublimeXiki)
     * [Sublime Text 2 Easy Motion](https://github.com/tednaleid/sublime-EasyMotion)
@@ -113,7 +125,12 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 Web Inspector](http://sokolovstas.github.com/SublimeWebInspector)
     * [Sublime Text 2 Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
     * [Sublime Text 2 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
+    * [Sublime Text 2 CSScomb](https://github.com/csscomb/csscomb-for-sublime)
     * [Sublime Text 2 Coffee Script](https://github.com/Xavura/CoffeeScript-Sublime-Plugin)
+    * [Sublime Text 2 DashDoc](https://github.com/farcaller/DashDoc)
+    * [Google Chrome Rails Panel](https://github.com/dejan/rails_panel)
+    * [Google Chrome Ember Inspector](https://github.com/tildeio/ember-extension)
+    * [Google Chrome Chrome Logger](https://github.com/ccampbell/chromelogger)
 
 # Requirements
 
@@ -155,7 +172,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v4.0.0
+    git checkout v5.0.0
 
 Master Version (unstable):
 

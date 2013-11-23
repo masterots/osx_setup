@@ -18,6 +18,7 @@ brew install sshfs
 
 # tmux
 brew install tmux
+brew install reattach-to-user-namespace
 
 # Z
 brew install z

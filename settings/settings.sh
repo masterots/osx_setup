@@ -248,7 +248,7 @@ export APP_CLEANER_APP_FILE=AppCleaner_2.2.zip
 export APP_CLEANER_APP_NAME=AppCleaner.app
 
 export HAZEL_APP_URL=https://s3.amazonaws.com/Noodlesoft
-export HAZEL_APP_FILE=Hazel-3.2.1.dmg
+export HAZEL_APP_FILE=Hazel-3.2.2.dmg
 export HAZEL_APP_NAME=Hazel.prefPane
 
 export AIR_DISPLAY_APP_URL=http://avatron.com/downloads

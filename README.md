@@ -5,7 +5,7 @@ Shell scripts for automated OSX machine setup.
 # Features
 
 * Configures default OSX settings.
-* Downloads, installs, and configures [Homebrew](http://mxcl.github.com/homebrew) command line software:
+* Downloads, installs, and configures [Homebrew](http://brew.sh) command line software:
     * [Bash](https://www.gnu.org/software/bash)
     * [Bash Completion](http://bash-completion.alioth.debian.org)
     * [SSHFS](http://fuse.sourceforge.net/sshfs.html)

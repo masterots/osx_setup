@@ -5,7 +5,7 @@
 
 # EXECUTION
 # Homebrew
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
 # Bash
 brew install bash

@@ -10,6 +10,7 @@ Shell scripts for automated OSX machine setup.
     * [Bash Completion](http://bash-completion.alioth.debian.org)
     * [SSHFS](http://fuse.sourceforge.net/sshfs.html)
     * [tmux](http://tmux.sourceforge.net)
+    * [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
     * [Z](https://github.com/rupa/z)
     * [Tree](http://mama.indstate.edu/users/ice/tree)
     * [Git](http://git-scm.com)
@@ -172,7 +173,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v5.0.0
+    git checkout v5.1.0
 
 Master Version (unstable):
 

@@ -1,3 +1,10 @@
+# v5.1.0
+
+* Fixed broken Homebrew links (site moved with no redirection support).
+* Updated to Ruby v2.0.0-p353.
+* Updated Hazel to 3.2.2.
+* Added the [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard) Homebrew install.
+
 # v5.0.0
 
 * Fixed bug with Bash setup script.

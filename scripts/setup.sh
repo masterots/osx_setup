@@ -49,3 +49,11 @@ mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --
 if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/sublime
 fi
+
+# Google Chrome Ember Inspector
+(
+  cd "$EMBER_INSPECTOR_EXTENSION_PATH"
+  npm install
+  npm install -g grunt-cli
+  grunt
+)

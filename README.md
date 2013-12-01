@@ -100,8 +100,8 @@ Shell scripts for automated OSX machine setup.
     * [Vim Unimpaired](https://github.com/tpope/vim-unimpaired)
     * [Vim Bundler](https://github.com/tpope/vim-bundler)
     * [Vim Ruby](https://github.com/vim-ruby/vim-ruby)
-    * [Vim Text Object User](https://github.com/kana/vim-textobj-user).
-    * [Vim Text Object Ruby Block](https://github.com/nelstrom/vim-textobj-rubyblock).
+    * [Vim Text Object User](https://github.com/kana/vim-textobj-user)
+    * [Vim Text Object Ruby Block](https://github.com/nelstrom/vim-textobj-rubyblock)
     * [Vim Rails](https://github.com/tpope/vim-rails)
     * [Sublime Text 2 Git](https://github.com/kemayo/sublime-text-2-git)
     * [Sublime Text 2 Git Gutter](https://github.com/jisaacks/GitGutter)
@@ -283,11 +283,8 @@ The following is a checklist of additional steps worth completing after the scri
 
 * Configure Security & Privacy:
     * Require password immediately after sleep or screen saver begins.
-    * Enable FileVault (via System Preferences - Security and Privacy).
-* Configure login screen message:
-    * Open System Preferences.
-    * Click Security and Privacy.
-    * Click Set Lock Message.
+    * Show a message when the screen is locked. Example: "<twitter> | <email> | <phone>"
+    * Enable FileVault.
 * Configure Wi-Fi.
 * Configure printer.
 * Configure scanner.
@@ -302,10 +299,10 @@ The following is a checklist of additional steps worth completing after the scri
         * Enable "Enable experimental Web Platform features". Enables the `<dialog>` element.
     * Open Web Inspector Developer Tools (COMMAND+OPTION+I) and click the gear (lower right corner)
         * Click the Experiments tab.
-            * Enable "File system folders in Sources Panel".
-            * Enable "Snippets support".
-            * Enable "Support for SASS".
+            * Enable "FileSystem inspection".
             * Enable "Canvas inspection."
+            * Enable "Support for SASS".
+            * Enable "Snippets support".
         * Click the General tab.
             * Enable "Source maps".
             * Enable "Auto-reload CSS upon SASS save".

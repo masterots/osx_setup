@@ -121,7 +121,7 @@ install_dmg_app "$DOXIE_APP_URL" "$DOXIE_APP_FILE" "Doxie" "$DOXIE_APP_NAME"
 # App Cleaner
 install_zip_app "$APP_CLEANER_APP_URL" "$APP_CLEANER_APP_FILE" "$APP_CLEANER_APP_NAME"
 
-# Air Display (preference pane)
+# Air Display
 install_zip_pkg "$AIR_DISPLAY_APP_URL" "$AIR_DISPLAY_APP_FILE" "$AIR_DISPLAY_APP_NAME"
 
 # Hazel (preference pane)

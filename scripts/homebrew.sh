@@ -20,6 +20,9 @@ brew install sshfs
 brew install tmux
 brew install reattach-to-user-namespace
 
+# Mosh
+brew install mobile-shell
+
 # Z
 brew install z
 

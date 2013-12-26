@@ -2,7 +2,7 @@
 # Reference: http://snaprails.tumblr.com/post/241746095/rubys-gc-configuration.
 
 # Initial/minimum number of heap slots. Default: 10000.
-RUBY_HEAP_MIN_SLOTS=500000
+RUBY_GC_HEAP_INIT_SLOTS=500000
 
 # The number of new slots to allocate when all initial slots are used. Default: 10000.
 RUBY_HEAP_SLOTS_INCREMENT=250000

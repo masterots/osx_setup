@@ -10,7 +10,7 @@ export SYSTEM_NAME=ra # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby
-export MRI=2.0.0-p353
+export MRI=2.1.0
 export RUBINIUS=rbx-2.1.1
 export JRUBY=jruby-1.7.6
 export RUBIES=($MRI $RUBINIUS $JRUBY)

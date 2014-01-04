@@ -129,3 +129,6 @@ brew install wry
 
 # lnav
 brew install lnav
+
+# cloc
+brew install cloc

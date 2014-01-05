@@ -243,7 +243,7 @@ export DOXIE_APP_URL=http://www.getdoxie.com/resources/files
 export DOXIE_APP_FILE=Doxie.dmg
 export DOXIE_APP_NAME=Doxie.app
 
-export APP_CLEANER_APP_URL=http://www.freemacsoft.net/downloads
+export APP_CLEANER_APP_URL=https://www.freemacsoft.net/downloads
 export APP_CLEANER_APP_FILE=AppCleaner_2.2.zip
 export APP_CLEANER_APP_NAME=AppCleaner.app
 

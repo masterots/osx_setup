@@ -126,3 +126,6 @@ install_zip_pkg "$AIR_DISPLAY_APP_URL" "$AIR_DISPLAY_APP_FILE" "$AIR_DISPLAY_APP
 
 # Hazel (preference pane)
 install_dmg_app "$HAZEL_APP_URL" "$HAZEL_APP_FILE" "Hazel" "$HAZEL_APP_NAME"
+
+# CCMenu
+install_dmg_app "$CCMENU_APP_URL" "$CCMENU_APP_FILE" "CCMenu" "$CCMENU_APP_NAME"

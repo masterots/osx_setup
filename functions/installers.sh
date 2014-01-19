@@ -224,14 +224,14 @@ function install_git_app() {
   options="--quiet"
 
   if [ -n "$3" ]; then
-    options="$3 $options"
+    options="$options $3"
   fi
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
   else
-    echo "Installing into: $install_path..."
-    git clone "$options" "$repository_url" "$install_path"
+    echo "Installing: $install_path..."
+    git clone $options "$repository_url" "$install_path"
     verify_path "$install_path"
   fi
 }
@@ -249,7 +249,7 @@ function install_file() {
   if [ -e "$install_path" ]; then
     echo "Installed: $file_name."
   else
-    echo "Installing into: $install_path..."
+    echo "Installing: $install_path..."
     download_installer "$file_url" "$file_name"
     mkdir -p $(dirname "$install_path")
     mv "$WORK_PATH/$file_name" "$install_path"

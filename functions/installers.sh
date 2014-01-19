@@ -214,17 +214,24 @@ export -f install_zip_pkg
 
 # Installs application code from a Git repository.
 # Parameters:
-# $1 = The remote URL.
-# $2 = The install path.
+# $1 = Repository URL.
+# $2 = Install path.
+# $3 = Git clone options (if any).
 function install_git_app() {
+  repository_url="$1"
   app_name=$(get_file_name "$2")
   install_path="$2"
+  options="--quiet"
+
+  if [ -n "$3" ]; then
+    options="$3 $options"
+  fi
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
   else
     echo "Installing into: $install_path..."
-    git clone --quiet "$1" "$install_path"
+    git clone "$options" "$repository_url" "$install_path"
     verify_path "$install_path"
   fi
 }

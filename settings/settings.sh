@@ -175,7 +175,7 @@ export BARTENDER_APP_FILE=Bartender.zip
 export BARTENDER_APP_NAME=Bartender.app
 
 export SNIPPETS_APP_URL=http://www.snippetsapp.com/download
-export SNIPPETS_APP_FILE=Snippets-1.4.1.zip
+export SNIPPETS_APP_FILE=Snippets-1.4.3.zip
 export SNIPPETS_APP_NAME=Snippets.app
 
 export CODEKIT_APP_URL=http://incident57.com/codekit/files

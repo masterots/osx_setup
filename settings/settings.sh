@@ -242,8 +242,8 @@ export WEDGE_APP_URL=http://wedge.natestedman.com/release
 export WEDGE_APP_FILE=Wedge.app.zip
 export WEDGE_APP_NAME=Wedge.app
 
-export VIRTUAL_BOX_APP_URL=http://dlc.sun.com.edgesuite.net/virtualbox/4.3.2
-export VIRTUAL_BOX_APP_FILE=VirtualBox-4.3.2-90405-OSX.dmg
+export VIRTUAL_BOX_APP_URL=http://download.virtualbox.org/virtualbox/4.3.6
+export VIRTUAL_BOX_APP_FILE=VirtualBox-4.3.6-91406-OSX.dmg
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
 
 export DOXIE_APP_URL=http://www.getdoxie.com/resources/files

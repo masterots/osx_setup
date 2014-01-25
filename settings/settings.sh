@@ -120,7 +120,7 @@ export ALFRED_APP_FILE=Alfred_2.1.1_227.zip
 export ALFRED_APP_NAME="Alfred 2.app"
 
 export TEXTEXPANDER_APP_URL=http://cdn.smilesoftware.com
-export TEXTEXPANDER_APP_FILE=TextExpander_4.1.1.zip
+export TEXTEXPANDER_APP_FILE=TextExpander_4.2.1.zip
 export TEXTEXPANDER_APP_NAME=TextExpander.app
 
 export PATH_FINDER_APP_URL=http://get.cocoatech.com

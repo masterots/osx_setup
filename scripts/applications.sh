@@ -64,9 +64,6 @@ install_zip_app "$BARTENDER_APP_URL" "$BARTENDER_APP_FILE" "$BARTENDER_APP_NAME"
 # Snippets
 install_zip_app "$SNIPPETS_APP_URL" "$SNIPPETS_APP_FILE" "$SNIPPETS_APP_NAME"
 
-# Espresso
-install_zip_app "$ESPRESSO_APP_URL" "$ESPRESSO_APP_FILE" "$ESPRESSO_APP_NAME"
-
 # CodeKit
 install_zip_app "$CODEKIT_APP_URL" "$CODEKIT_APP_FILE" "$CODEKIT_APP_NAME"
 

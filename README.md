@@ -73,7 +73,6 @@ Shell scripts for automated OSX machine setup.
     * [iStat Menus](http://bjango.com/apps/istatmenus)
     * [Bartender](http://www.macbartender.com)
     * [Snippets](http://www.snippetsapp.com)
-    * [Espresso](http://macrabbit.com/espresso)
     * [CodeKit](http://incident57.com/codekit)
     * [Acorn](http://flyingmeat.com/acorn)
     * [DoubleTake](http://echoone.com/doubletake)

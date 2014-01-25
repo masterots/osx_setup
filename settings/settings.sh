@@ -154,10 +154,6 @@ export OMNIFOCUS_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
 export OMNIFOCUS_APP_FILE=OmniFocus-1.10.6.dmg
 export OMNIFOCUS_APP_NAME=OmniFocus.app
 
-export OMNIOUTLINER_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.9
-export OMNIOUTLINER_APP_FILE=OmniOutliner-4.0.dmg
-export OMNIOUTLINER_APP_NAME=OmniOutliner.app
-
 export OMNIGRAFFLE_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
 export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.4.dmg
 export OMNIGRAFFLE_APP_NAME="OmniGraffle Professional 5.app"

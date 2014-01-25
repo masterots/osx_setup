@@ -46,9 +46,6 @@ install_dmg_app "$OPERA_APP_URL" "$OPERA_APP_FILE" "Opera" "$OPERA_APP_NAME"
 # OmniFocus
 install_dmg_app "$OMNIFOCUS_APP_URL" "$OMNIFOCUS_APP_FILE" "OmniFocus" "$OMNIFOCUS_APP_NAME"
 
-# OmniOutliner
-install_dmg_app "$OMNIOUTLINER_APP_URL" "$OMNIOUTLINER_APP_FILE" "OmniOutliner" "$OMNIOUTLINER_APP_NAME"
-
 # OmniGraffle
 install_dmg_app "$OMNIGRAFFLE_APP_URL" "$OMNIGRAFFLE_APP_FILE" "OmniGrafflePro" "$OMNIGRAFFLE_APP_NAME"
 

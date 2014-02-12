@@ -33,6 +33,9 @@ brew install z
 # Tree
 brew install tree
 
+# hr
+brew install hr
+
 # Git
 brew install git
 

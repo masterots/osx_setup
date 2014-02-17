@@ -6,13 +6,16 @@ Shell scripts for automated OSX machine setup.
 
 * Configures default OSX settings.
 * Downloads, installs, and configures [Homebrew](http://brew.sh) command line software:
+    * [openssl](https://openssl.org)
     * [Bash](https://www.gnu.org/software/bash)
     * [Bash Completion](http://bash-completion.alioth.debian.org)
     * [SSHFS](http://fuse.sourceforge.net/sshfs.html)
     * [tmux](http://tmux.sourceforge.net)
+    * [Mosh](http://mosh.mit.edu)
     * [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
     * [Z](https://github.com/rupa/z)
     * [Tree](http://mama.indstate.edu/users/ice/tree)
+    * [hr](https://github.com/LuRsT/hr)
     * [Git](http://git-scm.com)
     * [Hub](https://github.com/defunkt/hub)
     * [GHI](https://github.com/stephencelis/ghi)
@@ -53,6 +56,7 @@ Shell scripts for automated OSX machine setup.
     * [MySQL](https://www.mysql.com)
     * [Wry](https://github.com/hoop33/wry)
     * [lnav](http://braumeister.org/formula/lnav)
+    * [cloc](http://cloc.sourceforge.net)
 * Downloads, installs, and configures software applications generally not in the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
     * [Dropbox](https://www.dropbox.com)
     * [Knox](https://agilebits.com/knox)
@@ -92,10 +96,14 @@ Shell scripts for automated OSX machine setup.
     * [App Cleaner](http://www.freemacsoft.net/appcleaner)
     * [Hazel](http://www.noodlesoft.com/hazel.php)
     * [Air Display](http://avatron.com/apps/air-display)
+    * [CCMenu](http://ccmenu.sourceforge.net)
+    * [Trailer](http://dev.housetrip.com/trailer)
 * Downloads, installs, and configures software extensions:
     * [Vim Pathogen](https://github.com/tpope/vim-pathogen)
     * [Vim Fugitive](https://github.com/tpope/vim-fugitive)
     * [Vim Unimpaired](https://github.com/tpope/vim-unimpaired)
+    * [Vim Commentary](https://github.com/tpope/vim-commentary)
+    * [Vim Git Gutter](https://github.com/airblade/vim-gitgutter)
     * [Vim Bundler](https://github.com/tpope/vim-bundler)
     * [Vim Ruby](https://github.com/vim-ruby/vim-ruby)
     * [Vim Text Object User](https://github.com/kana/vim-textobj-user)
@@ -126,6 +134,7 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
     * [Sublime Text 2 CSScomb](https://github.com/csscomb/csscomb-for-sublime)
     * [Sublime Text 2 Coffee Script](https://github.com/Xavura/CoffeeScript-Sublime-Plugin)
+    * [Sublime Text 2 HTML Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
     * [Sublime Text 2 DashDoc](https://github.com/farcaller/DashDoc)
     * [Google Chrome Rails Panel](https://github.com/dejan/rails_panel)
     * [Google Chrome Ember Inspector](https://github.com/tildeio/ember-extension)
@@ -171,7 +180,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v5.1.0
+    git checkout v6.0.0
 
 Master Version (unstable):
 

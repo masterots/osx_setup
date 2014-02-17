@@ -1,3 +1,44 @@
+# v6.0.0
+
+* Fixed bug with Air Display install check.
+* Fixed deprecation warning regarding RUBY_HEAP_MIN_SLOTS.
+* Fixed install bug with Sublime Text - Change Quotes extension.
+* Removed the Espresso install.
+* Updated to MRI 2.1.0.
+* Updated to JRuby 1.7.9.
+* Updated to Rubinius 2.2.5.
+* Updated to Hazel 3.2.3.
+* Updated to Dropbox 2.6.2.
+* Updated to OmniOutliner 4.0.
+* Updated to VirtualBox 4.3.6.
+* Updated to VLC 2.1.2.
+* Updated to CodeKit 8403.
+* Updated to Snippets 1.4.3.
+* Updated to Transmit 4.4.5.
+* Updated to Opera 18.0.1284.68.
+* Updated to Firefox 26.0.
+* Updated to TextExpander 4.2.1.
+* Updated to iStat Menus 4.20.
+* Updated to AppCleaner 2.2.1.
+* Updated Ruby GC environment settings for Ruby 2.1.0.
+* Updated Nginx install to use local user settings instead of root settings.
+* Updated preferences script to use new Ruby Gem Setup project install process.
+* Added Google Chrome Ember Inspector setup automation.
+* Added the [Mosh](http://mosh.mit.edu) Homebrew install.
+* Added [Witch](http://manytricks.com/witch) to the App Store list.
+* Added [openssl](https://openssl.org) Homebrew install.
+* Added the [cloc](http://cloc.sourceforge.net) Homebrew install.
+* Added the [Vim - Git Gutter](https://github.com/airblade/vim-gitgutter) extension.
+* Added the [Vim - Commentary](https://github.com/tpope/vim-commentary) extension.
+* Added the [CCMenu](http://ccmenu.sourceforge.net) install.
+* Added the [Sublime Text - HTML Prettify](https://github.com/victorporof/Sublime-HTMLPrettify) extension.
+* Added the [Trailer](http://dev.housetrip.com/trailer/) install.
+* Added the [hr](https://github.com/LuRsT/hr) Homebrew install.
+* Added [Slack](https://slack.com) to the App Store section of the README.
+* Added OmniOutliner to App Store list (it is no longer an automated install by this project).
+* Added NPM Setup project install to preferences script.
+* Added git clone options support for git installs.
+
 # v5.1.0
 
 * Fixed broken Homebrew links (site moved with no redirection support).

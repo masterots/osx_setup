@@ -25,6 +25,14 @@ git clone git://github.com/bkuhlmann/ruby_gem_setup.git
 )
 rm -rf ruby_gem_setup
 
+# NPM Packages
+git clone git://github.com/bkuhlmann/npm_setup.git
+(
+  cd npm_setup
+  ./run.sh i
+)
+rm -rf npm_setup
+
 # Sublime Text
 git clone git://github.com/bkuhlmann/sublime_text.git
 (

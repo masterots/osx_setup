@@ -17,8 +17,11 @@ source $HOME/.bashrc
 git clone git://github.com/bkuhlmann/ruby_gem_setup.git
 (
   cd ruby_gem_setup
-  ./run.sh i
-  ./run.sh I
+
+  for ruby in ${RUBIES[@]}; do
+    rbenv shell $ruby
+    ./run.sh i
+  done
 )
 rm -rf ruby_gem_setup
 

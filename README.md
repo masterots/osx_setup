@@ -267,6 +267,7 @@ I also recommend installing the following software found via the
 * [Prepo](http://wearemothership.com/work/prepo)
 * [Name Mangler](http://manytricks.com/namemangler)
 * [Kaleidoscope](http://www.kaleidoscopeapp.com)
+* [Paw](http://luckymarmot.com/paw)
 * [Cocoa JSON Editor](http://www.cocoajsoneditor.com)
 * [AquaPath](http://ditchnet.org/aquapath)
 * [Day One](http://dayoneapp.com)

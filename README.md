@@ -277,6 +277,7 @@ I also recommend installing the following software found via the
 * [iPhoto](http://www.apple.com/ilife/iphoto)
 * [Slack](https://slack.com)
 * [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
+* [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
 
 # Miscellaneous Software
 

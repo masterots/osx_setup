@@ -73,6 +73,9 @@ install_git_app "$BRACKET_HIGHLIGHTER_EXTENSION_URL" "$BRACKET_HIGHLIGHTER_EXTEN
 # Sublime Text 2 - Trailing Spaces
 install_git_app "$TRAILING_SPACES_EXTENSION_URL" "$TRAILING_SPACES_EXTENSION_PATH"
 
+# Sublime Text 2 - Gutter Color
+install_git_app "$GUTTER_COLOR_EXTENSION_URL" "$GUTTER_COLOR_EXTENSION_PATH"
+
 # Sublime Text 2 - Color Highlighter
 install_git_app "$COLOR_HIGHLIGHTER_EXTENSION_URL" "$COLOR_HIGHLIGHTER_EXTENSION_PATH"
 

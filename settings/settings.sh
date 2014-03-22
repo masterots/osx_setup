@@ -192,8 +192,8 @@ export IMAGE_OPTIM_APP_URL=http://imageoptim.com
 export IMAGE_OPTIM_APP_FILE=ImageOptim.tbz2
 export IMAGE_OPTIM_APP_NAME=ImageOptim.app
 
-export VLC_APP_URL=https://get.videolan.org/vlc/2.1.2/macosx
-export VLC_APP_FILE=vlc-2.1.2.dmg
+export VLC_APP_URL=https://get.videolan.org/vlc/2.1.4/macosx
+export VLC_APP_FILE=vlc-2.1.4.dmg
 export VLC_APP_NAME=VLC.app
 
 export PG_ADMIN_APP_URL=http://ftp.postgresql.org/pub/pgadmin3/release/v1.18.1/osx

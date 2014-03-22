@@ -81,6 +81,9 @@ brew install imagemagick
 # Graphviz
 brew install graphviz
 
+# FLAC
+brew install flac
+
 # FFmpeg
 brew install ffmpeg
 

@@ -31,7 +31,7 @@ function download_installer() {
   mkdir $WORK_PATH
   (
     cd $WORK_PATH
-    curl --location --remote-name "$1/$2"
+    curl --location --remote-name --retry 3 --retry-delay 5 "$1/$2"
   )
 }
 export -f download_installer

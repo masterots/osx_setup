@@ -259,7 +259,3 @@ export HAZEL_APP_NAME=Hazel.prefPane
 export TRAILER_APP_URL=http://dev.housetrip.com/trailer
 export TRAILER_APP_FILE=trailer1020.zip
 export TRAILER_APP_NAME=Trailer.app
-
-export CCMENU_APP_URL=http://softlayer-dal.dl.sourceforge.net/project/ccmenu/CCMenu/1.6.4
-export CCMENU_APP_FILE=ccmenu-1.6.4-b.dmg
-export CCMENU_APP_NAME=CCMenu.app

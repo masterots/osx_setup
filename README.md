@@ -96,7 +96,6 @@ Shell scripts for automated OSX machine setup.
     * [App Cleaner](http://www.freemacsoft.net/appcleaner)
     * [Hazel](http://www.noodlesoft.com/hazel.php)
     * [Air Display](http://avatron.com/apps/air-display)
-    * [CCMenu](http://ccmenu.sourceforge.net)
     * [Trailer](http://dev.housetrip.com/trailer)
 * Downloads, installs, and configures software extensions:
     * [Vim Pathogen](https://github.com/tpope/vim-pathogen)
@@ -275,9 +274,10 @@ I also recommend installing the following software found via the
 * [GarageBand](http://www.apple.com/ilife/garageband)
 * [iMovie](http://www.apple.com/ilife/imovie)
 * [iPhoto](http://www.apple.com/ilife/iphoto)
+* [CCMenu](http://ccmenu.sourceforge.net)
+* [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
 * [Slack](https://slack.com)
 * [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
-* [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
 
 # Miscellaneous Software
 

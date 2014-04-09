@@ -123,6 +123,3 @@ install_dmg_app "$HAZEL_APP_URL" "$HAZEL_APP_FILE" "Hazel" "$HAZEL_APP_NAME"
 
 # Trailer
 install_zip_app "$TRAILER_APP_URL" "$TRAILER_APP_FILE" "$TRAILER_APP_NAME"
-
-# CCMenu
-install_dmg_app "$CCMENU_APP_URL" "$CCMENU_APP_FILE" "CCMenu" "$CCMENU_APP_NAME"

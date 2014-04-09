@@ -304,6 +304,9 @@ The following is a checklist of additional steps worth completing after the scri
 * Configure iCal.
 * Configure iTunes.
 * Configure Google Chrome:
+    * Open Preferences:
+        * Scroll to the bottom and click on "Show advanced settings".
+        * Check "Check for server certificate revocation".
     * Open the Flags tab (i.e. chrome://flags)
         * Enable "Experimental Extension APIs".
         * Enable "Developer Tools Experiments".

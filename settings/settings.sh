@@ -11,7 +11,7 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 
 # Ruby
 export MRI=2.1.1
-export RUBINIUS=rbx-2.2.5
+export RUBINIUS=rbx-2.2.6
 export JRUBY=jruby-1.7.12
 export RUBIES=($MRI $RUBINIUS $JRUBY)
 

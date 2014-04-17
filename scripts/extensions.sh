@@ -121,6 +121,9 @@ install_git_app "$HTML_PRETTIFY_EXTENSION_URL" "$HTML_PRETTIFY_EXTENSION_PATH"
 # Sublime Text 2 - DashDoc
 install_git_app "$DASH_DOC_EXTENSION_URL" "$DASH_DOC_EXTENSION_PATH"
 
+# Sublime Text 2 - Table Editor
+install_git_app "$TABLE_EDITOR_EXTENSION_URL" "$TABLE_EDITOR_EXTENSION_PATH"
+
 # Google Chrome - Rails Panel
 install_git_app "$RAILS_PANEL_EXTENSION_URL" "$RAILS_PANEL_EXTENSION_PATH"
 

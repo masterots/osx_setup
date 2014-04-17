@@ -112,6 +112,8 @@ export HTML_PRETTIFY_EXTENSION_URL="https://github.com/victorporof/Sublime-HTMLP
 export HTML_PRETTIFY_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Sublime-HTMLPrettify"
 export DASH_DOC_EXTENSION_URL="git://github.com/farcaller/DashDoc.git"
 export DASH_DOC_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/DashDoc"
+export TABLE_EDITOR_EXTENSION_URL="https://github.com/vkocubinsky/SublimeTableEditor.git"
+export TABLE_EDITOR_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Table Editor"
 
 export SUBLIME_URL_HANDLER_APP_URL=https://github.com/downloads/asuth/subl-handler
 export SUBLIME_URL_HANDLER_APP_FILE=SublHandler.zip

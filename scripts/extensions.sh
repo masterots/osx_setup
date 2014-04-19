@@ -106,6 +106,9 @@ install_git_app "$WEB_INSPECTOR_EXTENSION_URL" "$WEB_INSPECTOR_EXTENSION_PATH"
 # Sublime Text 2 - Sublime Linter
 install_git_app "$LINTER_EXTENSION_URL" "$LINTER_EXTENSION_PATH"
 
+# Sublime Text 2 - Ruby Slim
+install_git_app "$RUBY_SLIM_EXTENSION_URL" "$RUBY_SLIM_EXTENSION_PATH"
+
 # Sublime Text 2 - SASS/SCSS
 install_git_app "$SCSS_EXTENSION_URL" "$SCSS_EXTENSION_PATH"
 

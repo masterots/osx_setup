@@ -121,7 +121,7 @@ defaults write com.apple.finder QLEnableTextSelection -bool true
 echo "iOS Simulator - Symlink the iOS Simulator application"
 sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
 
-echo "Safari - Set home page to `about:blank` for faster loading"
+echo "Safari - Set home page to 'about:blank' for faster loading"
 defaults write com.apple.Safari HomePage -string "about:blank"
 
 echo "Safari - Hide bookmarks bar"

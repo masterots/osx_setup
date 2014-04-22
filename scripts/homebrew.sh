@@ -104,9 +104,9 @@ brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 git clone git://github.com/tpope/rbenv-ctags.git $HOME/.rbenv/plugins/rbenv-ctags
-CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl`" rbenv install $MRI
-CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl`" rbenv install $RUBINIUS
-CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl`" rbenv install $JRUBY
+CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $MRI
+CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $RUBINIUS
+CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $JRUBY
 rbenv global $MRI
 
 # Go

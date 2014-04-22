@@ -11,7 +11,7 @@ function verify_install() {
 
   # Display the missing install if not found.
   local install_path=$(get_install_path "$file_name")
-  if [ ! -e "$install_path" ]; then
+  if [[ ! -e "$install_path" ]]; then
     echo " - Missing: $file_name"
   fi
 }
@@ -41,7 +41,7 @@ function verify_path() {
   local path="$1" # Make the parameter easier to read.
 
   # Display the missing path if not found.
-  if [ ! -e "$path" ]; then
+  if [[ ! -e "$path" ]]; then
     echo " - Missing: $path"
   fi
 }

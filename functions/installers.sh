@@ -41,7 +41,7 @@ export -f download_installer
 # $1 = The remote URL.
 # $2 = The file name.
 function download_only() {
-  if [ -e "$HOME/Downloads/$2" ]; then
+  if [[ -e "$HOME/Downloads/$2" ]]; then
     echo "Downloaded: $2."
   else
     echo "Downloading $1/$2..."
@@ -60,7 +60,7 @@ function install_app() {
 
   echo "Installing $2 in $install_root..."
   local file_extension=$(get_file_extension "$2")
-  if [ "$file_extension" == "prefPane" ]; then
+  if [[ "$file_extension" == "prefPane" ]]; then
     sudo cp -pR "$1/$2" "$install_root"
   else
     cp -a "$1/$2" "$install_root"
@@ -91,7 +91,7 @@ function install_dmg_app() {
   local app_name="$4"
   local install_path=$(get_install_path "$app_name")
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $app_name."
   else
     download_installer $1 $2
@@ -117,7 +117,7 @@ function install_dmg_pkg() {
   local app_name="$4"
   local install_path=$(get_install_path "$app_name")
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $app_name."
   else
     download_installer "$1" "$2"
@@ -142,7 +142,7 @@ function install_zip_app() {
   local app_name="$3"
   local install_path=$(get_install_path "$app_name")
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $app_name."
   else
     download_installer "$1" "$2"
@@ -169,7 +169,7 @@ function install_tar_app() {
   local app_name="$4"
   local install_path=$(get_install_path "$app_name")
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $app_name."
   else
     download_installer "$1" "$2"
@@ -195,7 +195,7 @@ function install_zip_pkg() {
   local app_name="$3"
   local install_path=$(get_install_path "$app_name")
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $app_name."
   else
     download_installer "$1" "$2"
@@ -223,11 +223,11 @@ function install_git_app() {
   local install_path="$2"
   local options="--quiet"
 
-  if [ -n "$3" ]; then
+  if [[ -n "$3" ]]; then
     local options="$options $3"
   fi
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $app_name."
   else
     echo "Installing: $install_path..."
@@ -246,7 +246,7 @@ function install_file() {
   local file_name=$(get_file_name "$1")
   local install_path="$2"
 
-  if [ -e "$install_path" ]; then
+  if [[ -e "$install_path" ]]; then
     echo "Installed: $file_name."
   else
     echo "Installing: $install_path..."

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Sets up and launches (if necessary) installed software.

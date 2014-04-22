@@ -1,10 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Defines global settings.
 
 # SETTINGS
 # General
+set -o nounset
+set -o errexit
+set -o pipefail
 export SYSTEM_LABEL=RA # Placeholder for system display name.
 export SYSTEM_NAME=ra # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.

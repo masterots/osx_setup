@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Defines software installer functions.

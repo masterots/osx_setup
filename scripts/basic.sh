@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Applies basic system settings.

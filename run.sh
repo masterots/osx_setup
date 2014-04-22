@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Executes the command line interface.
@@ -7,7 +7,6 @@
 # ./run.sh OPTION
 
 # SETTINGS
-set -e # Exit if any command returns non-zero.
 source settings/settings.sh
 
 # FUNCTIONS
@@ -17,27 +16,25 @@ source functions/verifiers.sh
 source functions/options.sh
 
 # EXECUTION
-if [ -z "$1" ]; then
-  echo ''
-  while true; do
-    echo "Usage: run OPTION"
-    echo "\nOSX Options:"
-    echo "  b: Apply basic system settings."
-    echo "  h: Install Homebrew software (i.e. non-GUI, command line interfaces)."
-    echo "  a: Install application software (i.e. GUI-enabled)."
-    echo "  x: Install application extensions (i.e. enhancements, add-ons, plug-ins, etc.)"
-    echo "  d: Apply system and application defaults."
-    echo "  p: Apply software preferences."
-    echo "  s: Setup installed software."
-    echo "  w: Clean work directory."
-    echo "  i: Perform complete install (i.e. executes all options, listed above, top to bottom)."
-    echo "  c: Check status of installed applications and extensions."
-    echo "  q: Quit/Exit."
-    echo ''
+while true; do
+  if [[ $# == 0 ]]; then
+    printf "\nUsage: run OPTION\n"
+    printf "\nOSX Options:\n"
+    printf "  b: Apply basic system settings.\n"
+    printf "  h: Install Homebrew software (i.e. non-GUI, command line interfaces).\n"
+    printf "  a: Install application software (i.e. GUI-enabled).\n"
+    printf "  x: Install application extensions (i.e. enhancements, add-ons, plug-ins, etc.)\n"
+    printf "  d: Apply system and application defaults.\n"
+    printf "  p: Apply software preferences.\n"
+    printf "  s: Setup installed software.\n"
+    printf "  w: Clean work directory.\n"
+    printf "  i: Perform complete install (i.e. executes all options, listed above, top to bottom).\n"
+    printf "  c: Check status of installed applications and extensions.\n"
+    printf "  q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
+    printf "\n"
     process_option $response
-  done
-else
-  process_option $1
-fi
-echo ''
+  else
+    process_option $1
+  fi
+done

@@ -56,10 +56,10 @@ export -f download_only
 # $1 = The application source path.
 # $2 = The application name.
 function install_app() {
-  install_root=$(get_install_root "$2")
+  local install_root=$(get_install_root "$2")
 
   echo "Installing $2 in $install_root..."
-  file_extension=$(get_file_extension "$2")
+  local file_extension=$(get_file_extension "$2")
   if [ "$file_extension" == "prefPane" ]; then
     sudo cp -pR "$1/$2" "$install_root"
   else
@@ -73,10 +73,10 @@ export -f install_app
 # $1 = The package source path.
 # $2 = The application name.
 function install_pkg() {
-  install_root=$(get_install_root "$2")
+  local install_root=$(get_install_root "$2")
 
   echo "Installing $2 in $install_root..."
-  package=$(sudo find "$1" -type f -name "*.pkg" -o -name "*.mpkg")
+  local package=$(sudo find "$1" -type f -name "*.pkg" -o -name "*.mpkg")
   sudo installer -pkg "$package" -target /
 }
 export -f install_pkg
@@ -88,16 +88,16 @@ export -f install_pkg
 # $3 = The mount path.
 # $4 = The application name.
 function install_dmg_app() {
-  app_name="$4"
-  install_path=$(get_install_path "$app_name")
+  local app_name="$4"
+  local install_path=$(get_install_path "$app_name")
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
   else
     download_installer $1 $2
-    download_file="$WORK_PATH/$2"
+    local download_file="$WORK_PATH/$2"
 
-    mount_point="/Volumes/$3"
+    local mount_point="/Volumes/$3"
     mount_image "$download_file"
     install_app "$mount_point" "$app_name"
     unmount_image "$mount_point"
@@ -114,16 +114,16 @@ export -f install_dmg_app
 # $3 = The mount path.
 # $4 = The application name.
 function install_dmg_pkg() {
-  app_name="$4"
-  install_path=$(get_install_path "$app_name")
+  local app_name="$4"
+  local install_path=$(get_install_path "$app_name")
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
   else
     download_installer "$1" "$2"
-    download_file="$WORK_PATH/$2"
+    local download_file="$WORK_PATH/$2"
 
-    mount_point="/Volumes/$3"
+    local mount_point="/Volumes/$3"
     mount_image "$download_file"
     install_pkg "$mount_point" "$app_name"
     unmount_image "$mount_point"
@@ -139,8 +139,8 @@ export -f install_dmg_pkg
 # $2 = The download file name.
 # $3 = The application name.
 function install_zip_app() {
-  app_name="$3"
-  install_path=$(get_install_path "$app_name")
+  local app_name="$3"
+  local install_path=$(get_install_path "$app_name")
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
@@ -166,8 +166,8 @@ export -f install_zip_app
 # $3 = The uncompress options.
 # $4 = The application name.
 function install_tar_app() {
-  app_name="$4"
-  install_path=$(get_install_path "$app_name")
+  local app_name="$4"
+  local install_path=$(get_install_path "$app_name")
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
@@ -192,8 +192,8 @@ export -f install_tar_app
 # $2 = The download file name.
 # $3 = The application name.
 function install_zip_pkg() {
-  app_name="$3"
-  install_path=$(get_install_path "$app_name")
+  local app_name="$3"
+  local install_path=$(get_install_path "$app_name")
 
   if [ -e "$install_path" ]; then
     echo "Installed: $app_name."
@@ -218,13 +218,13 @@ export -f install_zip_pkg
 # $2 = Install path.
 # $3 = Git clone options (if any).
 function install_git_app() {
-  repository_url="$1"
-  app_name=$(get_file_name "$2")
-  install_path="$2"
-  options="--quiet"
+  local repository_url="$1"
+  local app_name=$(get_file_name "$2")
+  local install_path="$2"
+  local options="--quiet"
 
   if [ -n "$3" ]; then
-    options="$options $3"
+    local options="$options $3"
   fi
 
   if [ -e "$install_path" ]; then
@@ -242,9 +242,9 @@ export -f install_git_app
 # $1 = The remote URL.
 # $2 = The install path.
 function install_file() {
-  file_url=$(dirname "$1")
-  file_name=$(get_file_name "$1")
-  install_path="$2"
+  local file_url=$(dirname "$1")
+  local file_name=$(get_file_name "$1")
+  local install_path="$2"
 
   if [ -e "$install_path" ]; then
     echo "Installed: $file_name."

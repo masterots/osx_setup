@@ -7,10 +7,10 @@
 # Parameters:
 # $1 = The file name.
 function verify_install() {
-  file_name="$1" # Make the parameter easier to read.
+  local file_name="$1" # Make the parameter easier to read.
 
   # Display the missing install if not found.
-  install_path=$(get_install_path "$file_name")
+  local install_path=$(get_install_path "$file_name")
   if [ ! -e "$install_path" ]; then
     echo " - Missing: $file_name"
   fi
@@ -22,7 +22,7 @@ function verify_installs() {
   echo "\nChecking applications..."
 
   # Only use environment variables that end with "APP_NAME".
-  file_names=`set | awk -F "=" '{print $1}' | grep ".*APP_NAME"`
+  local file_names=`set | awk -F "=" '{print $1}' | grep ".*APP_NAME"`
 
   # For each application name, check to see if the application is installed. Otherwise, skip.
   for name in $file_names; do
@@ -38,7 +38,7 @@ export -f verify_installs
 # Parameters:
 # $1 = The path.
 function verify_path() {
-  path="$1" # Make the parameter easier to read.
+  local path="$1" # Make the parameter easier to read.
 
   # Display the missing path if not found.
   if [ ! -e "$path" ]; then
@@ -52,7 +52,7 @@ function verify_extensions() {
   echo "\nChecking extensions..."
 
   # Only use environment variables that end with "EXTENSION_PATH".
-  extensions=`set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH"`
+  local extensions=`set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH"`
 
   # For each extension, check to see if the extension is installed. Otherwise, skip.
   for extension in $extensions; do

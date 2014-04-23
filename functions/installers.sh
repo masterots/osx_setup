@@ -7,7 +7,7 @@
 # Parameters:
 # $1 = The image path.
 function mount_image() {
-  echo "Mounting image..."
+  printf "Mounting image...\n"
   hdiutil attach "$1" -noidmereveal
 }
 export -f mount_image
@@ -16,7 +16,7 @@ export -f mount_image
 # Parameters:
 # $1 = The mount path.
 function unmount_image() {
-  echo "Unmounting image..."
+  printf "Unmounting image...\n"
   hdiutil detach -force "$1"
 }
 export -f unmount_image
@@ -26,7 +26,7 @@ export -f unmount_image
 # $1 = The remote URL.
 # $2 = The file name.
 function download_installer() {
-  echo "Downloading $1/$2..."
+  printf "Downloading $1/$2...\n"
   clean_work_path
   mkdir $WORK_PATH
   (
@@ -42,9 +42,9 @@ export -f download_installer
 # $2 = The file name.
 function download_only() {
   if [[ -e "$HOME/Downloads/$2" ]]; then
-    echo "Downloaded: $2."
+    printf "Downloaded: $2.\n"
   else
-    echo "Downloading $1/$2..."
+    printf "Downloading $1/$2...\n"
     download_installer "$1" "$2"
     mv "$WORK_PATH/$2" "$HOME/Downloads"
   fi
@@ -58,7 +58,7 @@ export -f download_only
 function install_app() {
   local install_root=$(get_install_root "$2")
 
-  echo "Installing $2 in $install_root..."
+  printf "Installing $2 in $install_root...\n"
   local file_extension=$(get_file_extension "$2")
   if [[ "$file_extension" == "prefPane" ]]; then
     sudo cp -pR "$1/$2" "$install_root"
@@ -75,7 +75,7 @@ export -f install_app
 function install_pkg() {
   local install_root=$(get_install_root "$2")
 
-  echo "Installing $2 in $install_root..."
+  printf "Installing $2 in $install_root...\n"
   local package=$(sudo find "$1" -type f -name "*.pkg" -o -name "*.mpkg")
   sudo installer -pkg "$package" -target /
 }
@@ -92,7 +92,7 @@ function install_dmg_app() {
   local install_path=$(get_install_path "$app_name")
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $app_name."
+    printf "Installed: $app_name.\n"
   else
     download_installer $1 $2
     local download_file="$WORK_PATH/$2"
@@ -118,7 +118,7 @@ function install_dmg_pkg() {
   local install_path=$(get_install_path "$app_name")
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $app_name."
+    printf "Installed: $app_name.\n"
   else
     download_installer "$1" "$2"
     local download_file="$WORK_PATH/$2"
@@ -143,12 +143,12 @@ function install_zip_app() {
   local install_path=$(get_install_path "$app_name")
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $app_name."
+    printf "Installed: $app_name.\n"
   else
     download_installer "$1" "$2"
 
     (
-      echo "Preparing..."
+      printf "Preparing...\n"
       cd "$WORK_PATH"
       unzip -q "$2"
     )
@@ -170,12 +170,12 @@ function install_tar_app() {
   local install_path=$(get_install_path "$app_name")
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $app_name."
+    printf "Installed: $app_name.\n"
   else
     download_installer "$1" "$2"
 
     (
-      echo "Preparing..."
+      printf "Preparing...\n"
       cd "$WORK_PATH"
       tar "$3" "$2"
     )
@@ -196,12 +196,12 @@ function install_zip_pkg() {
   local install_path=$(get_install_path "$app_name")
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $app_name."
+    printf "Installed: $app_name.\n"
   else
     download_installer "$1" "$2"
 
     (
-      echo "Preparing..."
+      printf "Preparing...\n"
       cd "$WORK_PATH"
       unzip -q "$2"
     )
@@ -228,9 +228,9 @@ function install_git_app() {
   fi
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $app_name."
+    printf "Installed: $app_name.\n"
   else
-    echo "Installing: $install_path..."
+    printf "Installing: $install_path...\n"
     git clone $options "$repository_url" "$install_path"
     verify_path "$install_path"
   fi
@@ -247,9 +247,9 @@ function install_file() {
   local install_path="$2"
 
   if [[ -e "$install_path" ]]; then
-    echo "Installed: $file_name."
+    printf "Installed: $file_name.\n"
   else
-    echo "Installing: $install_path..."
+    printf "Installing: $install_path...\n"
     download_installer "$file_url" "$file_name"
     mkdir -p $(dirname "$install_path")
     mv "$WORK_PATH/$file_name" "$install_path"

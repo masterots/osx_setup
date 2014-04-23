@@ -7,7 +7,7 @@
 # Parameters:
 # $1 = The file path.
 function get_file_name() {
-  echo "${1##*/}" # Answer file or directory name.
+  printf "${1##*/}" # Answer file or directory name.
 }
 export -f get_file_name
 
@@ -15,7 +15,7 @@ export -f get_file_name
 # Parameters:
 # $1 = The file name.
 function get_file_extension() {
-  echo "${1##*.}" # Answer the suffix (without the dot).
+  printf "${1##*.}" # Answer the suffix (without the dot).
 }
 export -f get_file_extension
 
@@ -35,7 +35,7 @@ function get_install_root() {
   esac
 
   # Return the install path.
-  echo "$install_path"
+  printf "$install_path\n"
 }
 export -f get_install_root
 
@@ -45,13 +45,13 @@ export -f get_install_root
 function get_install_path() {
   local file_name="$1" # Make the parameter easier to read.
   local install_path=$(get_install_root "$file_name")
-  echo "$install_path/$file_name"
+  printf "$install_path/$file_name\n"
 }
 export -f get_install_path
 
 # Cleans work path for temporary processing of installs.
 function clean_work_path() {
-  echo "Cleaning: $WORK_PATH..."
+  printf "Cleaning: $WORK_PATH...\n"
   rm -rf "$WORK_PATH"
 }
 export -f clean_work_path

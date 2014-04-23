@@ -12,14 +12,14 @@ function verify_install() {
   # Display the missing install if not found.
   local install_path=$(get_install_path "$file_name")
   if [[ ! -e "$install_path" ]]; then
-    echo " - Missing: $file_name"
+    printf " - Missing: $file_name\n"
   fi
 }
 export -f verify_install
 
 # Checks for missing installs suffixed by "APP_NAME" as defined in settings.sh.
 function verify_installs() {
-  echo "\nChecking applications..."
+  printf "\nChecking applications...\n"
 
   # Only use environment variables that end with "APP_NAME".
   local file_names=$(set | awk -F "=" '{print $1}' | grep ".*APP_NAME")
@@ -27,10 +27,10 @@ function verify_installs() {
   # For each application name, check to see if the application is installed. Otherwise, skip.
   for name in $file_names; do
     # Evaluate/extract the key (name) value and pass it on for verfication.
-    verify_install "$(eval echo \$$name)"
+    verify_install "$(eval printf \$$name)"
   done
 
-  echo "Install check complete."
+  printf "Install check complete.\n"
 }
 export -f verify_installs
 
@@ -42,14 +42,14 @@ function verify_path() {
 
   # Display the missing path if not found.
   if [[ ! -e "$path" ]]; then
-    echo " - Missing: $path"
+    printf " - Missing: $path\n"
   fi
 }
 export -f verify_path
 
 # Checks for missing extensions suffixed by "EXTENSION_PATH" as defined in settings.sh.
 function verify_extensions() {
-  echo "\nChecking extensions..."
+  printf "\nChecking extensions...\n"
 
   # Only use environment variables that end with "EXTENSION_PATH".
   local extensions=$(set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH")
@@ -57,9 +57,9 @@ function verify_extensions() {
   # For each extension, check to see if the extension is installed. Otherwise, skip.
   for extension in $extensions; do
     # Evaluate/extract the key (extension) value and pass it on for verfication.
-    verify_path "$(eval echo \$$extension)"
+    verify_path "$(eval printf \$$extension)"
   done
 
-  echo "Extension check complete."
+  printf "Extension check complete.\n"
 }
 export -f verify_extensions

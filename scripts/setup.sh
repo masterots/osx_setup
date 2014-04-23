@@ -4,7 +4,7 @@
 # Sets up and launches (if necessary) installed software.
 
 # Bash
-sudo bash -c "echo '/usr/local/bin/bash' >> /etc/shells"
+sudo bash -c "printf '/usr/local/bin/bash' >> /etc/shells"
 
 # Bash Completion
 chsh -s /usr/local/bin/bash

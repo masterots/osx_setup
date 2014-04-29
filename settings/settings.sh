@@ -168,7 +168,7 @@ export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.4.dmg
 export OMNIGRAFFLE_APP_NAME="OmniGraffle Professional 5.app"
 
 export TRANSMIT_APP_URL=https://www.panic.com/transmit/d
-export TRANSMIT_APP_FILE=Transmit%204.4.5.zip
+export TRANSMIT_APP_FILE=Transmit%204.4.6.zip
 export TRANSMIT_APP_NAME=Transmit.app
 
 export ISTATS_APP_URL=http://s3.amazonaws.com/bjango/files/istatmenus4

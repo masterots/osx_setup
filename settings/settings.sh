@@ -255,7 +255,7 @@ export APP_CLEANER_APP_URL=http://www.freemacsoft.net/downloads
 export APP_CLEANER_APP_FILE=AppCleaner_2.2.3.zip
 export APP_CLEANER_APP_NAME=AppCleaner.app
 
-export AIR_DISPLAY_APP_URL=http://avatron.com/downloads
+export AIR_DISPLAY_APP_URL=http://downloads.avatron.com
 export AIR_DISPLAY_APP_FILE=AirDisplayInstaller.zip
 export AIR_DISPLAY_APP_NAME="Air Display Host.app"
 

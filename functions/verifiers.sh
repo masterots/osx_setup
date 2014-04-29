@@ -11,6 +11,7 @@ function verify_install() {
 
   # Display the missing install if not found.
   local install_path=$(get_install_path "$file_name")
+
   if [[ ! -e "$install_path" ]]; then
     printf " - Missing: $file_name\n"
   fi
@@ -26,8 +27,8 @@ function verify_installs() {
 
   # For each application name, check to see if the application is installed. Otherwise, skip.
   for name in $file_names; do
-    # Evaluate/extract the key (name) value and pass it on for verfication.
-    verify_install "$(eval printf \$$name)"
+    # Pass the key value to verfication.
+    verify_install "${!name}"
   done
 
   printf "Install check complete.\n"
@@ -57,7 +58,7 @@ function verify_extensions() {
   # For each extension, check to see if the extension is installed. Otherwise, skip.
   for extension in $extensions; do
     # Evaluate/extract the key (extension) value and pass it on for verfication.
-    verify_path "$(eval printf \$$extension)"
+    verify_path "${!extension}"
   done
 
   printf "Extension check complete.\n"

@@ -155,8 +155,8 @@ export FIREFOX_APP_URL=https://download-installer.cdn.mozilla.net/pub/firefox/re
 export FIREFOX_APP_FILE=Firefox%2029.0.dmg
 export FIREFOX_APP_NAME=Firefox.app
 
-export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/desktop/18.0.1284.68/mac
-export OPERA_APP_FILE=Opera_18.0.1284.68_Setup.dmg
+export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/desktop/20.0.1387.91/mac
+export OPERA_APP_FILE=Opera_20.0.1387.91_Setup.dmg
 export OPERA_APP_NAME=Opera.app
 
 export OMNIFOCUS_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6

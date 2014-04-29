@@ -7,6 +7,9 @@
 # Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
+# Readline
+brew install https://raw.githubusercontent.com/Homebrew/homebrew/0181c8a1633353affefabe257c170edbd6d7c008/Library/Formula/readline.rb
+
 # OpenSSL
 brew install openssl
 brew link openssl --force

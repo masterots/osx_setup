@@ -184,7 +184,7 @@ export SNIPPETS_APP_FILE=Snippets-1.4.3.zip
 export SNIPPETS_APP_NAME=Snippets.app
 
 export CODEKIT_APP_URL=http://incident57.com/codekit/files
-export CODEKIT_APP_FILE=codekit-8403.zip
+export CODEKIT_APP_FILE=codekit-16903.zip
 export CODEKIT_APP_NAME=CodeKit.app
 
 export ACORN_APP_URL=http://flyingmeat.com/download

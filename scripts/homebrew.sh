@@ -6,6 +6,8 @@
 # EXECUTION
 # Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+printf "export PATH=\"/usr/local/bin:$PATH\"\n" >> $HOME/.bash_profile
+exec $SHELL
 
 # Readline
 brew install https://raw.githubusercontent.com/Homebrew/homebrew/0181c8a1633353affefabe257c170edbd6d7c008/Library/Formula/readline.rb

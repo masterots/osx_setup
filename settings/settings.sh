@@ -264,5 +264,5 @@ export HAZEL_APP_FILE=Hazel-3.2.7.dmg
 export HAZEL_APP_NAME=Hazel.prefPane
 
 export TRAILER_APP_URL=http://dev.housetrip.com/trailer
-export TRAILER_APP_FILE=trailer1020.zip
+export TRAILER_APP_FILE=trailer1021.zip
 export TRAILER_APP_NAME=Trailer.app

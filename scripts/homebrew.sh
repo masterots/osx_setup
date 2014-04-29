@@ -104,9 +104,10 @@ brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 brew install rbenv-ctags
-CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $MRI
-CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $RUBINIUS
-CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $JRUBY
+for ruby in ${RUBIES[@]}; do
+  CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $ruby
+done
+
 rbenv global $MRI
 
 # Go

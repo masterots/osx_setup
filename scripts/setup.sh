@@ -10,8 +10,8 @@ sudo bash -c "printf '/usr/local/bin/bash' >> /etc/shells"
 chsh -s /usr/local/bin/bash
 
 # SSHFS
-sudo /bin/cp -rfX /usr/local/Cellar/fuse4x-kext/0.9.2/Library/Extensions/fuse4x.kext /Library/Extensions
-sudo chmod +s /Library/Extensions/fuse4x.kext/Support/load_fuse4x
+sudo /bin/cp -RfX /usr/local/Cellar/osxfuse/2.6.4/Library/Filesystems/osxfusefs.fs /Library/Filesystems
+sudo chmod +s /Library/Filesystems/osxfusefs.fs/Support/load_osxfusefs
 
 # rbenv
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars

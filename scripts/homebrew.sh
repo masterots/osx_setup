@@ -105,9 +105,8 @@ brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 brew install rbenv-ctags
 for ruby in ${RUBIES[@]}; do
-  CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $ruby
+  RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $ruby
 done
-
 rbenv global $MRI
 
 # Go

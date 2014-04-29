@@ -260,7 +260,7 @@ export AIR_DISPLAY_APP_FILE=AirDisplayInstaller.zip
 export AIR_DISPLAY_APP_NAME="Air Display Host.app"
 
 export HAZEL_APP_URL=https://s3.amazonaws.com/Noodlesoft
-export HAZEL_APP_FILE=Hazel-3.2.5.dmg
+export HAZEL_APP_FILE=Hazel-3.2.7.dmg
 export HAZEL_APP_NAME=Hazel.prefPane
 
 export TRAILER_APP_URL=http://dev.housetrip.com/trailer

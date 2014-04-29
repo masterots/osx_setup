@@ -188,7 +188,7 @@ Master Version (unstable):
 
 # Usage
 
-Edit any of the *.sh files in the scripts folder to your liking and then open a terminal window to execute the following command:
+Edit any of the *.sh files in the `scripts` folder to your liking and then open a terminal window to execute the following command:
 
     ./run.sh
 

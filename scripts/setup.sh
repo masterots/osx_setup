@@ -53,7 +53,5 @@ fi
 # Google Chrome Ember Inspector
 (
   cd "$EMBER_INSPECTOR_EXTENSION_PATH"
-  npm install
-  npm install -g grunt-cli
   grunt
 )

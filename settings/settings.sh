@@ -252,7 +252,7 @@ export DOXIE_APP_FILE=Doxie.dmg
 export DOXIE_APP_NAME=Doxie.app
 
 export APP_CLEANER_APP_URL=http://www.freemacsoft.net/downloads
-export APP_CLEANER_APP_FILE=AppCleaner_2.2.1.zip
+export APP_CLEANER_APP_FILE=AppCleaner_2.2.3.zip
 export APP_CLEANER_APP_NAME=AppCleaner.app
 
 export AIR_DISPLAY_APP_URL=http://avatron.com/downloads

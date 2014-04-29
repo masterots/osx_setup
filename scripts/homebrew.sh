@@ -6,8 +6,8 @@
 # EXECUTION
 # Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+export PATH="/usr/local/bin:$PATH"
 printf "export PATH=\"/usr/local/bin:$PATH\"\n" >> $HOME/.bash_profile
-exec $SHELL
 
 # Readline
 brew install https://raw.githubusercontent.com/Homebrew/homebrew/0181c8a1633353affefabe257c170edbd6d7c008/Library/Formula/readline.rb
@@ -109,7 +109,7 @@ brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 brew install rbenv-ctags
-for ruby in ${RUBIES[@]}; do
+for ruby in $MRI $RUBINIUS $JRUBY; do
   RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" rbenv install $ruby
 done
 rbenv global $MRI

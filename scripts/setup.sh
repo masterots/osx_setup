@@ -15,7 +15,7 @@ sudo chmod +s /Library/Filesystems/osxfusefs.fs/Support/load_osxfusefs
 
 # rbenv
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
-for ruby in ${RUBIES[@]}; do
+for ruby in $MRI $RUBINIUS $JRUBY; do
   (
     rbenv shell $ruby
     gem ctags

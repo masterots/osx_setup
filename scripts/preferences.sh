@@ -18,7 +18,7 @@ git clone git://github.com/bkuhlmann/ruby_gem_setup.git
 (
   cd ruby_gem_setup
 
-  for ruby in ${RUBIES[@]}; do
+  for ruby in $MRI $RUBINIUS $JRUBY; do
     rbenv shell $ruby
     ./run.sh i
   done

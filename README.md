@@ -145,6 +145,7 @@ Shell scripts for automated OSX machine setup.
 0. [OSX Software Updates](http://www.apple.com/osx)
 0. [Xcode](https://developer.apple.com/downloads) (with accepted license agreement)
 0. [Command Line Tools for Xcode](https://developer.apple.com/downloads)
+0. [Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 # OSX Mavericks Bootdisk
 

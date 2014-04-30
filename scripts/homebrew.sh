@@ -10,7 +10,7 @@ export PATH="/usr/local/bin:$PATH"
 printf "export PATH=\"/usr/local/bin:$PATH\"\n" >> $HOME/.bash_profile
 
 # Readline
-brew install https://raw.githubusercontent.com/Homebrew/homebrew/0181c8a1633353affefabe257c170edbd6d7c008/Library/Formula/readline.rb
+brew install readline
 
 # OpenSSL
 brew install openssl
@@ -109,7 +109,11 @@ brew install rbenv-binstubs
 brew install rbenv-gem-rehash
 brew install rbenv-default-gems
 brew install rbenv-ctags
-for ruby in $MRI $RUBINIUS $JRUBY; do
+
+# Temporary [patch](https://schwartzmeyer.com/2014/04/26/building-ruby-2-0-0-and-2-1-1-on-os-x) for MRI due to Readline 6.3.3 issue.
+curl https://gist.githubusercontent.com/andschwa/11334511/raw/563d5c2efb869cafb0c65404d12243822bba2817/ruby-2.1.1-readline.patch | rbenv install --patch $MRI
+
+for ruby in $RUBINIUS $JRUBY; do
   rbenv install $ruby
 done
 rbenv global $MRI

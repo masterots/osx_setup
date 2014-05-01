@@ -23,25 +23,25 @@ for ruby in $MRI $RUBINIUS $JRUBY; do
 done
 
 # Nginx
-ln -sfv /usr/local/opt/nginx/*.plist ~/Library/LaunchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+ln -sfv /usr/local/opt/nginx/*.plist $HOME/Library/LaunchAgents
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.nginx.plist
 
 # Memcached
-ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist
+ln -sfv /usr/local/opt/memcached/*.plist $HOME/Library/LaunchAgents
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.memcached.plist
 
 # Redis
-cp /usr/local/Cellar/redis/*/homebrew.mxcl.redis.plist $HOME/Library/LaunchAgents
-launchctl load -w $HOME/Library/LaunchAgents/homebrew.mxcl.redis.plist
+ln -sfv /usr/local/opt/redis/*.plist $HOME/Library/LaunchAgents
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 # PostgreSQL
-cp /usr/local/Cellar/postgresql/*/homebrew.mxcl.postgresql.plist $HOME/Library/LaunchAgents
-launchctl load -w $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+ln -sfv /usr/local/opt/postgresql/*.plist $HOME/Library/LaunchAgents
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 initdb /usr/local/var/postgres -E utf8
 
 # MySQL
-ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
-launchctl load -w $HOME/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+ln -sfv /usr/local/opt/mysql/*.plist $HOME/Library/LaunchAgents
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 mysql_install_db --verbose --user="$(whoami)" --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
 /usr/local/opt/mysql/bin/mysql_secure_installation
 

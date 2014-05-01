@@ -240,10 +240,6 @@ export COLLOQUY_APP_URL=http://colloquy.info/downloads
 export COLLOQUY_APP_FILE=colloquy-latest.zip
 export COLLOQUY_APP_NAME=Colloquy.app
 
-export WEDGE_APP_URL=http://wedge.natestedman.com/release
-export WEDGE_APP_FILE=Wedge.app.zip
-export WEDGE_APP_NAME=Wedge.app
-
 export VIRTUAL_BOX_APP_URL=http://download.virtualbox.org/virtualbox/4.3.10
 export VIRTUAL_BOX_APP_FILE=VirtualBox-4.3.10-93012-OSX.dmg
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app

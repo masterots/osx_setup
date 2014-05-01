@@ -112,7 +112,7 @@ install_git_app "$RUBY_EXTRACT_METHOD_EXTENSION_URL" "$RUBY_EXTRACT_METHOD_EXTEN
 # Sublime Text 2 - Ruby Slim
 install_git_app "$RUBY_SLIM_EXTENSION_URL" "$RUBY_SLIM_EXTENSION_PATH"
 
-# Sublime Text 2 - SASS/SCSS
+# Sublime Text 2 - SCSS
 install_git_app "$SCSS_EXTENSION_URL" "$SCSS_EXTENSION_PATH"
 
 # Sublime Text 2 - CSScomb

@@ -1,3 +1,56 @@
+# v7.0.0
+
+* Fixed Doxie download and install.
+* Fixed Air Display install.
+* Fixed SSHFS setup.
+* Fixed bug with export of RUBIES array since Bash arrays can't be exported at the moment.
+* Fixed configuration options for rbenv VM installs.
+* Fixed readline install and added Ruby MRI 2.1.1 patch for rbenv as a temporary install solution.
+* Fixed MySQL setup steps.
+* Fixed PostgreSQL setup steps.
+* Removed Flint from the App Store section of the README.
+* Removed Grunt install for Ember Inspector Extension setup.
+* Removed the Wedge app.
+* Removed CCMenu from install list and added to App Store section of README instead.
+* Updated to Hazel 3.2.7.
+* Updated to Trailer 1.0.21.
+* Updated to MRI 2.1.1.
+* Updated to Rubinius 2.2.6.
+* Updated to JRuby 1.7.12.
+* Updated to Alfred 2.2.243b.
+* Updated to VLC 2.1.4.
+* Updated to Cloak 2.0.3.
+* Updated to Dropbox 2.6.31.
+* Updated to iStat Menus 4.21.
+* Updated to CheatSheet 1.2.2.
+* Updated to Firefox 29.0.
+* Updated to Opera 20.0.1387.91.
+* Updated to Transmit 4.4.6.
+* Updated to CodeKit 16903.
+* Updated to OpenOffice 4.1.0.
+* Updated to VirtualBox 4.3.10-93012.
+* Updated to AppCleaner 2.2.3.
+* Updated Chrome setup steps for README.
+* Added the [rbenv-ctags](http://braumeister.org/formula/rbenv-ctags) Homebrew install.
+* Added Paw to the README App Store list.
+* Added WiFi Explorer to the App Store section of the README.
+* Added the [Sublime Text - Gutter Color](https://github.com/ggordan/GutterColor) extension.
+* Added [FLAC](https://www.xiph.org/flac) homebrew install.
+* Added retry (3 attempts) and retry delay (5 seconds) for all installer downloads.
+* Added the [Sublime Text 2 Table Editor](https://github.com/vkocubinsky/SublimeTableEditor) extension.
+* Added the [Sublime Text 2 Ruby Slim Extension](https://github.com/slim-template/ruby-slim.tmbundle).
+* Added the [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html) Homebrew install.
+* Added Homebrew bin folder to PATH for Homebrew install.
+* Added the JDK as a requirement to the README.
+* Added the Sublime Text - [Ruby Extract Method](https://github.com/pashamur/ruby-extract-method) extension.
+* Refactored scripts to enable better error checking.
+* Refactored scripts to explicitly define local variables where appropriate.
+* Refactored scripts to use double backets [[...]] instead of single brackets [...] for if statements.
+* Refactored scripts to use `$()` instead of backticks `\`\`` for command substitution.
+* Refactored scripts to use printf instead of echo.
+* Refactored Ruby VM installs to use  array as defined in settings.sh.
+* Refactored setup.sh steps (mostly syntax uniformity).
+
 # v6.0.0
 
 * Fixed bug with Air Display install check.

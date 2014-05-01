@@ -6,7 +6,8 @@ Shell scripts for automated OSX machine setup.
 
 * Configures default OSX settings.
 * Downloads, installs, and configures [Homebrew](http://brew.sh) command line software:
-    * [openssl](https://openssl.org)
+    * [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
+    * [OpenSSL](https://openssl.org)
     * [Bash](https://www.gnu.org/software/bash)
     * [Bash Completion](http://bash-completion.alioth.debian.org)
     * [SSHFS](http://fuse.sourceforge.net/sshfs.html)
@@ -31,6 +32,7 @@ Shell scripts for automated OSX machine setup.
     * [Namebench](https://code.google.com/p/namebench)
     * [ImageMagick](http://www.imagemagick.org)
     * [Graphviz](http://www.graphviz.org)
+    * [FLAC](https://www.xiph.org/flac)
     * [FFmpeg](http://ffmpeg.org)
     * [Node.js](http://nodejs.org)
     * [Phantom.js](http://phantomjs.org)
@@ -90,7 +92,6 @@ Shell scripts for automated OSX machine setup.
     * [Cloak](https://www.getcloak.com)
     * [Screenhero](http://screenhero.com)
     * [Colloquy](http://colloquy.info)
-    * [Wedge](http://wedge.natestedman.com)
     * [VirtualBox](https://www.virtualbox.org)
     * [Doxie](http://www.getdoxie.com)
     * [App Cleaner](http://www.freemacsoft.net/appcleaner)
@@ -120,6 +121,7 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 Change Quotes](https://github.com/colinta/SublimeChangeQuotes)
     * [Sublime Text 2 Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
     * [Sublime Text 2 Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
+    * [Sublime Text 2 Gutter Color](https://github.com/ggordan/GutterColor)
     * [Sublime Text 2 Color Highlighter](https://github.com/Monnoroch/ColorHighlighter)
     * [Sublime Text 2 Alignment](https://github.com/wbond/sublime_alignment)
     * [Sublime Text 2 Wrap+](https://github.com/ehuss/Sublime-Wrap-Plus)
@@ -130,11 +132,14 @@ Shell scripts for automated OSX machine setup.
     * [Sublime Text 2 Emmet LiveStyle](http://livestyle.emmet.io)
     * [Sublime Text 2 Web Inspector](http://sokolovstas.github.com/SublimeWebInspector)
     * [Sublime Text 2 Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
+    * [Sublime Text 2 Ruby Extract Method](https://github.com/pashamur/ruby-extract-method)
+    * [Sublime Text 2 Ruby Slim Extension](https://github.com/slim-template/ruby-slim.tmbundle)
     * [Sublime Text 2 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
     * [Sublime Text 2 CSScomb](https://github.com/csscomb/csscomb-for-sublime)
     * [Sublime Text 2 Coffee Script](https://github.com/Xavura/CoffeeScript-Sublime-Plugin)
     * [Sublime Text 2 HTML Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
     * [Sublime Text 2 DashDoc](https://github.com/farcaller/DashDoc)
+    * [Sublime Text 2 Table Editor](https://github.com/vkocubinsky/SublimeTableEditor)
     * [Google Chrome Rails Panel](https://github.com/dejan/rails_panel)
     * [Google Chrome Ember Inspector](https://github.com/tildeio/ember-extension)
     * [Google Chrome Chrome Logger](https://github.com/ccampbell/chromelogger)
@@ -180,7 +185,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v6.0.0
+    git checkout v7.0.0
 
 Master Version (unstable):
 
@@ -305,9 +310,6 @@ The following is a checklist of additional steps worth completing after the scri
 * Configure iCal.
 * Configure iTunes.
 * Configure Google Chrome:
-    * Open Preferences:
-        * Scroll to the bottom and click on "Show advanced settings".
-        * Check "Check for server certificate revocation".
     * Open the Flags tab (i.e. chrome://flags)
         * Enable "Experimental Extension APIs".
         * Enable "Developer Tools Experiments".

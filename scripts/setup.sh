@@ -41,8 +41,8 @@ initdb /usr/local/var/postgres -E utf8
 
 # MySQL
 ln -sfv /usr/local/opt/mysql/*.plist $HOME/Library/LaunchAgents
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 mysql_install_db --verbose --user="$(whoami)" --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 /usr/local/opt/mysql/bin/mysql_secure_installation
 
 # Sublime Text

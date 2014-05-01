@@ -36,8 +36,8 @@ launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 # PostgreSQL
 ln -sfv /usr/local/opt/postgresql/*.plist $HOME/Library/LaunchAgents
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 initdb /usr/local/var/postgres -E utf8
+launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 # MySQL
 ln -sfv /usr/local/opt/mysql/*.plist $HOME/Library/LaunchAgents

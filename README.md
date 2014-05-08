@@ -323,6 +323,10 @@ The following is a checklist of additional steps worth completing after the scri
         * Click the General tab.
             * Enable "Source maps".
             * Enable "Auto-reload CSS upon SASS save".
+    * Open the Settings tab (i.e. chrome:://settings)
+        * Passwords and Forms
+            * Disable "Enable Autofill to fill out web forms in a single click".
+            * Disable "Offer to save your web passwords".
 * Configure previously installed applications.
 
 # Resources

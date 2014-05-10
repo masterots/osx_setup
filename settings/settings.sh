@@ -126,7 +126,7 @@ export SUBLIME_URL_HANDLER_APP_FILE=SublHandler.zip
 export SUBLIME_URL_HANDLER_APP_NAME="SublHandler.app"
 
 export ALFRED_APP_URL=http://cachefly.alfredapp.com
-export ALFRED_APP_FILE=Alfred_2.2_243b.zip
+export ALFRED_APP_FILE=Alfred_2.3_264.zip
 export ALFRED_APP_NAME="Alfred 2.app"
 
 export TEXTEXPANDER_APP_URL=http://cdn.smilesoftware.com

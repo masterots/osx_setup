@@ -160,10 +160,6 @@ export OPERA_APP_URL=http://get.geo.opera.com/pub/opera/desktop/20.0.1387.91/mac
 export OPERA_APP_FILE=Opera_20.0.1387.91_Setup.dmg
 export OPERA_APP_NAME=Opera.app
 
-export OMNIFOCUS_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
-export OMNIFOCUS_APP_FILE=OmniFocus-1.10.6.dmg
-export OMNIFOCUS_APP_NAME=OmniFocus.app
-
 export OMNIGRAFFLE_APP_URL=http://downloads2.omnigroup.com/software/MacOSX/10.6
 export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.4.dmg
 export OMNIGRAFFLE_APP_NAME="OmniGraffle Professional 5.app"

@@ -26,12 +26,12 @@ export -f unmount_image
 # $1 = The remote URL.
 # $2 = The file name.
 function download_installer() {
-  printf "Downloading $1/$2...\n"
+  printf "Downloading $1...\n"
   clean_work_path
   mkdir $WORK_PATH
   (
     cd $WORK_PATH
-    curl --location --remote-name --retry 3 --retry-delay 5 "$1/$2"
+    curl --location --retry 3 --retry-delay 5 "$1" >> "$2"
   )
 }
 export -f download_installer
@@ -44,7 +44,7 @@ function download_only() {
   if [[ -e "$HOME/Downloads/$2" ]]; then
     printf "Downloaded: $2.\n"
   else
-    printf "Downloading $1/$2...\n"
+    printf "Downloading $1...\n"
     download_installer "$1" "$2"
     mv "$WORK_PATH/$2" "$HOME/Downloads"
   fi
@@ -94,7 +94,7 @@ function install_dmg_app() {
   if [[ -e "$install_path" ]]; then
     printf "Installed: $app_name.\n"
   else
-    download_installer $1 $2
+    download_installer "$1" "$2"
     local download_file="$WORK_PATH/$2"
 
     local mount_point="/Volumes/$3"

@@ -16,6 +16,9 @@ install_zip_app "$KNOX_APP_URL" "$KNOX_APP_FILE" "$KNOX_APP_NAME"
 # iTerm
 install_zip_app "$ITERM_APP_URL" "$ITERM_APP_FILE" "$ITERM_APP_NAME"
 
+# Atom
+install_zip_app "$ATOM_APP_URL" "$ATOM_APP_FILE" "$ATOM_APP_NAME"
+
 # Sublime Text 2
 install_dmg_app "$SUBLIME_TEXT_APP_URL" "$SUBLIME_TEXT_APP_FILE" "Sublime Text 2" "$SUBLIME_TEXT_APP_NAME"
 

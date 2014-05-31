@@ -53,6 +53,10 @@ export VIM_TEXT_OBJECT_RUBY_BLOCK_EXTENSION_URL="git://github.com/nelstrom/vim-t
 export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 
+export ATOM_APP_NAME="Atom.app"
+export ATOM_APP_FILE=atom-mac.zip
+export ATOM_APP_URL="https://atom.io/download/mac"
+
 export SUBLIME_TEXT_APP_NAME="Sublime Text 2.app"
 export SUBLIME_TEXT_APP_FILE=Sublime%20Text%202.0.2.dmg
 export SUBLIME_TEXT_APP_URL="http://c758482.r82.cf2.rackcdn.com/$SUBLIME_TEXT_APP_FILE"

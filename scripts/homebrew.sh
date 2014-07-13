@@ -117,6 +117,10 @@ rbenv global $MRI
 # Go
 brew install go
 
+# Peco
+brew tap peco/peco
+brew install peco
+
 # Nginx
 brew install nginx
 

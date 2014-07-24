@@ -323,8 +323,8 @@ The following is a checklist of additional steps worth completing after the scri
             * Enable "Support for SASS".
             * Enable "Snippets support".
         * Click the General tab.
-            * Enable "Source maps".
-            * Enable "Auto-reload CSS upon SASS save".
+            * Enable "CSS Source maps".
+                * Enable "Auto-reload generated CSS".
     * Open the Settings tab (i.e. chrome:://settings)
         * Passwords and Forms
             * Disable "Enable Autofill to fill out web forms in a single click".

@@ -176,7 +176,7 @@ export TRANSMIT_APP_FILE=Transmit%204.4.6.zip
 export TRANSMIT_APP_URL="https://www.panic.com/transmit/d/$TRANSMIT_APP_FILE"
 
 export ISTATS_APP_NAME="iStat Menus.app"
-export ISTATS_APP_FILE=istatmenus4.21.zip
+export ISTATS_APP_FILE=istatmenus4.22.zip
 export ISTATS_APP_URL="http://s3.amazonaws.com/bjango/files/istatmenus4/$ISTATS_APP_FILE"
 
 export BARTENDER_APP_NAME=Bartender.app

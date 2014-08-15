@@ -250,8 +250,8 @@ export COLLOQUY_APP_FILE=colloquy-latest.zip
 export COLLOQUY_APP_URL="http://colloquy.info/downloads/$COLLOQUY_APP_FILE"
 
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
-export VIRTUAL_BOX_APP_FILE=VirtualBox-4.3.10-93012-OSX.dmg
-export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.10/$VIRTUAL_BOX_APP_FILE"
+export VIRTUAL_BOX_APP_FILE=VirtualBox-4.3.14-95030-OSX.dmg
+export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.14/$VIRTUAL_BOX_APP_FILE"
 
 export DOXIE_APP_NAME=Doxie.app
 export DOXIE_APP_FILE=Doxie_2_6.dmg

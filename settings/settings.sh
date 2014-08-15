@@ -206,8 +206,8 @@ export IMAGE_OPTIM_APP_FILE=ImageOptim.tbz2
 export IMAGE_OPTIM_APP_URL="http://imageoptim.com/$IMAGE_OPTIM_APP_FILE"
 
 export VLC_APP_NAME=VLC.app
-export VLC_APP_FILE=vlc-2.1.4.dmg
-export VLC_APP_URL="https://get.videolan.org/vlc/2.1.4/macosx/$VLC_APP_FILE"
+export VLC_APP_FILE=vlc-2.1.5.dmg
+export VLC_APP_URL="https://get.videolan.org/vlc/2.1.5/macosx/$VLC_APP_FILE"
 
 export RECORD_IT_APP_NAME=RecordIt.app
 export RECORD_IT_APP_FILE=recordit.dmg

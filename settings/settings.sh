@@ -270,5 +270,5 @@ export HAZEL_APP_FILE=Hazel-3.2.7.dmg
 export HAZEL_APP_URL="https://s3.amazonaws.com/Noodlesoft/$HAZEL_APP_FILE"
 
 export TRAILER_APP_NAME=Trailer.app
-export TRAILER_APP_FILE=trailer1034.zip
+export TRAILER_APP_FILE=trailer1036.zip
 export TRAILER_APP_URL="http://dev.housetrip.com/trailer/$TRAILER_APP_FILE"

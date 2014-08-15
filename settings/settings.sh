@@ -135,7 +135,7 @@ export SUBLIME_URL_HANDLER_APP_FILE=SublHandler.zip
 export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-handler/$SUBLIME_URL_HANDLER_APP_FILE"
 
 export ALFRED_APP_NAME="Alfred 2.app"
-export ALFRED_APP_FILE=Alfred_2.3_264.zip
+export ALFRED_APP_FILE=Alfred_2.4_279.zip
 export ALFRED_APP_URL="http://cachefly.alfredapp.com/$ALFRED_APP_FILE"
 
 export TEXTEXPANDER_APP_NAME=TextExpander.app

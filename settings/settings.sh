@@ -14,7 +14,7 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 
 # Ruby
 export MRI=2.1.2
-export RUBINIUS=rbx-2.2.6
+export RUBINIUS=rbx-2.2.10
 export JRUBY=jruby-1.7.12
 
 # Applications
@@ -136,7 +136,7 @@ export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-hand
 
 export ALFRED_APP_NAME="Alfred 2.app"
 export ALFRED_APP_FILE=Alfred_2.4_279.zip
-export ALFRED_APP_URL="http://cachefly.alfredapp.com/$ALFRED_APP_FILE"
+≤export ALFRED_APP_URL="http://cachefly.alfredapp.com/$ALFRED_APP_FILE"
 
 export TEXTEXPANDER_APP_NAME=TextExpander.app
 export TEXTEXPANDER_APP_FILE=TextExpander_4.2.1.zip

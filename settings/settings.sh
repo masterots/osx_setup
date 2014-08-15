@@ -136,10 +136,10 @@ export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-hand
 
 export ALFRED_APP_NAME="Alfred 2.app"
 export ALFRED_APP_FILE=Alfred_2.4_279.zip
-≤export ALFRED_APP_URL="http://cachefly.alfredapp.com/$ALFRED_APP_FILE"
+export ALFRED_APP_URL="http://cachefly.alfredapp.com/$ALFRED_APP_FILE"
 
 export TEXTEXPANDER_APP_NAME=TextExpander.app
-export TEXTEXPANDER_APP_FILE=TextExpander_4.2.1.zip
+export TEXTEXPANDER_APP_FILE=TextExpander_4.3.2.zip
 export TEXTEXPANDER_APP_URL="http://cdn.smilesoftware.com/$TEXTEXPANDER_APP_FILE"
 
 export PATH_FINDER_APP_NAME="Path Finder.app"

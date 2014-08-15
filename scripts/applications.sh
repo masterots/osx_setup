@@ -74,7 +74,7 @@ install_dmg_app "$DOUBLETAKE_APP_URL" "$DOUBLETAKE_APP_FILE" "DoubleTake" "$DOUB
 install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_FILE" "-xjf" "$IMAGE_OPTIM_APP_NAME"
 
 # VLC
-install_dmg_app "$VLC_APP_URL" "$VLC_APP_FILE" "vlc-2.1.4" "$VLC_APP_NAME"
+install_dmg_app "$VLC_APP_URL" "$VLC_APP_FILE" "vlc-2.1.5" "$VLC_APP_NAME"
 
 # RecordIt
 install_zip_app "$RECORD_IT_APP_URL" "$RECORD_IT_APP_FILE" "$RECORD_IT_APP_NAME"

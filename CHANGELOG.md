@@ -1,4 +1,4 @@
-# v7.0.0
+# v7.0.0 (2014-05-01)
 
 * Fixed Doxie download and install.
 * Fixed Air Display install.
@@ -51,7 +51,7 @@
 * Refactored Ruby VM installs to use  array as defined in settings.sh.
 * Refactored setup.sh steps (mostly syntax uniformity).
 
-# v6.0.0
+# v6.0.0 (2014-02-17)
 
 * Fixed bug with Air Display install check.
 * Fixed deprecation warning regarding RUBY_HEAP_MIN_SLOTS.
@@ -92,14 +92,14 @@
 * Added NPM Setup project install to preferences script.
 * Added git clone options support for git installs.
 
-# v5.1.0
+# v5.1.0 (2013-11-27)
 
 * Fixed broken Homebrew links (site moved with no redirection support).
 * Updated to Ruby v2.0.0-p353.
 * Updated Hazel to 3.2.2.
 * Added the [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard) Homebrew install.
 
-# v5.0.0
+# v5.0.0 (2013-11-19)
 
 * Fixed bug with Bash setup script.
 * Fixed bug where software setup was not performed as part of the install process.
@@ -182,7 +182,7 @@
 * Added default for auto-restart of system if it freezed.
 * Added OSX Mavericks reinstallation notes to README.
 
-# v4.0.0
+# v4.0.0 (2013-08-21)
 
 * Fixed bug with wrong disk image name for VLC DMG mount.
 * Fixed typo when checking applications to say 'applications' instead of 'installs'.
@@ -229,7 +229,7 @@
 * Switched to brew install for rbenv-binstubs.
 * Updated option for full install of default Ruby gems.
 
-# v3.0.0
+# v3.0.0 (2013-05-19)
 
 * Fixed README typo with install.sh (is now run.sh).
 * Upgraded to Ruby 2.0.0-p195.
@@ -268,7 +268,7 @@
 * Moved application setup instructions to the setup.sh script.
 * Updated script descriptions to match options prompt.
 
-# v2.0.0
+# v2.0.0 (2013-04-20)
 
 * Fixed Eye-Fi install.
 * Fixed link to Sublime Text - Bracket Highlighter in README.
@@ -286,7 +286,7 @@
 * Removed the Caffeine install from the App Store list (using the OSX caffeinate CLI tool now).
 * Refactored all scripts in the functions folder.
 
-# v1.3.0
+# v1.3.0 (2013-04-14)
 
 * Fixed install issues with Xiki extension.
 * Upgraded to Alfred 2.0.2_178.
@@ -311,7 +311,7 @@
 * Added Mouse Pointer to the README. Thanks Eric.
 * Fixed Eye-Fi install to download and install the package from the DMG.
 
-# v1.2.0
+# v1.2.0 (2013-03-31)
 
 * Added application extension check and installation support.
 * Removed the Code Climate badge from the README.
@@ -328,7 +328,7 @@
 * Clarified the install options documentation.
 * Added additional project documentation for scripts, functions, and README.
 
-# v1.1.0
+# v1.1.0 (2013-03-17)
 
 * Upgraded to Firefox 19.0.
 * Upgraded to Ruby 2.0.0-p0.
@@ -347,7 +347,7 @@
 * Installs Redis before the DBs.
 * Added Twitter to the Apple App Store list.
 
-# v1.0.0
+# v1.0.0 (2013-02-19)
 
 * Fixed system label and name settings.
 * Fixed the Homebrew install.
@@ -426,7 +426,7 @@
 * Removed Growl and Firefox (setup) from README.
 * Removed the GitBox mention from the README.
 
-# v0.4.0
+# v0.4.0 (2013-01-27)
 
 * Upgraded to Sublime Text 2.0.1.
 * Upgraded to iStat Menus 3.24.
@@ -460,7 +460,7 @@
 * Modified the dotfiles installer to use shell script instead of ruby script.
 * Moved default install after software installation.
 
-# v0.3.0
+# v0.3.0 (2012-07-04)
 
 * Upgraded the OmniFocus installer.
 * Upgraded the Firefox installer.
@@ -475,7 +475,7 @@
 * Added AquaPath app to README.
 * Cleaned up the README.
 
-# v0.2.0
+# v0.2.0 (2012-05-20)
 
 * Fixed PostgreSQL install steps.
 * Fixed Redis install steps.
@@ -504,6 +504,6 @@
 * Added install instructions for software that isn't in the App Store to the README.
 * Added more OSX defaults and credited Mathias Bynens for his work in the README.
 
-# v0.1.0
+# v0.1.0 (2012-03-31)
 
 * Initial version.

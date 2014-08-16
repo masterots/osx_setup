@@ -57,6 +57,9 @@ export ATOM_APP_NAME="Atom.app"
 export ATOM_APP_FILE=atom-mac.zip
 export ATOM_APP_URL="https://atom.io/download/mac"
 
+export ATOM_EXTENSION_ROOT="$HOME/.atom/packages"
+export ATOM_PROJECT_MANAGER_EXTENSION_PATH="$ATOM_EXTENSION_ROOT/project-manager"
+
 export SUBLIME_TEXT_APP_NAME="Sublime Text 2.app"
 export SUBLIME_TEXT_APP_FILE=Sublime%20Text%202.0.2.dmg
 export SUBLIME_TEXT_APP_URL="http://c758482.r82.cf2.rackcdn.com/$SUBLIME_TEXT_APP_FILE"

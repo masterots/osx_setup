@@ -257,3 +257,19 @@ function install_file() {
   fi
 }
 export -f install_file
+
+# Installs Atom extensions.
+# Parameters:
+# $1 = Install path.
+function install_atom_extension() {
+  local install_path="$1"
+  local extension=$(basename "$install_path")
+
+  if [[ -e "$install_path" ]]; then
+    printf "Installed: $extension.\n"
+  else
+    apm install "$extension"
+    verify_path "$install_path"
+  fi
+}
+export -f install_atom_extension

@@ -43,6 +43,9 @@ install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 # Atom - Git+
 install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 
+# Atom - Vim Mode
+install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
+
 # Sublime Text 2 - Git
 install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"
 

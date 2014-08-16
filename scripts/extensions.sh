@@ -40,6 +40,9 @@ install_git_app "$VIM_RAILS_EXTENSION_URL" "$VIM_RAILS_EXTENSION_PATH"
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 
+# Atom - Git+
+install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
+
 # Sublime Text 2 - Git
 install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"
 

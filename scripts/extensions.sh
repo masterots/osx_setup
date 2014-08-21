@@ -55,6 +55,12 @@ install_atom_extension "$ATOM_DASH_EXTENSION_PATH"
 # Atom - Easy Motion
 install_atom_extension "$ATOM_EASY_MOTION_EXTENSION_PATH"
 
+# Atom - Emmet
+install_atom_extension "$ATOM_EMMET_EXTENSION_PATH"
+
+# Atom - Git Plus
+install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

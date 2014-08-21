@@ -40,6 +40,9 @@ install_git_app "$VIM_RAILS_EXTENSION_URL" "$VIM_RAILS_EXTENSION_PATH"
 # Atom - CTags
 install_atom_extension "$ATOM_CTAGS_EXTENSION_PATH"
 
+# Atom - Autocomplete Paths
+install_atom_extension "$ATOM_AUTOCOMPLETE_PATHS_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

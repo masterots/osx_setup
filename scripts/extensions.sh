@@ -46,6 +46,9 @@ install_atom_extension "$ATOM_AUTOCOMPLETE_PATHS_EXTENSION_PATH"
 # Atom - Autocomplete Plus
 install_atom_extension "$ATOM_AUTOCOMPLETE_PLUS_EXTENSION_PATH"
 
+# Atom - Color Picker
+install_atom_extension "$ATOM_COLOR_PICKER_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

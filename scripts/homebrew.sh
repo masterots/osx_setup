@@ -22,6 +22,9 @@ brew install bash
 # Bash Completion
 brew install bash-completion
 
+# ShellCheck
+brew install shellcheck
+
 # SSHFS
 brew install sshfs
 

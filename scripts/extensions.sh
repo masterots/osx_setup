@@ -61,11 +61,11 @@ install_atom_extension "$ATOM_EMMET_EXTENSION_PATH"
 # Atom - Git Plus
 install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 
+# Atom - IPlastic Syntax
+install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
-
-# Atom - Git+
-install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 
 # Atom - Vim Mode
 install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"

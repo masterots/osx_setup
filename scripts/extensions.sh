@@ -82,6 +82,9 @@ install_atom_extension "$ATOM_LINTER_RUBY_EXTENSION_PATH"
 # Atom - Linter (SCSS)
 install_atom_extension "$ATOM_LINTER_SCSS_EXTENSION_PATH"
 
+# Atom - Linter (ShellCheck)
+install_atom_extension "$ATOM_LINTER_SHELL_CHECK_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

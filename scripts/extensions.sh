@@ -118,6 +118,9 @@ install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
 # Atom - Wrap Lines
 install_atom_extension "$ATOM_WRAP_LINES_EXTENSION_PATH"
 
+# Atom - Yosemite Unity UI
+install_atom_extension "$ATOM_YOSEMITE_UNITY_UI_EXTENSION_PATH"
+
 # Sublime Text 2 - Git
 install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"
 

@@ -109,6 +109,9 @@ install_atom_extension "$ATOM_TAB_MOVE_KEY_EXTENSION_PATH"
 # Atom - Toggle Quotes
 install_atom_extension "$ATOM_TOGGLE_QUOTES_EXTENSION_PATH"
 
+# Atom - Trailing Spaces
+install_atom_extension "$ATOM_TRAILING_SPACES_EXTENSION_PATH"
+
 # Atom - Vim Mode
 install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
 

@@ -76,6 +76,9 @@ install_atom_extension "$ATOM_LINTER_JSHINT_EXTENSION_PATH"
 # Atom - Linter (Rubocop)
 install_atom_extension "$ATOM_LINTER_RUBOCOP_EXTENSION_PATH"
 
+# Atom - Linter (Ruby)
+install_atom_extension "$ATOM_LINTER_RUBY_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

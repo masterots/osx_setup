@@ -91,6 +91,9 @@ install_atom_extension "$ATOM_LOCAL_HISTORY_EXTENSION_PATH"
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 
+# Atom - Rails RSpec
+install_atom_extension "$ATOM_RAILS_RSPEC_EXTENSION_PATH"
+
 # Atom - Vim Mode
 install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
 

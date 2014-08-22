@@ -62,7 +62,10 @@ install_atom_extension "$ATOM_EMMET_EXTENSION_PATH"
 install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 
 # Atom - IPlastic Syntax
-install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
+install_atom_extension "$ATOM_IPLASTIC_SYNTAX_EXTENSION_PATH"
+
+# Atom - Linter
+install_atom_extension "$ATOM_LINTER_EXTENSION_PATH"
 
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"

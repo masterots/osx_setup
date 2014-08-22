@@ -94,6 +94,9 @@ install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 # Atom - Rails RSpec
 install_atom_extension "$ATOM_RAILS_RSPEC_EXTENSION_PATH"
 
+# Atom - Reveal Active File Context
+install_atom_extension "$ATOM_REVEAL_ACTIVE_FILE_CONTEXT_EXTENSION_PATH"
+
 # Atom - Vim Mode
 install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
 

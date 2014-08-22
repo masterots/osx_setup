@@ -97,11 +97,14 @@ install_atom_extension "$ATOM_RAILS_RSPEC_EXTENSION_PATH"
 # Atom - Reveal Active File Context
 install_atom_extension "$ATOM_REVEAL_ACTIVE_FILE_CONTEXT_EXTENSION_PATH"
 
-# Atom - Vim Mode
-install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
+# Atom - Ruby Slim
+install_atom_extension "$ATOM_RUBY_SLIM_EXTENSION_PATH"
 
 # Atom - Ruby Test
 install_atom_extension "$ATOM_RUBY_TEST_EXTENSION_PATH"
+
+# Atom - Vim Mode
+install_atom_extension "$ATOM_VIM_MODE_EXTENSION_PATH"
 
 # Sublime Text 2 - Git
 install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"

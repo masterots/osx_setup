@@ -67,6 +67,9 @@ install_atom_extension "$ATOM_IPLASTIC_SYNTAX_EXTENSION_PATH"
 # Atom - Linter
 install_atom_extension "$ATOM_LINTER_EXTENSION_PATH"
 
+# Atom - Linter (CSS)
+install_atom_extension "$ATOM_LINTER_CSS_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

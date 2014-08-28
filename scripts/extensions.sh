@@ -61,6 +61,9 @@ install_atom_extension "$ATOM_EMMET_EXTENSION_PATH"
 # Atom - Git Plus
 install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 
+# Atom - Inline Autocomplete
+install_atom_extension "$ATOM_INLINE_AUTOCOMPLETE_EXTENSION_PATH"
+
 # Atom - IPlastic Syntax
 install_atom_extension "$ATOM_IPLASTIC_SYNTAX_EXTENSION_PATH"
 

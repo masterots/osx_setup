@@ -91,6 +91,9 @@ install_atom_extension "$ATOM_LOCAL_HISTORY_EXTENSION_PATH"
 # Atom - Open Last Project
 install_atom_extension "$ATOM_OPEN_LAST_PROJECT_EXTENSION_PATH"
 
+# Atom - Pain Split
+install_atom_extension "$ATOM_PAIN_SPLIT_EXTENSION_PATH"
+
 # Atom - Project Manager
 install_atom_extension "$ATOM_PROJECT_MANAGER_EXTENSION_PATH"
 

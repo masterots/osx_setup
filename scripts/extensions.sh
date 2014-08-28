@@ -109,6 +109,9 @@ install_atom_extension "$ATOM_RUBY_TEST_EXTENSION_PATH"
 # Atom - Tab Move Key
 install_atom_extension "$ATOM_TAB_MOVE_KEY_EXTENSION_PATH"
 
+# Atom - TODO Show
+install_atom_extension "$ATOM_TODO_SHOW_EXTENSION_PATH"
+
 # Atom - Toggle Quotes
 install_atom_extension "$ATOM_TOGGLE_QUOTES_EXTENSION_PATH"
 

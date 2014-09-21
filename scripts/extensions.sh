@@ -61,6 +61,9 @@ install_atom_extension "$ATOM_EMMET_EXTENSION_PATH"
 # Atom - File Icons
 install_atom_extension "$ATOM_FILE_ICONS_EXTENSION_PATH"
 
+# Atom - Git History
+install_atom_extension "$ATOM_GIT_HISTORY_EXTENSION_PATH"
+
 # Atom - Git Plus
 install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 

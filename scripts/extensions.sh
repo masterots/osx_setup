@@ -76,6 +76,9 @@ install_atom_extension "$ATOM_INLINE_AUTOCOMPLETE_EXTENSION_PATH"
 # Atom - IPlastic Syntax
 install_atom_extension "$ATOM_IPLASTIC_SYNTAX_EXTENSION_PATH"
 
+# Atom - Key Peek
+install_atom_extension "$ATOM_KEY_PEEK_EXTENSION_PATH"
+
 # Atom - Linter
 install_atom_extension "$ATOM_LINTER_EXTENSION_PATH"
 

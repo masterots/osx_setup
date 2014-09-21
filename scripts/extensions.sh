@@ -64,6 +64,9 @@ install_atom_extension "$ATOM_FILE_ICONS_EXTENSION_PATH"
 # Atom - Git Plus
 install_atom_extension "$ATOM_GIT_PLUS_EXTENSION_PATH"
 
+# Atom - Git Tab Status
+install_atom_extension "$ATOM_GIT_TAB_STATUS_EXTENSION_PATH"
+
 # Atom - Inline Autocomplete
 install_atom_extension "$ATOM_INLINE_AUTOCOMPLETE_EXTENSION_PATH"
 

@@ -213,7 +213,7 @@ export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.4.dmg
 export OMNIGRAFFLE_APP_URL="http://downloads2.omnigroup.com/software/MacOSX/10.6/$OMNIGRAFFLE_APP_FILE"
 
 export TRANSMIT_APP_NAME=Transmit.app
-export TRANSMIT_APP_FILE=Transmit%204.4.6.zip
+export TRANSMIT_APP_FILE=Transmit%204.4.8.zip
 export TRANSMIT_APP_URL="https://www.panic.com/transmit/d/$TRANSMIT_APP_FILE"
 
 export ISTATS_APP_NAME="iStat Menus.app"

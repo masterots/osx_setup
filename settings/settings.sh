@@ -248,10 +248,6 @@ export VLC_APP_NAME=VLC.app
 export VLC_APP_FILE=vlc-2.1.5.dmg
 export VLC_APP_URL="https://get.videolan.org/vlc/2.1.5/macosx/$VLC_APP_FILE"
 
-export RECORD_IT_APP_NAME=RecordIt.app
-export RECORD_IT_APP_FILE=recordit.dmg
-export RECORD_IT_APP_URL="http://recordit.co/latest"
-
 export PG_ADMIN_APP_NAME=pgAdmin3.app
 export PG_ADMIN_APP_FILE=pgadmin3-1.18.1.dmg
 export PG_ADMIN_APP_URL="http://ftp.postgresql.org/pub/pgadmin3/release/v1.18.1/osx/$PG_ADMIN_APP_FILE"

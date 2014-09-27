@@ -292,6 +292,10 @@ export DOXIE_APP_NAME=Doxie.app
 export DOXIE_APP_FILE=doxie.dmg
 export DOXIE_APP_URL="http://www.getdoxie.com/resources/files/download_current_mac.php"
 
+export SONOS_APP_NAME=Sonos.app
+export SONOS_APP_FILE=sonos.dmg
+export SONOS_APP_URL="http://www.sonos.com/redir/controller_software_mac"
+
 export APP_CLEANER_APP_NAME=AppCleaner.app
 export APP_CLEANER_APP_FILE=AppCleaner_2.2.3.zip
 export APP_CLEANER_APP_URL="http://www.freemacsoft.net/downloads/$APP_CLEANER_APP_FILE"

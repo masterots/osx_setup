@@ -109,6 +109,9 @@ install_dmg_pkg "$VIRTUAL_BOX_APP_URL" "$VIRTUAL_BOX_APP_FILE" "VirtualBox" "$VI
 # Doxie
 install_dmg_app "$DOXIE_APP_URL" "$DOXIE_APP_FILE" "Doxie" "$DOXIE_APP_NAME"
 
+# Sonos
+install_dmg_app "$SONOS_APP_URL" "$SONOS_APP_FILE" "Sonos" "$SONOS_APP_NAME"
+
 # App Cleaner
 install_zip_app "$APP_CLEANER_APP_URL" "$APP_CLEANER_APP_FILE" "$APP_CLEANER_APP_NAME"
 

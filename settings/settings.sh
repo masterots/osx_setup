@@ -301,8 +301,8 @@ export AIR_DISPLAY_APP_FILE=AirDisplayInstaller.zip
 export AIR_DISPLAY_APP_URL="http://downloads.avatron.com/$AIR_DISPLAY_APP_FILE"
 
 export HAZEL_APP_NAME=Hazel.prefPane
-export HAZEL_APP_FILE=Hazel-3.2.7.dmg
-export HAZEL_APP_URL="https://s3.amazonaws.com/Noodlesoft/$HAZEL_APP_FILE"
+export HAZEL_APP_FILE=hazel.dmg
+export HAZEL_APP_URL="http://www.noodlesoft.com/Products/Hazel/download"
 
 export TRAILER_APP_NAME=Trailer.app
 export TRAILER_APP_FILE=trailer1038.zip

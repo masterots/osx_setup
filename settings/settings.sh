@@ -269,8 +269,8 @@ export CHEATSHEET_APP_FILE=CheatSheet_1.2.2.zip
 export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/$CHEATSHEET_APP_FILE"
 
 export OPEN_OFFICE_APP_NAME=OpenOffice.app
-export OPEN_OFFICE_APP_FILE=Apache_OpenOffice_4.1.0_MacOS_x86-64_install_en-US.dmg
-export OPEN_OFFICE_APP_URL="http://hivelocity.dl.sourceforge.net/project/openofficeorg.mirror/4.1.0/binaries/en-US/$OPEN_OFFICE_APP_FILE"
+export OPEN_OFFICE_APP_FILE=open_office.dmg
+export OPEN_OFFICE_APP_URL="http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.1/binaries/en-US/Apache_OpenOffice_4.1.1_MacOS_x86-64_install_en-US.dmg/download"
 
 export CLOAK_APP_NAME=Cloak.app
 export CLOAK_APP_FILE=Cloak-2.0.7.dmg

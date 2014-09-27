@@ -289,8 +289,8 @@ export VIRTUAL_BOX_APP_FILE=virtual_box.dmg
 export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-OSX.dmg"
 
 export DOXIE_APP_NAME=Doxie.app
-export DOXIE_APP_FILE=Doxie_2_6.dmg
-export DOXIE_APP_URL="http://cdn.getdoxie.com/resources/files/$DOXIE_APP_FILE"
+export DOXIE_APP_FILE=doxie.dmg
+export DOXIE_APP_URL="http://www.getdoxie.com/resources/files/download_current_mac.php"
 
 export APP_CLEANER_APP_NAME=AppCleaner.app
 export APP_CLEANER_APP_FILE=AppCleaner_2.2.3.zip

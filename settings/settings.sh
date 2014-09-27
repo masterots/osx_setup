@@ -300,10 +300,6 @@ export APP_CLEANER_APP_NAME=AppCleaner.app
 export APP_CLEANER_APP_FILE=AppCleaner_2.2.3.zip
 export APP_CLEANER_APP_URL="http://www.freemacsoft.net/downloads/$APP_CLEANER_APP_FILE"
 
-export AIR_DISPLAY_APP_NAME="Air Display Host.app"
-export AIR_DISPLAY_APP_FILE=AirDisplayInstaller.zip
-export AIR_DISPLAY_APP_URL="http://downloads.avatron.com/$AIR_DISPLAY_APP_FILE"
-
 export HAZEL_APP_NAME=Hazel.prefPane
 export HAZEL_APP_FILE=hazel.dmg
 export HAZEL_APP_URL="http://www.noodlesoft.com/Products/Hazel/download"

@@ -115,9 +115,6 @@ install_dmg_app "$SONOS_APP_URL" "$SONOS_APP_FILE" "Sonos" "$SONOS_APP_NAME"
 # App Cleaner
 install_zip_app "$APP_CLEANER_APP_URL" "$APP_CLEANER_APP_FILE" "$APP_CLEANER_APP_NAME"
 
-# Air Display
-install_zip_pkg "$AIR_DISPLAY_APP_URL" "$AIR_DISPLAY_APP_FILE" "$AIR_DISPLAY_APP_NAME"
-
 # Hazel (preference pane)
 install_dmg_app "$HAZEL_APP_URL" "$HAZEL_APP_FILE" "Hazel" "$HAZEL_APP_NAME"
 

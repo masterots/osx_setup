@@ -206,7 +206,7 @@ export FIREFOX_APP_URL="https://download-installer.cdn.mozilla.net/pub/firefox/r
 
 export OPERA_APP_NAME=Opera.app
 export OPERA_APP_FILE=opera.dmg
-export OPERA_APP_URL="http://www.opera.com/download/get/?id=36985&location=360&nothanks=yes&sub=marine"
+export OPERA_APP_URL="http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/24.0.1558.64/mac/Opera_24.0.1558.64_Setup.dmg"
 
 export OMNIGRAFFLE_APP_NAME="OmniGraffle Professional 5.app"
 export OMNIGRAFFLE_APP_FILE=OmniGrafflePro-5.4.4.dmg

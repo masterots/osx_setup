@@ -182,7 +182,7 @@ export TEXTEXPANDER_APP_FILE=TextExpander.zip
 export TEXTEXPANDER_APP_URL="http://dl.smilesoftware.com/com.smileonmymac.textexpander/$TEXTEXPANDER_APP_FILE"
 
 export PATH_FINDER_APP_NAME="Path Finder.app"
-export PATH_FINDER_APP_FILE=PF6_LION.zip
+export PATH_FINDER_APP_FILE=PF7.zip
 export PATH_FINDER_APP_URL="http://get.cocoatech.com/$PATH_FINDER_APP_FILE"
 
 export CHROME_APP_NAME="Google Chrome.app"

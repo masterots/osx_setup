@@ -307,10 +307,9 @@ The following is a checklist of additional steps worth completing after the scri
 - Configure Wi-Fi.
 - Configure printer.
 - Configure scanner.
-- Configure Apple Mail and email accounts.
-- Configure Address Book.
-- Configure iCal.
-- Configure iTunes.
+- Configure Internet Accounts.
+- Configure Contacts.
+- Configure Calendar.
 - Configure Google Chrome:
     - Open the Flags tab (i.e. chrome://flags)
         - Enable "Experimental Extension APIs".
@@ -320,8 +319,6 @@ The following is a checklist of additional steps worth completing after the scri
         - Click the Experiments tab.
             - Enable "FileSystem inspection".
             - Enable "Canvas inspection."
-            - Enable "Support for SASS".
-            - Enable "Snippets support".
         - Click the General tab.
             - Enable "CSS Source maps".
                 - Enable "Auto-reload generated CSS".
@@ -333,7 +330,6 @@ The following is a checklist of additional steps worth completing after the scri
 
 # Resources
 
-- [Boxen](http://boxen.github.com) - GitHub's automated development setup.
 - [Mathias Bynens' OSX Defaults](https://github.com/mathiasbynens/dotfiles/blob/master/.osx) - OSX/application defaults.
 
 # Versioning

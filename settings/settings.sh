@@ -307,3 +307,7 @@ export HAZEL_APP_URL="http://www.noodlesoft.com/Products/Hazel/download"
 export TRAILER_APP_NAME=Trailer.app
 export TRAILER_APP_FILE=trailer1038.zip
 export TRAILER_APP_URL="http://dev.housetrip.com/trailer/$TRAILER_APP_FILE"
+
+export CARBON_COPY_CLONER_APP_NAME="Carbon Copy Cloner.app"
+export CARBON_COPY_CLONER_APP_FILE=carbon_copy_cloner.zip
+export CARBON_COPY_CLONER_APP_URL="http://c74b26775831609a3cf2-8064f6cbda3d6f2abd1c53b8bc16b17e.r26.cf5.rackcdn.com/ccc-3.5.7.zip"

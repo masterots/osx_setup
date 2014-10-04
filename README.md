@@ -293,8 +293,7 @@ The following software is optional:
 
 - [Hardware IO Tools for Xcode](https://developer.apple.com/downloads) - Includes the Network Link Conditioner, etc.
 - [VMWare Fusion](http://www.vmware.com/products/fusion) (requires a registered account, download only)
-- [Logitech Control Center](http://www.logitech.com/en-us/584/3129)
-- [Logitech Harmony Remote](http://www.logitech.com/en-us/440/3742?section=downloads)
+- [Logitech Harmony Remote](https://support.logitech.com/en_us/product/harmony-890-advanced-universal-remote)
 
 # Post Install Checklist
 

@@ -1,3 +1,73 @@
+# v8.0.0 (2014-10-05)
+
+- Removed the OmniFocus install (use App Store instead).
+- Removed the Air Display install.
+- Updated to iTerm 2.0.
+- Updated to iStat Menus 4.22.
+- Updated to Alfred 2.4.279.
+- Updated to MRI 2.1.3.
+- Updated to Rubinius 2.2.10.
+- Updated to JRuby 1.7.16.
+- Updated to TextExpander 4.3.2.
+- Updated to VLC 2.1.5.
+- Updated to Cloak 2.0.7.
+- Updated to Virtual Box 4.3.14.
+- Updated to Trailer 1.0.38.
+- Updated to PathFinder 7.
+- Updated to Firefox 32.0.3.
+- Updated to Opera 24.0.1558.64.
+- Updated to Transmit 4.4.8.
+- Updated to CodeKit 17908.
+- Updated to OpenOffice 4.1.0.
+- Updated to VirtualBox 4.3.16-95972.
+- Updated README post-install steps.
+- Added [Peco](https://github.com/peco/peco) Homebrew install.
+- Added [ShellCheck](https://github.com/koalaman/shellcheck) homebrew install.
+- Added [Sonos](http://www.sonos.com) install.
+- Added [Carbon Copy Cloner](http://www.bombich.com) install.
+- Added [Sublime Text - Keymaps Extension](https://github.com/MiroHibler/sublime-keymaps) extension.
+- Added [Sublime Text — Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended) extension.
+- Added [Atom](https://atom.io) install.
+- Added [Atom - Project Manager](https://atom.io/packages/project-manager) extension.
+- Added [Atom - Git+](https://atom.io/packages/git-plus) extension.
+- Added [Atom - Vim Mode](https://atom.io/packages/vim-mode) extension.
+- Added [Atom - Ruby Test](https://atom.io/packages/ruby-test) extension.
+- Added [Atom - CTags](https://atom.io/packages/atom-ctags) extension.
+- Added [Atom - Autocomplete Paths](https://atom.io/packages/autocomplete-paths) extension.
+- Added [Atom - Autocomplete Plus](https://atom.io/packages/autocomplete-plus) extension.
+- Added [Atom - Color Picker](https://atom.io/packages/color-picker) extension.
+- Added [Atom - Dash](https://atom.io/packages/dash) extension.
+- Added [Atom - Easy Motion](https://atom.io/packages/easy-motion) extension.
+- Added [Atom - Emmet](https://atom.io/packages/emmet) extension.
+- Added [Atom - IPlastic Syntax](https://atom.io/packages/iplastic-syntax) extension.
+- Added [Atom - Linter](https://atom.io/packages/linter) extension.
+- Added [Atom - Linter (CSS)](https://atom.io/packages/linter-csslint) extension.
+- Added [Atom - Linter (JSHint)](https://atom.io/packages/linter-jshint) extension.
+- Added [Atom - Linter (Rubocop)](https://atom.io/packages/linter-rubocop) extension.
+- Added [Atom - Linter (Ruby)](https://atom.io/packages/linter-ruby) extension.
+- Added [Atom - Linter (SCSS)](https://atom.io/packages/linter-scss-lint).
+- Added [Atom - Linter(ShellCheck)](https://atom.io/packages/linter-shellcheck) extension.
+- Added [Atom - Local HIstory](https://atom.io/packages/local-history) extension.
+- Added [Atom - Rails RSpec](https://atom.io/packages/rails-rspec) extension.
+- Added [Atom - Reveal Active File Context](https://atom.io/packages/reveal-active-file-context) extension.
+- Added [Atom - Ruby Slim](https://atom.io/packages/ruby-slim) extension.
+- Added [Atom - Tab Move Key](https://atom.io/packages/tab-move-key) extension.
+- Added [Atom - Toggle Quotes](https://atom.io/packages/toggle-quotes) extension.
+- Added [Atom - Trailing Spaces](https://atom.io/packages/trailing-spaces) extension.
+- Added [Atom - Wrap Lines](https://atom.io/packages/wrap-lines) extension.
+- Added [Atom - Yosemite Unity UI](https://atom.io/packages/yosemite-unity-ui) extension.
+- Added [Atom - Open Last Project](https://atom.io/packages/open-last-project) extension.
+- Added [Atom - TODO Show](https://atom.io/packages/todo-show) extension.
+- Added [Atom - Pain Split](https://atom.io/packages/pain-split) extension.
+- Added [Atom - Inline Autocomplete](https://atom.io/packages/inline-autocomplete) extension.
+- Added [Atom - File Icons](https://atom.io/packages/file-icons) extension.
+- Added [Atom - Git Tab Status](https://atom.io/packages/git-tab-status) extension.
+- Added [Atom - Git History](https://atom.io/packages/git-history) extension.
+- Added [Atom - Key Peek](https://atom.io/packages/key-peek) extension.
+- Added [Atom - Live Archive](https://atom.io/packages/live-archive) extension.
+- Refactored the download_installer() function to accept full URL (including file name) and file name as the second
+  parameter.
+
 # v7.0.0 (2014-05-01)
 
 - Fixed Doxie download and install.

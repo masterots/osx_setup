@@ -150,3 +150,6 @@ brew install lnav
 
 # cloc
 brew install cloc
+
+# Mackup
+brew install mackup

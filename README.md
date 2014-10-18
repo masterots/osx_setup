@@ -117,7 +117,7 @@ Shell scripts for automated OSX machine setup.
     - [Sublime Text 2 Git](https://github.com/kemayo/sublime-text-2-git)
     - [Sublime Text 2 Git Gutter](https://github.com/jisaacks/GitGutter)
     - [Sublime Text 2 Gist](https://github.com/condemil/Gist)
-    - [Sublime Text - Keymaps](https://github.com/MiroHibler/sublime-keymaps)
+    - [Sublime Text 2 Keymaps](https://github.com/MiroHibler/sublime-keymaps)
     - [Sublime Text 2 Local History](https://github.com/vishr/local-history)
     - [Sublime Text 2 CTags](https://github.com/SublimeText/CTags)
     - [Sublime Text 2 Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
@@ -140,7 +140,7 @@ Shell scripts for automated OSX machine setup.
     - [Sublime Text 2 Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
     - [Sublime Text 2 Ruby Extract Method](https://github.com/pashamur/ruby-extract-method)
     - [Sublime Text 2 Ruby Slim](https://github.com/slim-template/ruby-slim.tmbundle)
-    - [Sublime Text — Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended)
+    - [Sublime Text 2 Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended)
     - [Sublime Text 2 SCSS](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
     - [Sublime Text 2 CSScomb](https://github.com/csscomb/csscomb-for-sublime)
     - [Sublime Text 2 Coffee Script](https://github.com/Xavura/CoffeeScript-Sublime-Plugin)
@@ -296,6 +296,7 @@ All Bash functions, used by the scripts defined above, can be found in the funct
 I also recommend installing the following software found via the
 [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
 
+- [DaisyDisk](http://www.daisydiskapp.com)
 - [Keymo](http://manytricks.com/keymo)
 - [Moom](http://manytricks.com/moom)
 - [Witch](http://manytricks.com/witch) - [Yosemite Workaround](http://manytricks.com/blog/?p=3173)

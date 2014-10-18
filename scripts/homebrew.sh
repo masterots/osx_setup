@@ -47,6 +47,9 @@ brew install hr
 # Git
 brew install git
 
+# Mercurial
+brew install hg
+
 # GitHub
 brew install hub
 

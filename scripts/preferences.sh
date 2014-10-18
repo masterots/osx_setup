@@ -25,6 +25,14 @@ git clone git://github.com/bkuhlmann/ruby_gem_setup.git
 )
 rm -rf ruby_gem_setup
 
+# Go Packages
+git clone git://github.com/bkuhlmann/go_setup.git
+(
+  cd go_setup
+  ./run.sh i
+)
+rm -rf go_setup
+
 # NPM Packages
 git clone git://github.com/bkuhlmann/npm_setup.git
 (

@@ -111,7 +111,6 @@ brew install slimerjs
 brew install rbenv
 brew install --HEAD ruby-build
 brew install rbenv-vars
-brew install rbenv-binstubs
 brew install rbenv-ctags
 for ruby in $MRI $RUBINIUS $JRUBY; do
   rbenv install $ruby

@@ -113,7 +113,6 @@ brew install --HEAD ruby-build
 brew install rbenv-vars
 brew install rbenv-binstubs
 brew install rbenv-gem-rehash
-brew install rbenv-default-gems
 brew install rbenv-ctags
 for ruby in $MRI $RUBINIUS $JRUBY; do
   rbenv install $ruby

@@ -260,10 +260,6 @@ export MONEYWELL_APP_NAME=MoneyWell.app
 export MONEYWELL_APP_FILE=MoneyWell_17.zip
 export MONEYWELL_APP_URL="http://downloads.nothirst.com/$MONEYWELL_APP_FILE"
 
-export DELICIOUS_LIBRARY_APP_NAME="Delicious Library 3.app"
-export DELICIOUS_LIBRARY_APP_FILE=DeliciousLibrary3.zip
-export DELICIOUS_LIBRARY_APP_URL="http://www.delicious-monster.com/downloads/$DELICIOUS_LIBRARY_APP_FILE"
-
 export CHEATSHEET_APP_NAME=CheatSheet.app
 export CHEATSHEET_APP_FILE=CheatSheet_1.2.2.zip
 export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/$CHEATSHEET_APP_FILE"

@@ -85,9 +85,6 @@ install_dmg_app "$SEQUEL_PRO_APP_URL" "$SEQUEL_PRO_APP_FILE" "Sequel Pro 1.0.2" 
 # MoneyWell
 install_zip_app "$MONEYWELL_APP_URL" "$MONEYWELL_APP_FILE" "$MONEYWELL_APP_NAME"
 
-# Delicious Library
-install_zip_app "$DELICIOUS_LIBRARY_APP_URL" "$DELICIOUS_LIBRARY_APP_FILE" "$DELICIOUS_LIBRARY_APP_NAME"
-
 # CheatSheet
 install_zip_app "$CHEATSHEET_APP_URL" "$CHEATSHEET_APP_FILE" "$CHEATSHEET_APP_NAME"
 

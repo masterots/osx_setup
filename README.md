@@ -196,18 +196,18 @@ Shell scripts for automated OSX machine setup.
 0. [Command Line Tools for Xcode](https://developer.apple.com/downloads)
 0. [Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-# OSX Mavericks Bootdisk
+# OSX Yosemite Bootdisk
 
 0. Insert a USB drive (8GB or higher is best).
 0. Open Disk Utility and format the USB drive (leave the label as "Untitled").
-0. Download OSX Mavericks via the App Store but *DO NOT INSTALL*.
+0. Download OSX Yosemite via the App Store but *DO NOT INSTALL*.
 0. Run this command to turn the USB drive into bootable image:
 
-        sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Mavericks.app --nointeraction
-0. Exit the OSX Mavericks install.
+        sudo "/Applications/Install OS X Yosemite.app/Contents/Resources/createinstallmedia" --volume /Volumes/Untitled --applicationpath "/Applications/Install OS X Yosemite.app" --nointeraction
+0. Exit the OSX Yosemite install.
 0. Eject the USB drive.
 
-# OSX Mavericks Upgrade
+# OSX Yosemite Upgrade
 
 0. Insert the USB bootdisk into the machine to be upgraded.
 0. Reboot the machine.
@@ -216,9 +216,9 @@ Shell scripts for automated OSX machine setup.
 0. Format the machine using Disk Utility.
 0. Install the new OS.
 
-# OSX Mavericks Reinstall
+# OSX Yosemite Reinstall
 
-If you have already installed OSX but want to reinstall it, simply reboot the machine and hold down CONTROL+r.
+If you have already installed OSX but want to reinstall it, simply reboot the machine and hold down CONTROL+R.
 This will load the installer from the recovery partition and allow you to use Disk Utility, reinstall the system, etc.
 
 # Setup

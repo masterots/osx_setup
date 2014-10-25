@@ -13,19 +13,19 @@ git clone git://github.com/bkuhlmann/dotfiles.git
 rm -rf dotfiles
 source $HOME/.bashrc
 
-# Ruby Gems
-git clone git://github.com/bkuhlmann/ruby_gem_setup.git
+# Ruby
+git clone git://github.com/bkuhlmann/ruby_setup.git
 (
-  cd ruby_gem_setup
+  cd ruby_setup
 
   for ruby in $MRI $RUBINIUS $JRUBY; do
     rbenv shell $ruby
     ./run.sh i
   done
 )
-rm -rf ruby_gem_setup
+rm -rf ruby_setup
 
-# Go Packages
+# Go
 git clone git://github.com/bkuhlmann/go_setup.git
 (
   cd go_setup
@@ -33,7 +33,7 @@ git clone git://github.com/bkuhlmann/go_setup.git
 )
 rm -rf go_setup
 
-# NPM Packages
+# NPM
 git clone git://github.com/bkuhlmann/npm_setup.git
 (
   cd npm_setup

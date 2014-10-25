@@ -40,7 +40,7 @@ Shell scripts for automated OSX machine setup.
     - [Node.js](http://nodejs.org)
     - [Phantom.js](http://phantomjs.org)
     - [Slimer.js](http://slimerjs.org)
-    - [Ruby Gems](https://github.com/bkuhlmann/ruby_gem_setup)
+    - [Ruby Setup](https://github.com/bkuhlmann/ruby_setup)
     - [rbenv](https://github.com/sstephenson/rbenv)
     - [rbenv-build](https://github.com/sstephenson/ruby-build)
     - [rbenv-vars](https://github.com/sstephenson/rbenv-vars)

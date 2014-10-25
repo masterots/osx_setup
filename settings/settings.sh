@@ -272,10 +272,6 @@ export SCREENHERO_APP_NAME=Screenhero.app
 export SCREENHERO_APP_FILE=Screenhero.dmg
 export SCREENHERO_APP_URL="http://dl.screenhero.com/update/screenhero/$SCREENHERO_APP_FILE"
 
-export COLLOQUY_APP_NAME=Colloquy.app
-export COLLOQUY_APP_FILE=colloquy-latest.zip
-export COLLOQUY_APP_URL="http://colloquy.info/downloads/$COLLOQUY_APP_FILE"
-
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
 export VIRTUAL_BOX_APP_FILE=virtual_box.dmg
 export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-OSX.dmg"

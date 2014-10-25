@@ -20,8 +20,8 @@ export JRUBY=jruby-1.7.16
 # Applications
 
 export DROPBOX_APP_NAME=Dropbox.app
-export DROPBOX_APP_FILE=Dropbox%202.6.31.dmg
-export DROPBOX_APP_URL="https://d1ilhw0800yew8.cloudfront.net/client/$DROPBOX_APP_FILE"
+export DROPBOX_APP_FILE=dropbox.dmg
+export DROPBOX_APP_URL="https://www.dropbox.com/download?src=index&plat=mac"
 
 export KNOX_APP_NAME=Knox.app
 export KNOX_APP_FILE=Knox-2.2.0.zip

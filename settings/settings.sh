@@ -202,7 +202,7 @@ export CANARY_APP_URL="https://storage.googleapis.com/chrome-canary/$CANARY_APP_
 
 export FIREFOX_APP_NAME=Firefox.app
 export FIREFOX_APP_FILE=firefox.dmg
-export FIREFOX_APP_URL="https://download-installer.cdn.mozilla.net/pub/firefox/releases/32.0.3/mac/en-US/Firefox%2032.0.3.dmg"
+export FIREFOX_APP_URL="https://download.mozilla.org/?product=firefox-33.0.1-SSL&os=osx&lang=en-US"
 
 export OPERA_APP_NAME=Opera.app
 export OPERA_APP_FILE=opera.dmg

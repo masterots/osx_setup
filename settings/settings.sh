@@ -228,10 +228,6 @@ export SNIPPETS_APP_NAME=Snippets.app
 export SNIPPETS_APP_FILE=Snippets-1.4.3.zip
 export SNIPPETS_APP_URL="http://www.snippetsapp.com/download/$SNIPPETS_APP_FILE"
 
-export CODEKIT_APP_NAME=CodeKit.app
-export CODEKIT_APP_FILE=codekit-17908.zip
-export CODEKIT_APP_URL="http://incident57.com/codekit/files/$CODEKIT_APP_FILE"
-
 export ACORN_APP_NAME=Acorn.app
 export ACORN_APP_FILE=Acorn.zip
 export ACORN_APP_URL="http://flyingmeat.com/download/$ACORN_APP_FILE"

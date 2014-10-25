@@ -61,9 +61,6 @@ install_zip_app "$BARTENDER_APP_URL" "$BARTENDER_APP_FILE" "$BARTENDER_APP_NAME"
 # Snippets
 install_zip_app "$SNIPPETS_APP_URL" "$SNIPPETS_APP_FILE" "$SNIPPETS_APP_NAME"
 
-# CodeKit
-install_zip_app "$CODEKIT_APP_URL" "$CODEKIT_APP_FILE" "$CODEKIT_APP_NAME"
-
 # Acorn
 install_zip_app "$ACORN_APP_URL" "$ACORN_APP_FILE" "$ACORN_APP_NAME"
 

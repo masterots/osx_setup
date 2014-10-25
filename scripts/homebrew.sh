@@ -25,9 +25,6 @@ brew install bash-completion
 # ShellCheck
 brew install shellcheck
 
-# SSHFS
-brew install sshfs
-
 # tmux
 brew install tmux
 brew install reattach-to-user-namespace

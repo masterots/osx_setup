@@ -9,10 +9,6 @@ sudo bash -c "printf '/usr/local/bin/bash' >> /etc/shells"
 # Bash Completion
 chsh -s /usr/local/bin/bash
 
-# SSHFS
-sudo /bin/cp -RfX /usr/local/Cellar/osxfuse/2.6.4/Library/Filesystems/osxfusefs.fs /Library/Filesystems
-sudo chmod +s /Library/Filesystems/osxfusefs.fs/Support/load_osxfusefs
-
 # rbenv
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 for ruby in $MRI $RUBINIUS $JRUBY; do

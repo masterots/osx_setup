@@ -25,7 +25,6 @@ while true; do
     printf "  a: Install application software (i.e. GUI-enabled).\n"
     printf "  x: Install application extensions (i.e. enhancements, add-ons, plug-ins, etc.)\n"
     printf "  d: Apply system and application defaults.\n"
-    printf "  p: Apply software preferences.\n"
     printf "  s: Setup installed software.\n"
     printf "  w: Clean work directory.\n"
     printf "  i: Perform complete install (i.e. executes all options, listed above, top to bottom).\n"

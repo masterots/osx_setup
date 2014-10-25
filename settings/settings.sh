@@ -274,7 +274,7 @@ export SCREENHERO_APP_URL="http://dl.screenhero.com/update/screenhero/$SCREENHER
 
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
 export VIRTUAL_BOX_APP_FILE=virtual_box.dmg
-export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.16/VirtualBox-4.3.16-95972-OSX.dmg"
+export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.18/VirtualBox-4.3.18-96516-OSX.dmg"
 
 export DOXIE_APP_NAME=Doxie.app
 export DOXIE_APP_FILE=doxie.dmg

@@ -10,12 +10,7 @@ sudo bash -c "printf '/usr/local/bin/bash' >> /etc/shells"
 chsh -s /usr/local/bin/bash
 
 # Dotfiles
-git clone git://github.com/bkuhlmann/dotfiles.git
-(
-  cd dotfiles
-  ./run.sh i
-)
-rm -rf dotfiles
+install_git_project "git://github.com/bkuhlmann/dotfiles.git" "dotfiles" "./run.sh i"
 source $HOME/.bashrc
 
 # rbenv
@@ -31,7 +26,6 @@ done
 git clone git://github.com/bkuhlmann/ruby_setup.git
 (
   cd ruby_setup
-
   for ruby in $MRI $RUBINIUS $JRUBY; do
     rbenv shell $ruby
     ./run.sh i
@@ -40,20 +34,10 @@ git clone git://github.com/bkuhlmann/ruby_setup.git
 rm -rf ruby_setup
 
 # Go
-git clone git://github.com/bkuhlmann/go_setup.git
-(
-  cd go_setup
-  ./run.sh i
-)
-rm -rf go_setup
+install_git_project "git://github.com/bkuhlmann/go_setup.git" "go_setup" "./run.sh i"
 
 # NPM
-git clone git://github.com/bkuhlmann/npm_setup.git
-(
-  cd npm_setup
-  ./run.sh i
-)
-rm -rf npm_setup
+install_git_project "git://github.com/bkuhlmann/npm_setup.git" "npm_setup" "./run.sh i"
 
 # Nginx
 ln -sfv /usr/local/opt/nginx/*.plist $HOME/Library/LaunchAgents
@@ -88,10 +72,4 @@ launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/sublime
 fi
-
-git clone git://github.com/bkuhlmann/sublime_text.git
-(
-  cd sublime_text
-  ./run.sh l
-)
-rm -rf sublime_text
+install_git_project "git://github.com/bkuhlmann/sublime_text.git" "sublime_text" "./run.sh l"

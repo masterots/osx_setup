@@ -8,8 +8,8 @@
 set -o nounset
 set -o errexit
 set -o pipefail
-export SYSTEM_LABEL=RA # Placeholder for system display name.
-export SYSTEM_NAME=ra # Placeholder for system name.
+export SYSTEM_LABEL=Alchemist # Placeholder for system display name.
+export SYSTEM_NAME=alchemist # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby

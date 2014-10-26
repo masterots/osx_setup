@@ -28,6 +28,9 @@ defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 printf "System - Disable auto-correct\n"
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+printf "System - Disable smart quotes (not useful when writing code)\n"
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
 printf "System - Require password immediately after sleep or screen saver begins\n"
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
@@ -37,6 +40,9 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 printf "System - Automatically restart if system freezes\n"
 systemsetup -setrestartfreeze on
+
+printf "System - Disable software updates\n"
+sudo softwareupdate --schedule off
 
 printf "Keyboard - Automatically illuminate built-in MacBook keyboard in low light\n"
 defaults write com.apple.BezelServices kDim -bool true

@@ -197,10 +197,6 @@ export EMBER_INSPECTOR_EXTENSION_URL="git://github.com/tildeio/ember-extension.g
 export CHROME_LOGGER_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/ChromeLogger"
 export CHROME_LOGGER_EXTENSION_URL="git://github.com/ccampbell/chromelogger.git"
 
-export CANARY_APP_NAME="Google Chrome Canary.app"
-export CANARY_APP_FILE=GoogleChromeCanary.dmg
-export CANARY_APP_URL="https://storage.googleapis.com/chrome-canary/$CANARY_APP_FILE"
-
 export FIREFOX_APP_NAME=Firefox.app
 export FIREFOX_APP_FILE=firefox.dmg
 export FIREFOX_APP_URL="https://download.mozilla.org/?product=firefox-33.0.1-SSL&os=osx&lang=en-US"

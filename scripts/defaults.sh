@@ -131,7 +131,7 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 printf "Finder - Use list view in all Finder windows\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-printf "Finder - Allow quitting via ⌘ + Q; doing so will also hide desktop icons\n"
+printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
 defaults write com.apple.finder QuitMenuItem -bool true
 
 printf "Finder - Disable the warning before emptying the Trash\n"
@@ -162,6 +162,9 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 
 printf "Safari - Add a context menu item for showing the Web Inspector in web views\n"
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+printf "Safari - Disable sending search queries to Apple."
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
 
 printf "Chrome - Prevent native print dialog, use system dialog instead\n"
 defaults write com.google.Chrome DisablePrintPreview -boolean true

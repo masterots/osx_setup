@@ -49,7 +49,7 @@ install_dmg_app "$OMNIGRAFFLE_APP_URL" "$OMNIGRAFFLE_APP_FILE" "OmniGrafflePro" 
 # Transmit
 install_zip_app "$TRANSMIT_APP_URL" "$TRANSMIT_APP_FILE" "$TRANSMIT_APP_NAME"
 
-# iStat Menus (the app is the installer)
+# iStat Menus
 install_zip_app "$ISTATS_APP_URL" "$ISTATS_APP_FILE" "$ISTATS_APP_NAME"
 
 # Bartender
@@ -103,7 +103,7 @@ install_dmg_app "$SONOS_APP_URL" "$SONOS_APP_FILE" "Sonos" "$SONOS_APP_NAME"
 # App Cleaner
 install_zip_app "$APP_CLEANER_APP_URL" "$APP_CLEANER_APP_FILE" "$APP_CLEANER_APP_NAME"
 
-# Hazel (preference pane)
+# Hazel
 install_dmg_app "$HAZEL_APP_URL" "$HAZEL_APP_FILE" "Hazel" "$HAZEL_APP_NAME"
 
 # Trailer

@@ -23,22 +23,19 @@ export -f unmount_image
 
 # Downloads an installer to local disk.
 # Parameters:
-# $1 = The remote URL.
+# $1 = The URL.
 # $2 = The file name.
 function download_installer() {
   printf "Downloading $1...\n"
   clean_work_path
   mkdir $WORK_PATH
-  (
-    cd $WORK_PATH
-    curl --location --retry 3 --retry-delay 5 "$1" >> "$2"
-  )
+  curl --location --retry 3 --retry-delay 5 "$1" >> "$WORK_PATH/$2"
 }
 export -f download_installer
 
 # Downloads an installer to the $HOME/Downloads folder for manual use.
 # Parameters:
-# $1 = The remote URL.
+# $1 = The URL.
 # $2 = The file name.
 function download_only() {
   if [[ -e "$HOME/Downloads/$2" ]]; then
@@ -83,25 +80,23 @@ export -f install_pkg
 
 # Installs an application via a DMG file.
 # Parameters:
-# $1 = The remote URL.
-# $2 = The download file name.
-# $3 = The mount path.
-# $4 = The application name.
+# $1 = The URL.
+# $2 = The mount path.
+# $3 = The application name.
 function install_dmg_app() {
-  local app_name="$4"
+  local url="$1"
+  local mount_point="/Volumes/$2"
+  local app_name="$3"
   local install_path=$(get_install_path "$app_name")
+  local download_file="download.dmg"
 
   if [[ -e "$install_path" ]]; then
     printf "Installed: $app_name.\n"
   else
-    download_installer "$1" "$2"
-    local download_file="$WORK_PATH/$2"
-
-    local mount_point="/Volumes/$3"
-    mount_image "$download_file"
+    download_installer "$url" "$download_file"
+    mount_image "$WORK_PATH/$download_file"
     install_app "$mount_point" "$app_name"
     unmount_image "$mount_point"
-
     verify_install "$app_name"
   fi
 }
@@ -109,25 +104,23 @@ export -f install_dmg_app
 
 # Installs a package via a DMG file.
 # Parameters:
-# $1 = The remote URL.
-# $2 = The download file name.
-# $3 = The mount path.
-# $4 = The application name.
+# $1 = The URL.
+# $2 = The mount path.
+# $3 = The application name.
 function install_dmg_pkg() {
-  local app_name="$4"
+  local url="$1"
+  local mount_point="/Volumes/$2"
+  local app_name="$3"
   local install_path=$(get_install_path "$app_name")
+  local download_file="download.dmg"
 
   if [[ -e "$install_path" ]]; then
     printf "Installed: $app_name.\n"
   else
-    download_installer "$1" "$2"
-    local download_file="$WORK_PATH/$2"
-
-    local mount_point="/Volumes/$3"
-    mount_image "$download_file"
+    download_installer "$url" "$download_file"
+    mount_image "$WORK_PATH/$download_file"
     install_pkg "$mount_point" "$app_name"
     unmount_image "$mount_point"
-
     verify_install "$app_name"
   fi
 }
@@ -135,22 +128,23 @@ export -f install_dmg_pkg
 
 # Installs an application via a zip file.
 # Parameters:
-# $1 = The remote URL.
-# $2 = The download file name.
-# $3 = The application name.
+# $1 = The URL.
+# $2 = The application name.
 function install_zip_app() {
-  local app_name="$3"
+  local url="$1"
+  local app_name="$2"
   local install_path=$(get_install_path "$app_name")
+  local download_file="download.zip"
 
   if [[ -e "$install_path" ]]; then
     printf "Installed: $app_name.\n"
   else
-    download_installer "$1" "$2"
+    download_installer "$url" "$download_file"
 
     (
       printf "Preparing...\n"
       cd "$WORK_PATH"
-      unzip -q "$2"
+      unzip -q "$download_file"
     )
 
     install_app "$WORK_PATH" "$app_name"
@@ -161,23 +155,25 @@ export -f install_zip_app
 
 # Installs an application via a tar file.
 # Parameters:
-# $1 = The remote URL.
-# $2 = The download file name.
-# $3 = The uncompress options.
-# $4 = The application name.
+# $1 = The URL.
+# $2 = The decompress options.
+# $3 = The application name.
 function install_tar_app() {
-  local app_name="$4"
+  local url="$1"
+  local options="$2"
+  local app_name="$3"
   local install_path=$(get_install_path "$app_name")
+  local download_file="download.tar"
 
   if [[ -e "$install_path" ]]; then
     printf "Installed: $app_name.\n"
   else
-    download_installer "$1" "$2"
+    download_installer "$url" "$download_file"
 
     (
       printf "Preparing...\n"
       cd "$WORK_PATH"
-      tar "$3" "$2"
+      tar "$options" "$download_file"
     )
 
     install_app "$WORK_PATH" "$app_name"
@@ -188,22 +184,23 @@ export -f install_tar_app
 
 # Installs a package via a zip file.
 # Parameters:
-# $1 = The remote URL.
-# $2 = The download file name.
-# $3 = The application name.
+# $1 = The URL.
+# $2 = The application name.
 function install_zip_pkg() {
-  local app_name="$3"
+  local url="$1"
+  local app_name="$2"
   local install_path=$(get_install_path "$app_name")
+  local download_file="download.zip"
 
   if [[ -e "$install_path" ]]; then
     printf "Installed: $app_name.\n"
   else
-    download_installer "$1" "$2"
+    download_installer "$url" "$download_file"
 
     (
       printf "Preparing...\n"
       cd "$WORK_PATH"
-      unzip -q "$2"
+      unzip -q "$download_file"
     )
 
     install_pkg "$WORK_PATH" "$app_name"
@@ -239,7 +236,7 @@ export -f install_git_app
 
 # Installs a single file.
 # Parameters:
-# $1 = The remote URL.
+# $1 = The URL.
 # $2 = The install path.
 function install_file() {
   local file_url=$(dirname "$1")

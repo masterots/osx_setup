@@ -20,15 +20,12 @@ export JRUBY=jruby-1.7.16
 # Applications
 
 export DROPBOX_APP_NAME=Dropbox.app
-export DROPBOX_APP_FILE=dropbox.dmg
 export DROPBOX_APP_URL="https://www.dropbox.com/download?src=index&plat=mac"
 
 export KNOX_APP_NAME=Knox.app
-export KNOX_APP_FILE=knox.zip
 export KNOX_APP_URL="https://d13itkw33a7sus.cloudfront.net/dist/K/Knox-2.2.0.zip"
 
 export ITERM_APP_NAME=iTerm.app
-export ITERM_APP_FILE=iterm.zip
 export ITERM_APP_URL="http://iterm2.com/downloads/stable/iTerm2_v2_0.zip"
 
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
@@ -54,7 +51,6 @@ export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 
 export ATOM_APP_NAME="Atom.app"
-export ATOM_APP_FILE=atom.zip
 export ATOM_APP_URL="https://atom.io/download/mac"
 
 export ATOM_EXTENSION_ROOT="$HOME/.atom/packages"
@@ -97,7 +93,6 @@ export ATOM_WRAP_LINES_EXTENSION_PATH="$ATOM_EXTENSION_ROOT/wrap-lines"
 export ATOM_YOSEMITE_UNITY_UI_EXTENSION_PATH="$ATOM_EXTENSION_ROOT/yosemite-unity-ui"
 
 export SUBLIME_TEXT_APP_NAME="Sublime Text 2.app"
-export SUBLIME_TEXT_APP_FILE=sublime_text.dmg
 export SUBLIME_TEXT_APP_URL="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg"
 
 export SUBLIME_TEXT_EXTENSION_ROOT="$HOME/Library/Application Support/Sublime Text 2/Packages"
@@ -170,23 +165,18 @@ export TABLE_EDITOR_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Table Editor"
 export TABLE_EDITOR_EXTENSION_URL="https://github.com/vkocubinsky/SublimeTableEditor.git"
 
 export SUBLIME_URL_HANDLER_APP_NAME="SublHandler.app"
-export SUBLIME_URL_HANDLER_APP_FILE=sublime_url_handler.zip
 export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-handler/SublHandler.zip"
 
 export ALFRED_APP_NAME="Alfred 2.app"
-export ALFRED_APP_FILE=alfred.zip
 export ALFRED_APP_URL="https://cachefly.alfredapp.com/Alfred_2.5.1_308.zip"
 
 export TEXTEXPANDER_APP_NAME=TextExpander.app
-export TEXTEXPANDER_APP_FILE=text_expander.zip
 export TEXTEXPANDER_APP_URL="http://dl.smilesoftware.com/com.smileonmymac.textexpander/TextExpander.zip"
 
 export PATH_FINDER_APP_NAME="Path Finder.app"
-export PATH_FINDER_APP_FILE=path_finder.zip
 export PATH_FINDER_APP_URL="http://get.cocoatech.com/PF7.zip"
 
 export CHROME_APP_NAME="Google Chrome.app"
-export CHROME_APP_FILE=google_chrome.dmg
 export CHROME_APP_URL="https://dl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg"
 
 export CHROME_EXTENSION_ROOT="$HOME/Apps/Google/Chrome/Extensions"
@@ -198,101 +188,76 @@ export CHROME_LOGGER_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/ChromeLogger"
 export CHROME_LOGGER_EXTENSION_URL="git://github.com/ccampbell/chromelogger.git"
 
 export FIREFOX_APP_NAME=Firefox.app
-export FIREFOX_APP_FILE=firefox.dmg
 export FIREFOX_APP_URL="https://download.mozilla.org/?product=firefox-33.0.1-SSL&os=osx&lang=en-US"
 
 export OPERA_APP_NAME=Opera.app
-export OPERA_APP_FILE=opera.dmg
 export OPERA_APP_URL="http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/24.0.1558.64/mac/Opera_24.0.1558.64_Setup.dmg"
 
 export OMNIGRAFFLE_APP_NAME="OmniGraffle Professional 5.app"
-export OMNIGRAFFLE_APP_FILE=omni_graffle.dmg
 export OMNIGRAFFLE_APP_URL="http://downloads2.omnigroup.com/software/MacOSX/10.6/OmniGrafflePro-5.4.4.dmg"
 
 export TRANSMIT_APP_NAME=Transmit.app
-export TRANSMIT_APP_FILE=transmit.zip
 export TRANSMIT_APP_URL="https://www.panic.com/transmit/d/Transmit%204.4.8.zip"
 
 export ISTATS_APP_NAME="iStat Menus.app"
-export ISTATS_APP_FILE=istat_menus.zip
 export ISTATS_APP_URL="http://download.bjango.com/istatmenus"
 
 export BARTENDER_APP_NAME=Bartender.app
-export BARTENDER_APP_FILE=bartender.zip
 export BARTENDER_APP_URL="http://www.macbartender.com/Demo/Bartender.zip"
 
 export SNIPPETS_APP_NAME=Snippets.app
-export SNIPPETS_APP_FILE=snippets.zip
 export SNIPPETS_APP_URL="http://www.snippetsapp.com/download/Snippets-1.4.3.zip"
 
 export ACORN_APP_NAME=Acorn.app
-export ACORN_APP_FILE=acorn.zip
 export ACORN_APP_URL="http://flyingmeat.com/download/Acorn.zip"
 
 export DOUBLETAKE_APP_NAME=DoubleTake.app
-export DOUBLETAKE_APP_FILE=double_take.dmg
 export DOUBLETAKE_APP_URL="http://echoone.com/doubletake/DoubleTake.dmg"
 
 export IMAGE_OPTIM_APP_NAME=ImageOptim.app
-export IMAGE_OPTIM_APP_FILE=image_optim.tbz2
 export IMAGE_OPTIM_APP_URL="http://imageoptim.com/ImageOptim.tbz2"
 
 export VLC_APP_NAME=VLC.app
-export VLC_APP_FILE=vlc.dmg
 export VLC_APP_URL="https://get.videolan.org/vlc/2.1.5/macosx/vlc-2.1.5.dmg"
 
 export PG_ADMIN_APP_NAME=pgAdmin3.app
-export PG_ADMIN_APP_FILE=pg_admin.dmg
 export PG_ADMIN_APP_URL="http://ftp.postgresql.org/pub/pgadmin3/release/v1.18.1/osx/pgadmin3-1.18.1.dmg"
 
 export SEQUEL_PRO_APP_NAME="Sequel Pro.app"
-export SEQUEL_PRO_APP_FILE=sequel_pro.dmg
 export SEQUEL_PRO_APP_URL="https://sequel-pro.googlecode.com/files/sequel-pro-1.0.2.dmg"
 
 export MONEYWELL_APP_NAME=MoneyWell.app
-export MONEYWELL_APP_FILE=money_well.zip
 export MONEYWELL_APP_URL="http://downloads.nothirst.com/MoneyWell_17.zip"
 
 export CHEATSHEET_APP_NAME=CheatSheet.app
-export CHEATSHEET_APP_FILE=cheat_sheet.zip
 export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/CheatSheet_1.2.2.zip"
 
 export OPEN_OFFICE_APP_NAME=OpenOffice.app
-export OPEN_OFFICE_APP_FILE=open_office.dmg
 export OPEN_OFFICE_APP_URL="http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.1/binaries/en-US/Apache_OpenOffice_4.1.1_MacOS_x86-64_install_en-US.dmg/download"
 
 export CLOAK_APP_NAME=Cloak.app
-export CLOAK_APP_FILE=cloak.dmg
 export CLOAK_APP_URL="https://s3.amazonaws.com/static.getcloak.com/osx/updates/Release/Cloak-2.0.8.dmg"
 
 export SCREENHERO_APP_NAME=Screenhero.app
-export SCREENHERO_APP_FILE=screenhero.dmg
 export SCREENHERO_APP_URL="http://dl.screenhero.com/update/screenhero/Screenhero.dmg"
 
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
-export VIRTUAL_BOX_APP_FILE=virtual_box.dmg
 export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.18/VirtualBox-4.3.18-96516-OSX.dmg"
 
 export DOXIE_APP_NAME=Doxie.app
-export DOXIE_APP_FILE=doxie.dmg
 export DOXIE_APP_URL="http://www.getdoxie.com/resources/files/download_current_mac.php"
 
 export SONOS_APP_NAME=Sonos.app
-export SONOS_APP_FILE=sonos.dmg
 export SONOS_APP_URL="http://www.sonos.com/redir/controller_software_mac"
 
 export APP_CLEANER_APP_NAME=AppCleaner.app
-export APP_CLEANER_APP_FILE=app_cleaner.zip
 export APP_CLEANER_APP_URL="http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip"
 
 export HAZEL_APP_NAME=Hazel.prefPane
-export HAZEL_APP_FILE=hazel.dmg
 export HAZEL_APP_URL="http://www.noodlesoft.com/Products/Hazel/download"
 
 export TRAILER_APP_NAME=Trailer.app
-export TRAILER_APP_FILE=trailer.zip
 export TRAILER_APP_URL="http://dev.housetrip.com/trailer/trailer1040.zip"
 
 export CARBON_COPY_CLONER_APP_NAME="Carbon Copy Cloner.app"
-export CARBON_COPY_CLONER_APP_FILE=carbon_copy_cloner.zip
 export CARBON_COPY_CLONER_APP_URL="http://c74b26775831609a3cf2-8064f6cbda3d6f2abd1c53b8bc16b17e.r26.cf5.rackcdn.com/ccc-4.0.3274.zip"

@@ -68,7 +68,13 @@ printf "Bluetooth - Increase sound quality for headphones/headsets\n"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 printf "Menu Bar - Show only Bluetooth and Airport\n"
-defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu"
+for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
+  defaults write "${domain}" dontAutoLoad -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
+done
+
+defaults write com.apple.systemuiserver menuExtras -array \
+  "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+  "/System/Library/CoreServices/Menu Extras/AirPort.menu"
 
 printf "Dock - Remove all default app icons\n"
 defaults write com.apple.dock persistent-apps -array

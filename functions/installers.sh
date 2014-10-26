@@ -156,12 +156,12 @@ export -f install_zip_app
 # Installs an application via a tar file.
 # Parameters:
 # $1 = The URL.
-# $2 = The decompress options.
-# $3 = The application name.
+# $2 = The application name.
+# $3 = The decompress options.
 function install_tar_app() {
   local url="$1"
-  local options="$2"
-  local app_name="$3"
+  local app_name="$2"
+  local options="$3"
   local install_path=$(get_install_path "$app_name")
   local download_file="download.tar"
 

@@ -65,7 +65,7 @@ install_zip_app "$ACORN_APP_URL" "$ACORN_APP_NAME"
 install_dmg_app "$DOUBLETAKE_APP_URL" "DoubleTake" "$DOUBLETAKE_APP_NAME"
 
 # ImageOptim
-install_tar_app "$IMAGE_OPTIM_APP_URL" "-xjf" "$IMAGE_OPTIM_APP_NAME"
+install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_NAME" "-xjf"
 
 # VLC
 install_dmg_app "$VLC_APP_URL" "vlc-2.1.5" "$VLC_APP_NAME"

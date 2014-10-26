@@ -31,6 +31,9 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 printf "System - Disable smart quotes (not useful when writing code)\n"
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
+printf "System - Disable smart dashes (not useful when writing code)\n"
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
 printf "System - Require password immediately after sleep or screen saver begins\n"
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0

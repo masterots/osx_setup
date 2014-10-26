@@ -163,7 +163,7 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 printf "Safari - Add a context menu item for showing the Web Inspector in web views\n"
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
-printf "Safari - Disable sending search queries to Apple."
+printf "Safari - Disable sending search queries to Apple.\n"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 
 printf "Chrome - Prevent native print dialog, use system dialog instead\n"
@@ -177,6 +177,9 @@ defaults write com.apple.mail DisableSendAnimations -bool true
 
 printf "Mail - Disable reply animation\n"
 defaults write com.apple.mail DisableReplyAnimations -bool true
+
+printf "Mail - Enable COMMAND+ENTER to send mail\n"
+defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" -string "@\\U21a9"
 
 printf "Address Book - Enable debug menu\n"
 defaults write com.apple.addressbook ABShowDebugMenu -bool true

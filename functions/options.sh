@@ -42,6 +42,9 @@ function process_option() {
       verify_installs
       verify_extensions
       break;;
+    'D')
+      delete_app
+      break;;
     'q')
       break;;
   esac

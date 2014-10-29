@@ -10,8 +10,8 @@ function uninstall_application() {
 
   printf "Select application to uninstall:\n"
   for ((index = 0; index < ${#keys[*]}; index++)); do
-    local app_file="${keys[$index]}"
-    printf "  $index: ${!app_file}\n"
+    local app_file="${!keys[$index]}"
+    printf "  $index: ${app_file}\n"
   done
   printf "  q: Quit/Exit\n\n"
 
@@ -20,8 +20,8 @@ function uninstall_application() {
 
   local regex="^[0-9]+$"
   if [[ $response =~ $regex ]]; then
-    local app_file="${keys[$response]}"
-    local app_path=$(get_install_path "${!app_file}")
+    local app_file="${!keys[$response]}"
+    local app_path=$(get_install_path "${app_file}")
     rm -rf "$app_path"
     printf "Uninstalled: ${app_path}\n"
   fi
@@ -35,8 +35,8 @@ function uninstall_extension() {
 
   printf "Select extension to uninstall:\n"
   for ((index = 0; index < ${#keys[*]}; index++)); do
-    local extension_path="${keys[$index]}"
-    printf "  $index: ${!extension_path}\n"
+    local extension_path="${!keys[$index]}"
+    printf "  $index: ${extension_path}\n"
   done
   printf "  q: Quit/Exit\n\n"
 
@@ -45,9 +45,9 @@ function uninstall_extension() {
 
   local regex="^[0-9]+$"
   if [[ $response =~ $regex ]]; then
-    local extension_path="${keys[$response]}"
-    rm -rf "${!extension_path}"
-    printf "Uninstalled: ${!extension_path}\n"
+    local extension_path="${!keys[$response]}"
+    rm -rf "${extension_path}"
+    printf "Uninstalled: ${extension_path}\n"
   fi
 }
 export -f uninstall_extension

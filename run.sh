@@ -33,6 +33,7 @@ while true; do
     printf "  Manage:\n"
     printf "    c: Check status of managed software.\n"
     printf "    A: Uninstall application software.\n"
+    printf "    X: Uninstall application extension.\n"
     printf "    q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
     printf "\n"

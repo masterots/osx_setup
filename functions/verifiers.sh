@@ -22,7 +22,7 @@ export -f verify_install
 function verify_installs() {
   printf "\nChecking applications...\n"
 
-  # Only use environment variables that end with "APP_NAME".
+  # Only use environment keys that end with "APP_NAME".
   local file_names=$(set | awk -F "=" '{print $1}' | grep ".*APP_NAME")
 
   # For each application name, check to see if the application is installed. Otherwise, skip.
@@ -52,7 +52,7 @@ export -f verify_path
 function verify_extensions() {
   printf "\nChecking extensions...\n"
 
-  # Only use environment variables that end with "EXTENSION_PATH".
+  # Only use environment keys that end with "EXTENSION_PATH".
   local extensions=$(set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH")
 
   # For each extension, check to see if the extension is installed. Otherwise, skip.

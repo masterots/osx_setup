@@ -45,6 +45,9 @@ function process_option() {
     'A')
       uninstall_application
       break;;
+    'X')
+      uninstall_extension
+      break;;
     'q')
       break;;
   esac

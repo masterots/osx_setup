@@ -39,7 +39,7 @@ function process_option() {
       clean_work_path
       break;;
     'c')
-      verify_installs
+      verify_applications
       verify_extensions
       break;;
     'A')

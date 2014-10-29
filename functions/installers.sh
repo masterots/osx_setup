@@ -97,7 +97,7 @@ function install_dmg_app() {
     mount_image "$WORK_PATH/$download_file"
     install_app "$mount_point" "$app_name"
     unmount_image "$mount_point"
-    verify_install "$app_name"
+    verify_application "$app_name"
   fi
 }
 export -f install_dmg_app
@@ -121,7 +121,7 @@ function install_dmg_pkg() {
     mount_image "$WORK_PATH/$download_file"
     install_pkg "$mount_point" "$app_name"
     unmount_image "$mount_point"
-    verify_install "$app_name"
+    verify_application "$app_name"
   fi
 }
 export -f install_dmg_pkg
@@ -148,7 +148,7 @@ function install_zip_app() {
     )
 
     install_app "$WORK_PATH" "$app_name"
-    verify_install "$app_name"
+    verify_application "$app_name"
   fi
 }
 export -f install_zip_app
@@ -177,7 +177,7 @@ function install_tar_app() {
     )
 
     install_app "$WORK_PATH" "$app_name"
-    verify_install "$app_name"
+    verify_application "$app_name"
   fi
 }
 export -f install_tar_app
@@ -204,7 +204,7 @@ function install_zip_pkg() {
     )
 
     install_pkg "$WORK_PATH" "$app_name"
-    verify_install "$app_name"
+    verify_application "$app_name"
   fi
 }
 export -f install_zip_pkg

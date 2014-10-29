@@ -3,10 +3,10 @@
 # DESCRIPTION
 # Defines verification/validation functions.
 
-# Verifies the install exists.
+# Verifies application exists.
 # Parameters:
 # $1 = The file name.
-function verify_install() {
+function verify_application() {
   local file_name="$1" # Make the parameter easier to read.
 
   # Display the missing install if not found.
@@ -16,11 +16,11 @@ function verify_install() {
     printf " - Missing: $file_name\n"
   fi
 }
-export -f verify_install
+export -f verify_application
 
-# Checks for missing installs suffixed by "APP_NAME" as defined in settings.sh.
-function verify_installs() {
-  printf "\nChecking applications...\n"
+# Checks for missing applications suffixed by "APP_NAME" as defined in settings.sh.
+function verify_applications() {
+  printf "Checking applications...\n"
 
   # Only use environment keys that end with "APP_NAME".
   local file_names=$(set | awk -F "=" '{print $1}' | grep ".*APP_NAME")
@@ -28,12 +28,12 @@ function verify_installs() {
   # For each application name, check to see if the application is installed. Otherwise, skip.
   for name in $file_names; do
     # Pass the key value to verfication.
-    verify_install "${!name}"
+    verify_application "${!name}"
   done
 
   printf "Install check complete.\n"
 }
-export -f verify_installs
+export -f verify_applications
 
 # Verifies path exists.
 # Parameters:

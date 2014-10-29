@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # DESCRIPTION
-# Defines maintenance functions.
+# Defines uninstall functions.
 
-# Deletes selected application.
-function delete_app() {
+# Uninstalls selected application.
+function uninstall_application() {
   # Only use environment keys that end with "APP_NAME".
   local keys=($(set | awk -F "=" '{print $1}' | grep ".*APP_NAME"))
 
-  printf "Select application to delete:\n"
+  printf "Select application to uninstall:\n"
   for ((index = 0; index < ${#keys[*]}; index++)); do
     local app_file="${keys[$index]}"
     printf "  $index: ${!app_file}\n"
@@ -23,7 +23,7 @@ function delete_app() {
     local app_file="${keys[$response]}"
     local app_path=$(get_install_path "${!app_file}")
     rm -rf "$app_path"
-    printf "Deleted: ${app_path}\n"
+    printf "Uninstalled: ${app_path}\n"
   fi
 }
-export -f delete_app
+export -f uninstall_application

@@ -42,8 +42,8 @@ function process_option() {
       verify_installs
       verify_extensions
       break;;
-    'D')
-      delete_app
+    'A')
+      uninstall_application
       break;;
     'q')
       break;;

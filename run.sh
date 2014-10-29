@@ -11,8 +11,8 @@ source settings/settings.sh
 
 # FUNCTIONS
 source functions/installers.sh
-source functions/maintainers.sh
 source functions/options.sh
+source functions/uninstallers.sh
 source functions/utilities.sh
 source functions/verifiers.sh
 
@@ -32,7 +32,7 @@ while true; do
     printf "    i: Perform complete install (i.e. executes all options, listed above, top to bottom).\n"
     printf "  Manage:\n"
     printf "    c: Check status of managed software.\n"
-    printf "    D: Delete application software.\n"
+    printf "    A: Uninstall application software.\n"
     printf "    q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
     printf "\n"

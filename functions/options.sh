@@ -39,6 +39,7 @@ function process_option() {
       clean_work_path
       break;;
     'c')
+      verify_homebrews
       verify_applications
       verify_extensions
       break;;

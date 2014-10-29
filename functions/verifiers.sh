@@ -3,11 +3,48 @@
 # DESCRIPTION
 # Defines verification/validation functions.
 
+# Verifies Homebrew software exists.
+# Parameters:
+# $1 = The file name.
+function verify_homebrew() {
+  local application="$1"
+  local applications="$2"
+
+  if [[ "${applications[*]}" != *"$application"* ]]; then
+    printf " - Missing: $application\n"
+  fi
+}
+export -f verify_homebrew
+
+# Checks for missing Homebrew software.
+function verify_homebrews() {
+  printf "Checking Homebrew software...\n"
+
+  local applications="$(brew list)"
+
+  while read line; do
+    # Skip blank or comment lines.
+    if [[ "$line" == "brew install"* ]]; then
+      local application=$(printf "$line" | awk '{print $3}')
+
+      # Caveat: "hg" is known as "mercurial" to the system.
+      if [[ "$application" == "hg" ]]; then
+        application="mercurial"
+      fi
+
+      verify_homebrew "$application" "${applications[*]}"
+    fi
+  done < "$PWD/scripts/homebrew.sh"
+
+  printf "Homebrew check complete.\n"
+}
+export -f verify_homebrews
+
 # Verifies application exists.
 # Parameters:
 # $1 = The file name.
 function verify_application() {
-  local file_name="$1" # Make the parameter easier to read.
+  local file_name="$1"
 
   # Display the missing install if not found.
   local install_path=$(get_install_path "$file_name")
@@ -20,7 +57,7 @@ export -f verify_application
 
 # Checks for missing applications suffixed by "APP_NAME" as defined in settings.sh.
 function verify_applications() {
-  printf "Checking applications...\n"
+  printf "\nChecking application software...\n"
 
   # Only use environment keys that end with "APP_NAME".
   local file_names=$(set | awk -F "=" '{print $1}' | grep ".*APP_NAME")
@@ -31,7 +68,7 @@ function verify_applications() {
     verify_application "${!name}"
   done
 
-  printf "Install check complete.\n"
+  printf "Application software check complete.\n"
 }
 export -f verify_applications
 
@@ -39,7 +76,7 @@ export -f verify_applications
 # Parameters:
 # $1 = The path.
 function verify_path() {
-  local path="$1" # Make the parameter easier to read.
+  local path="$1"
 
   # Display the missing path if not found.
   if [[ ! -e "$path" ]]; then
@@ -50,7 +87,7 @@ export -f verify_path
 
 # Checks for missing extensions suffixed by "EXTENSION_PATH" as defined in settings.sh.
 function verify_extensions() {
-  printf "\nChecking extensions...\n"
+  printf "\nChecking application extensions...\n"
 
   # Only use environment keys that end with "EXTENSION_PATH".
   local extensions=$(set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH")
@@ -61,6 +98,6 @@ function verify_extensions() {
     verify_path "${!extension}"
   done
 
-  printf "Extension check complete.\n"
+  printf "Application extension check complete.\n"
 }
 export -f verify_extensions

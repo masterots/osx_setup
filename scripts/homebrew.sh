@@ -103,7 +103,7 @@ brew install phantomjs
 
 # rbenv
 brew install rbenv
-brew install --HEAD ruby-build
+brew install ruby-build
 brew install rbenv-vars
 brew install rbenv-ctags
 for ruby in $MRI $RUBINIUS $JRUBY; do

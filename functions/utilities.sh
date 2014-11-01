@@ -52,3 +52,16 @@ function clean_work_path() {
   rm -rf "$WORK_PATH"
 }
 export -f clean_work_path
+
+# Caffeinate machine.
+function caffeinate_machine() {
+  local pid=$(ps aux | grep caffeinate | grep -v grep | awk '{print $2}')
+
+  if [[ -n "$pid" ]]; then
+    printf "Whoa, tweaker, machine is already caffeinated!\n"
+  else
+    caffeinate -sudit 9999999999 &
+    printf "Machine caffeinated and energy saver settings disabled.\n"
+  fi
+}
+export -f caffeinate_machine

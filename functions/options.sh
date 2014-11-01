@@ -30,6 +30,7 @@ function process_option() {
       clean_work_path
       break;;
     'i')
+      caffeinate_machine
       scripts/basic.sh
       scripts/homebrew.sh
       scripts/applications.sh
@@ -42,6 +43,9 @@ function process_option() {
       verify_homebrews
       verify_applications
       verify_extensions
+      break;;
+    'C')
+      caffeinate_machine
       break;;
     'A')
       uninstall_application

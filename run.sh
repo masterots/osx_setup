@@ -32,6 +32,7 @@ while true; do
     printf "    i: Perform complete install (i.e. executes all options, listed above, top to bottom).\n"
     printf "  Manage:\n"
     printf "    c: Check status of managed software.\n"
+    printf "    C: Caffeinate machine.\n"
     printf "    A: Uninstall application software.\n"
     printf "    X: Uninstall application extension.\n"
     printf "    q: Quit/Exit.\n\n"

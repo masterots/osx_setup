@@ -108,10 +108,6 @@ brew install rbenv
 brew install ruby-build
 brew install rbenv-vars
 brew install rbenv-ctags
-for ruby in $MRI $RUBINIUS $JRUBY; do
-  rbenv install $ruby
-done
-rbenv global $MRI
 
 # Go
 brew install go

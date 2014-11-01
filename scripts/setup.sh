@@ -4,19 +4,19 @@
 # Sets up and launches (if necessary) installed software.
 
 # Bash
-sudo bash -c "printf '/usr/local/bin/bash' >> /etc/shells"
+sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
 
 # Bash Completion
 chsh -s /usr/local/bin/bash
 
 # rbenv
+export PATH="/usr/local/bin:$PATH"
+eval "$(rbenv init -)"
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 for ruby in $MRI $RUBINIUS $JRUBY; do
-  (
-    rbenv shell $ruby
-    gem ctags
-  )
+  rbenv install $ruby
 done
+rbenv global $MRI
 
 # Ruby
 git clone git://github.com/bkuhlmann/ruby_setup.git

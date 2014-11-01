@@ -9,10 +9,6 @@ sudo bash -c "printf '/usr/local/bin/bash' >> /etc/shells"
 # Bash Completion
 chsh -s /usr/local/bin/bash
 
-# Dotfiles
-install_git_project "git://github.com/bkuhlmann/dotfiles.git" "dotfiles" "./run.sh i"
-source $HOME/.bashrc
-
 # rbenv
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 for ruby in $MRI $RUBINIUS $JRUBY; do
@@ -70,3 +66,7 @@ if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 fi
 install_git_project "git://github.com/bkuhlmann/sublime_text.git" "sublime_text" "./run.sh i"
+
+# Dotfiles
+install_git_project "git://github.com/bkuhlmann/dotfiles.git" "dotfiles" "./run.sh i"
+source $HOME/.bashrc

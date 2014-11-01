@@ -6,6 +6,11 @@
 # USAGE
 # See the functions/functions.sh script for install choices and related usage.
 
+# SETUP
+# Atom
+sudo ln -sv "/Applications/Atom.app/Contents/Resources/app/atom.sh" /usr/local/bin/atom
+sudo ln -sv "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm" /usr/local/bin/apm
+
 # EXECUTION
 # Vim - Pathogen
 install_file "$VIM_PATHOGEN_EXTENSION_URL" "$VIM_PATHOGEN_EXTENSION_PATH"

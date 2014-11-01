@@ -64,6 +64,6 @@ launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 # Sublime Text
 if [ ! -e "/usr/bin/sublime" ]; then
-  sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/sublime
+  sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 fi
 install_git_project "git://github.com/bkuhlmann/sublime_text.git" "sublime_text" "./run.sh l"

@@ -109,5 +109,5 @@ install_dmg_app "$HAZEL_APP_URL" "Hazel" "$HAZEL_APP_NAME"
 # Trailer
 install_zip_app "$TRAILER_APP_URL" "$TRAILER_APP_NAME"
 
-# Trailer
+# Carbon Copy Cloner
 install_zip_app "$CARBON_COPY_CLONER_APP_URL" "$CARBON_COPY_CLONER_APP_NAME"

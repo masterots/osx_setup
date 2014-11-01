@@ -56,12 +56,6 @@ ln -sfv /usr/local/opt/postgresql/*.plist $HOME/Library/LaunchAgents
 initdb /usr/local/var/postgres -E utf8
 launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
-# MySQL
-ln -sfv /usr/local/opt/mysql/*.plist $HOME/Library/LaunchAgents
-mysql_install_db --verbose --user="$(whoami)" --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.mysql.plist
-/usr/local/opt/mysql/bin/mysql_secure_installation
-
 # Google Chrome Ember Inspector
 (
   cd "$EMBER_INSPECTOR_EXTENSION_PATH"

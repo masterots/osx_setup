@@ -133,9 +133,6 @@ brew install redis
 # PostgreSQL
 brew install postgresql
 
-# MySQL
-brew install mysql
-
 # Wry
 brew install wry
 

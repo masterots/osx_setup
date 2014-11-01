@@ -56,6 +56,9 @@ ln -sfv /usr/local/opt/postgresql/*.plist $HOME/Library/LaunchAgents
 initdb /usr/local/var/postgres -E utf8
 launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
+# Pow
+curl get.pow.cx | sh
+
 # Google Chrome Ember Inspector
 (
   cd "$EMBER_INSPECTOR_EXTENSION_PATH"

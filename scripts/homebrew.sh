@@ -123,9 +123,6 @@ brew install peco
 # Nginx
 brew install nginx
 
-# Pow
-curl get.pow.cx | sh
-
 # Memcached
 brew install memcached
 

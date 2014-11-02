@@ -40,6 +40,6 @@ while true; do
     printf "\n"
     process_option $response
   else
-    process_option ${1:-}
+    process_option $1
   fi
 done

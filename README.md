@@ -6,14 +6,13 @@ Shell scripts for automated OSX machine setup.
 
 # Features
 
-- Configures default OSX settings.
+- Provides a command line interface for installation and management of OSX software.
 - Downloads, installs, and configures [Homebrew](http://brew.sh) command line software:
     - [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
     - [OpenSSL](https://openssl.org)
     - [Bash](https://www.gnu.org/software/bash)
     - [Bash Completion](http://bash-completion.alioth.debian.org)
     - [ShellCheck](https://github.com/koalaman/shellcheck)
-    - [SSHFS](http://fuse.sourceforge.net/sshfs.html)
     - [tmux](http://tmux.sourceforge.net)
     - [Mosh](http://mosh.mit.edu)
     - [Reattach to User Namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
@@ -21,6 +20,7 @@ Shell scripts for automated OSX machine setup.
     - [Tree](http://mama.indstate.edu/users/ice/tree)
     - [hr](https://github.com/LuRsT/hr)
     - [Git](http://git-scm.com)
+    - [Mecurial](http://mercurial.selenic.com)
     - [Hub](https://github.com/defunkt/hub)
     - [GHI](https://github.com/stephencelis/ghi)
     - [CTags](http://ctags.sourceforge.net)
@@ -39,13 +39,9 @@ Shell scripts for automated OSX machine setup.
     - [FFmpeg](http://ffmpeg.org)
     - [Node.js](http://nodejs.org)
     - [Phantom.js](http://phantomjs.org)
-    - [Slimer.js](http://slimerjs.org)
     - [rbenv](https://github.com/sstephenson/rbenv)
     - [rbenv-build](https://github.com/sstephenson/ruby-build)
     - [rbenv-vars](https://github.com/sstephenson/rbenv-vars)
-    - [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
-    - [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
-    - [rbenv-default-gems](https://github.com/sstephenson/rbenv-default-gems)
     - [rbenv-ctags](https://github.com/tpope/rbenv-ctags)
     - [Ruby](http://www.ruby-lang.org)
     - [Rubinius](http://rubini.us)
@@ -57,10 +53,11 @@ Shell scripts for automated OSX machine setup.
     - [Memcached](http://memcached.org)
     - [Redis](http://redis.io)
     - [PostgreSQL](http://www.postgresql.org)
-    - [MySQL](https://www.mysql.com)
     - [Wry](https://github.com/hoop33/wry)
     - [lnav](http://braumeister.org/formula/lnav)
     - [cloc](http://cloc.sourceforge.net)
+    - [Mackup](https://github.com/lra/mackup)
+    - [Terminal Notifier](https://github.com/alloy/terminal-notifier)
 - Downloads, installs, and configures software applications generally not in the [App Store](http://www.apple.com/macosx/whats-new/app-store.html):
     - [Dropbox](https://www.dropbox.com)
     - [Knox](https://agilebits.com/knox)
@@ -73,14 +70,12 @@ Shell scripts for automated OSX machine setup.
     - [Path Finder](http://cocoatech.com)
     - [Firefox](http://www.mozilla.com/en-US/firefox)
     - [Google Chrome](http://www.google.com/chrome)
-    - [Google Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html)
     - [Opera](http://www.opera.com)
     - [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle)
     - [Transmit](https://panic.com/transmit)
     - [iStat Menus](http://bjango.com/apps/istatmenus)
     - [Bartender](http://www.macbartender.com)
     - [Snippets](http://www.snippetsapp.com)
-    - [CodeKit](http://incident57.com/codekit)
     - [Acorn](http://flyingmeat.com/acorn)
     - [DoubleTake](http://echoone.com/doubletake)
     - [ImageOptim](http://imageoptim.pornel.net)
@@ -88,12 +83,10 @@ Shell scripts for automated OSX machine setup.
     - [pgAdmin](http://www.pgadmin.org/index.php)
     - [Sequel Pro](http://www.sequelpro.com)
     - [MoneyWell](http://nothirst.com/moneywell)
-    - [Delicious Library](http://www.delicious-monster.com)
     - [Cheatsheet](http://www.cheatsheetapp.com/CheatSheet)
     - [OpenOffice](http://www.openoffice.org)
     - [Cloak](https://www.getcloak.com)
     - [Screenhero](http://screenhero.com)
-    - [Colloquy](http://colloquy.info)
     - [VirtualBox](https://www.virtualbox.org)
     - [Doxie](http://www.getdoxie.com)
     - [Sonos](http://www.sonos.com)
@@ -227,7 +220,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v8.0.0
+    git checkout v9.0.0
 
 Master Version (unstable):
 
@@ -236,29 +229,34 @@ Master Version (unstable):
 
 # Usage
 
-Edit any of the *.sh files in the `scripts` folder to your liking and then open a terminal window to execute the following command:
+Edit any of the *.sh files in the `scripts` folder to your liking and then open a terminal window to execute the
+following command:
 
     ./run.sh
 
 Running the run.sh script will present the following options:
 
-    b: Apply basic system settings.
-    h: Install Homebrew software (i.e. non-GUI, command line interfaces).
-    a: Install application software (i.e. GUI-enabled).
-    x: Install application extensions (i.e. enhancements, add-ons, plug-ins, etc.)
-    d: Apply system and application defaults.
-    p: Apply software preferences.
-    s: Setup installed software.
-    w: Clean work directory.
-    i: Perform complete install (i.e. executes all options, listed above, top to bottom).
-    c: Check status of installed applications and extensions.
-    q: Quit/Exit.
+    Install:
+      b: Apply basic system settings.
+      h: Install Homebrew software.
+      a: Install application software.
+      x: Install application extensions.
+      d: Apply software defaults.
+      s: Setup and configure installed software.
+      w: Clean work directory.
+      i: Install everything (i.e. executes all options, listed above, top to bottom).
+    Manage:
+      c: Check status of managed software.
+      C: Caffeinate machine.
+      A: Uninstall application software.
+      X: Uninstall application extension.
+      q: Quit/Exit.
 
 Choose option 'i' to run all install tasks or select a specific option to run a single task. Each task is designed to
 be re-run if necessary. This can also be handy for performing upgrades, re-running a missing/failed install, etc.
 
-The options prompt can be skipped by passing the desired option directly to the run.sh script.
-For example, executing "./run.sh i" will execute the complete software install process.
+The options prompt can be skipped by passing the desired option directly to the run.sh script. For example, executing
+"./run.sh i" will execute the complete software install process.
 
 It is recommended that the machine be rebooted after all install tasks have completed. Feel free to delete the osx
 project directory afterwards...or keep it around for future upgrades.
@@ -284,8 +282,7 @@ You can also modify the install scripts themselves by editing any of the followi
 - scripts/applications.sh = Installs OSX, GUI-based, applications.
 - scripts/extensions.sh = Installs application extensions.
 - scripts/defaults.sh = Applies system and application defaults.
-- scripts/preferences.sh = Applies software preferences.
-- scripts/setup.sh = Sets up and launches (if necessary) installed software.
+- scripts/setup.sh = Configures and launches (if necessary) installed software.
 
 All Bash functions, used by the scripts defined above, can be found in the functions folder.
 
@@ -297,7 +294,7 @@ I also recommend installing the following software found via the
 - [DaisyDisk](http://www.daisydiskapp.com)
 - [Keymo](http://manytricks.com/keymo)
 - [Moom](http://manytricks.com/moom)
-- [Witch](http://manytricks.com/witch) - [Yosemite Workaround](http://manytricks.com/blog/?p=3173)
+- [Witch](http://manytricks.com/witch) ([Yosemite Workaround](http://manytricks.com/blog/?p=3173))
 - [1Password](http://agilewebsolutions.com/products/1Password)
 - [Fantastical](http://flexibits.com/fantastical)
 - [Cobook](http://www.cobookapp.com)
@@ -326,7 +323,7 @@ I also recommend installing the following software found via the
 - [iPhoto](http://www.apple.com/ilife/iphoto)
 - [CCMenu](http://ccmenu.sourceforge.net)
 - [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
-- [Slack](https://slack.com) or [Slack Multi-Team Beta](https://rink.hockeyapp.net/apps/06bd6493684f65a3b8f47aca92c9006e)
+- [Slack](https://slack.com) / [Slack Multi-Team (Beta)](https://rink.hockeyapp.net/apps/06bd6493684f65a3b8f47aca92c9006e)
 - [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
 
 # Miscellaneous Software
@@ -343,7 +340,7 @@ The following is a checklist of additional steps worth completing after the scri
 
 - Configure Security & Privacy:
     - Require password immediately after sleep or screen saver begins.
-    - Show a message when the screen is locked. Example: "<twitter> | <email> | <phone>"
+    - Show a message when the screen is locked. Example: `<twitter> | <email> | <phone> | <url>`
     - Enable FileVault.
 - Configure Wi-Fi.
 - Configure printer.

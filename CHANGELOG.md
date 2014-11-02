@@ -1,3 +1,54 @@
+# v9.0.0 (2014-11-02)
+
+- Removed the rbenv-default-gems Homebrew install.
+- Removed the rbenv-gem-rehash Homebrew install.
+- Removed the rbenv-binstubs Homebrew install.
+- Removed the Delicious Library application.
+- Removed the CodeKit application.
+- Removed the Colloquy application.
+- Removed the SSHFS Homebrew install.
+- Removed the Slimer.js Homebrew install.
+- Removed the Chrome Canary application install.
+- Removed MySQL support.
+- Removed the preferencs.sh (use setup.sh instead).
+- Fixed installation of background image.
+- Fixed rbenv setup.
+- Fixed bug with dotfiles setup where default .bash_profile wasn't removed.
+- Fixed setup and launch of PostgreSQL, Nginx, Memcached, and Redis processes.
+- Added [Mackup](https://github.com/lra/mackup) Homebrew install.
+- Added [Mecurial](http://mercurial.selenic.com) Homebrew install.
+- Added [Terminal Notifier](https://github.com/alloy/terminal-notifier) Homebrew install.
+- Added Go Setup to setup.sh script.
+- Added CONTROL+SCROLL zoom defaults.
+- Added defaults for disabled Safari search queries (normally sent to Apple).
+- Added Mail COMMAND+ENTER shortcut for sending mail to defaults.
+- Added App Store defaults that enable development tools.
+- Added the ability to uninstall managed software applications.
+- Added the ability to uninstall managed software extensions.
+- Added Homebrew status checks.
+- Added Atom setup for atom and apm CLI commands.
+- Added guard check for previously installed brew command.
+- Added option for machine caffeination.
+- Added Slack Multi-Team Beta download link to README.
+- Added Witch workaround for Yosemite to README.
+- Updated setup.sh script to install, instead of link, Sublime Text settings.
+- Updated setup.sh to install dotfiles last.
+- Updated to Ruby 2.1.4.
+- Updated to Alfred 2.5.1.308.
+- Updated to Cloak 2.0.8.
+- Updated to Firefox 33.0.1.
+- Updated to VirtualBox 4.3.18-96516.
+- Updated to Trailer 1.0.40.
+- Updated Dropbox URL to always download latest version.
+- Updated menu bar defaults to exclude Time Machine.
+- Updated system defaults to disable smart quotes.
+- Updated system defaults to disable smart dashes.
+- Updated system label and name defaults.
+- Updated README with Yosemite instructions.
+- Updated option prompt descriptions.
+- Refactored install_tar_app function so that decompression options are, in fact, optional.
+- Refactored Pow install to setup.sh script.
+
 # v8.0.0 (2014-10-05)
 
 - Removed the OmniFocus install (use App Store instead).

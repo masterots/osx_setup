@@ -53,6 +53,18 @@ function clean_work_path() {
 }
 export -f clean_work_path
 
+# Configures and launches process.
+# Parameters:
+# $1 = The process config source path.
+function launch_process() {
+  local config_file="$1"
+  local config_name="$(get_file_name $config_file)"
+
+  ln -sfv "$config_file" "$HOME/Library/LaunchAgents/$config_name"
+  launchctl load "$HOME/Library/LaunchAgents/$config_name"
+}
+export -f launch_process
+
 # Caffeinate machine.
 function caffeinate_machine() {
   local pid=$(ps aux | grep caffeinate | grep -v grep | awk '{print $2}')

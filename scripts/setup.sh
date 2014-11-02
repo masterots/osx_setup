@@ -30,10 +30,10 @@ git clone git://github.com/bkuhlmann/ruby_setup.git
 rm -rf ruby_setup
 
 # Go
-install_git_project "git://github.com/bkuhlmann/go_setup.git" "go_setup" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/go_setup.git" "v0.1.1" "go_setup" "./run.sh i"
 
 # NPM
-install_git_project "git://github.com/bkuhlmann/npm_setup.git" "npm_setup" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/npm_setup.git" "v0.4.0" "npm_setup" "./run.sh i"
 
 # PostgreSQL
 initdb /usr/local/var/postgres -E utf8
@@ -61,9 +61,9 @@ curl get.pow.cx | sh
 if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 fi
-install_git_project "git://github.com/bkuhlmann/sublime_text.git" "sublime_text" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/sublime_text.git" "v5.1.0" "sublime_text" "./run.sh i"
 
 # Dotfiles
 rm -f $HOME/.bash_profile
-install_git_project "git://github.com/bkuhlmann/dotfiles.git" "dotfiles" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/dotfiles.git" "v13.1.0" "dotfiles" "./run.sh i"
 source $HOME/.bashrc

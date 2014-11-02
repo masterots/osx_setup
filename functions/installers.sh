@@ -237,16 +237,19 @@ export -f install_git_app
 # Installs settings from a Git repository.
 # Parameters:
 # $1 = The repository URL.
-# $2 = The project directory.
-# $3 = The script to run (including any arguments).
+# $2 = The repository version.
+# $3 = The project directory.
+# $4 = The script to run (including any arguments).
 function install_git_project() {
   local repo_url="$1"
-  local project_dir="$2"
-  local script="$3"
+  local repo_version="$2"
+  local project_dir="$3"
+  local script="$4"
 
   git clone "$repo_url"
   (
     cd "$project_dir"
+    git checkout "$repo_version"
     eval "$script"
   )
   rm -rf "$project_dir"

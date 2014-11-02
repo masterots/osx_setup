@@ -68,5 +68,6 @@ fi
 install_git_project "git://github.com/bkuhlmann/sublime_text.git" "sublime_text" "./run.sh i"
 
 # Dotfiles
+rm -f $HOME/.bash_profile
 install_git_project "git://github.com/bkuhlmann/dotfiles.git" "dotfiles" "./run.sh i"
 source $HOME/.bashrc

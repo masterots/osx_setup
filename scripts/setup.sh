@@ -35,22 +35,26 @@ install_git_project "git://github.com/bkuhlmann/go_setup.git" "go_setup" "./run.
 # NPM
 install_git_project "git://github.com/bkuhlmann/npm_setup.git" "npm_setup" "./run.sh i"
 
+# PostgreSQL
+plist="homebrew.mxcl.postgresql.plist"
+ln -sfv /usr/local/opt/postgresql/$plist $HOME/Library/LaunchAgents/$plist
+initdb /usr/local/var/postgres -E utf8
+launchctl load $HOME/Library/LaunchAgents/$plist
+
 # Nginx
-ln -sfv /usr/local/opt/nginx/*.plist $HOME/Library/LaunchAgents
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+plist="homebrew.mxcl.nginx.plist"
+ln -sfv /usr/local/opt/nginx/$plist $HOME/Library/LaunchAgents/$plist
+launchctl load $HOME/Library/LaunchAgents/$plist
 
 # Memcached
-ln -sfv /usr/local/opt/memcached/*.plist $HOME/Library/LaunchAgents
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.memcached.plist
+plist="homebrew.mxcl.memcached.plist"
+ln -sfv /usr/local/opt/memcached/$plist $HOME/Library/LaunchAgents/$plist
+launchctl load $HOME/Library/LaunchAgents/$plist
 
 # Redis
-ln -sfv /usr/local/opt/redis/*.plist $HOME/Library/LaunchAgents
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.redis.plist
-
-# PostgreSQL
-ln -sfv /usr/local/opt/postgresql/*.plist $HOME/Library/LaunchAgents
-initdb /usr/local/var/postgres -E utf8
-launchctl load $HOME/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+plist="homebrew.mxcl.redis.plist"
+ln -sfv /usr/local/opt/redis/$plist $HOME/Library/LaunchAgents/$plist
+launchctl load $HOME/Library/LaunchAgents/$plist
 
 # Pow
 curl get.pow.cx | sh

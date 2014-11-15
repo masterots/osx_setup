@@ -323,7 +323,7 @@ I also recommend installing the following software found via the
 - [iPhoto](http://www.apple.com/ilife/iphoto)
 - [CCMenu](http://ccmenu.sourceforge.net)
 - [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
-- [Slack](https://slack.com) / [Slack Multi-Team (Beta)](https://rink.hockeyapp.net/apps/06bd6493684f65a3b8f47aca92c9006e)
+- [Slack](https://slack.com)
 - [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
 
 # Miscellaneous Software

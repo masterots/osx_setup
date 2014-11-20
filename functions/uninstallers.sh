@@ -22,7 +22,7 @@ function uninstall_application() {
   if [[ $response =~ $regex ]]; then
     local app_file="${!keys[$response]}"
     local app_path=$(get_install_path "${app_file}")
-    rm -rf "$app_path"
+    sudo rm -rf "$app_path"
     printf "Uninstalled: ${app_path}\n"
   fi
 }

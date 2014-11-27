@@ -57,11 +57,11 @@ curl get.pow.cx | sh
   grunt
 )
 
-# Sublime Text
+# Sublime Text Setup
 if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 fi
-install_git_project "git://github.com/bkuhlmann/sublime_text.git" "v5.1.0" "sublime_text" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/sublime_text_setup.git" "v1.0.0" "sublime_text_setup" "./run.sh i"
 
 # Dotfiles
 rm -f $HOME/.bash_profile

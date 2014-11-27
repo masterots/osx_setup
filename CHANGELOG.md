@@ -1,3 +1,11 @@
+# v9.1.0 (2014-11-27)
+
+- Updated to Ruby 2.1.5.
+- Updated application uninstall process to use sudo.
+- Added support for installation of OSX QuickLook extensions.
+- Added [QuickLook Plain Text](https://github.com/whomwah/qlstephen) install.
+- Updated `setup.sh` to use new Sublime Text Setup repository.
+
 # v9.0.0 (2014-11-02)
 
 - Removed the rbenv-default-gems Homebrew install.

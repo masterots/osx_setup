@@ -94,6 +94,7 @@ Shell scripts for automated OSX machine setup.
     - [Hazel](http://www.noodlesoft.com/hazel.php)
     - [Trailer](http://dev.housetrip.com/trailer)
     - [Carbon Copy Cloner](http://www.bombich.com)
+    - [QuickLook Plain Text](https://github.com/whomwah/qlstephen).
 - Downloads, installs, and configures software extensions:
     - [Vim Pathogen](https://github.com/tpope/vim-pathogen)
     - [Vim Fugitive](https://github.com/tpope/vim-fugitive)
@@ -220,7 +221,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v9.0.0
+    git checkout v9.1.0
 
 Master Version (unstable):
 

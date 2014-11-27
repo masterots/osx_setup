@@ -57,11 +57,15 @@ function install_app() {
 
   printf "Installing $2 in $install_root...\n"
   local file_extension=$(get_file_extension "$2")
-  if [[ "$file_extension" == "prefPane" ]]; then
-    sudo cp -pR "$1/$2" "$install_root"
-  else
-    cp -a "$1/$2" "$install_root"
-  fi
+
+  case $file_extension in
+    'app')
+      cp -a "$1/$2" "$install_root";;
+    'prefPane')
+      sudo cp -pR "$1/$2" "$install_root";;
+    'qlgenerator')
+      sudo cp -pR "$1/$2" "$install_root" && qlmanage -r;;
+  esac
 }
 export -f install_app
 

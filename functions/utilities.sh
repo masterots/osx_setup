@@ -32,6 +32,8 @@ function get_install_root() {
       printf "/Applications";;
     'prefPane')
       printf "/Library/PreferencePanes";;
+    'qlgenerator')
+      printf "/Library/QuickLook";;
   esac
 }
 export -f get_install_root

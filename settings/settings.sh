@@ -16,7 +16,7 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 # Ruby
 export MRI=2.2.0
 export RUBINIUS=rbx-2.2.10
-export JRUBY=jruby-1.7.17
+export JRUBY=jruby-1.7.18
 
 # Applications
 export DROPBOX_APP_NAME=Dropbox.app

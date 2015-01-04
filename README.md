@@ -81,6 +81,7 @@ Shell scripts for automated OSX machine setup.
     - [ImageOptim](http://imageoptim.pornel.net)
     - [VLC](http://www.videolan.org/vlc)
     - [pgAdmin](http://www.pgadmin.org/index.php)
+    - [PSequel](http://www.psequel.com)
     - [Sequel Pro](http://www.sequelpro.com)
     - [MoneyWell](http://nothirst.com/moneywell)
     - [Cheatsheet](http://www.cheatsheetapp.com/CheatSheet)
@@ -221,7 +222,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/osx.git
     cd osx
-    git checkout v9.1.0
+    git checkout v9.2.0
 
 Master Version (unstable):
 

@@ -1,3 +1,18 @@
+# v9.2.0 (2015-01-04)
+
+- Fixed VLC install.
+- Updated to Ruby 2.2.0.
+- Updated to JRuby 1.7.18.
+- Updated to Firefox 34.0.5.
+- Updated to Opera 26.0.1656.60.
+- Updated to PG Admin 1.20.0.
+- Updated to Cloak 2.0.9.
+- Updated to VirtualBox 4.3.20.
+- Updated to Trailer 1.1.5.
+- Updated to Carbon Copy Cloner 4.0.3.3847.
+- Updated to Dotfiles v14.1.0.
+- Added [PSequel](http://www.psequel.com) install.
+
 # v9.1.0 (2014-11-27)
 
 - Updated to Ruby 2.1.5.

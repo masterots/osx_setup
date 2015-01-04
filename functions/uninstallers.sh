@@ -4,7 +4,7 @@
 # Defines uninstall functions.
 
 # Uninstalls selected application.
-function uninstall_application() {
+uninstall_application() {
   # Only use environment keys that end with "APP_NAME".
   local keys=($(set | awk -F "=" '{print $1}' | grep ".*APP_NAME"))
 
@@ -29,7 +29,7 @@ function uninstall_application() {
 export -f uninstall_application
 
 # Uninstalls selected extension.
-function uninstall_extension() {
+uninstall_extension() {
   # Only use environment keys that end with "EXTENSION_PATH".
   local keys=($(set | awk -F "=" '{print $1}' | grep ".*EXTENSION_PATH"))
 

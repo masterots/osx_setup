@@ -6,7 +6,7 @@
 # Verifies Homebrew software exists.
 # Parameters:
 # $1 = The file name.
-function verify_homebrew() {
+verify_homebrew() {
   local application="$1"
   local applications="$2"
 
@@ -17,7 +17,7 @@ function verify_homebrew() {
 export -f verify_homebrew
 
 # Checks for missing Homebrew software.
-function verify_homebrews() {
+verify_homebrews() {
   printf "Checking Homebrew software...\n"
 
   local applications="$(brew list)"
@@ -43,7 +43,7 @@ export -f verify_homebrews
 # Verifies application exists.
 # Parameters:
 # $1 = The file name.
-function verify_application() {
+verify_application() {
   local file_name="$1"
 
   # Display the missing install if not found.
@@ -56,7 +56,7 @@ function verify_application() {
 export -f verify_application
 
 # Checks for missing applications suffixed by "APP_NAME" as defined in settings.sh.
-function verify_applications() {
+verify_applications() {
   printf "\nChecking application software...\n"
 
   # Only use environment keys that end with "APP_NAME".
@@ -75,7 +75,7 @@ export -f verify_applications
 # Verifies path exists.
 # Parameters:
 # $1 = The path.
-function verify_path() {
+verify_path() {
   local path="$1"
 
   # Display the missing path if not found.
@@ -86,7 +86,7 @@ function verify_path() {
 export -f verify_path
 
 # Checks for missing extensions suffixed by "EXTENSION_PATH" as defined in settings.sh.
-function verify_extensions() {
+verify_extensions() {
   printf "\nChecking application extensions...\n"
 
   # Only use environment keys that end with "EXTENSION_PATH".

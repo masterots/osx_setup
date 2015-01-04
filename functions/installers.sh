@@ -6,7 +6,7 @@
 # Mounts a disk image.
 # Parameters:
 # $1 = The image path.
-function mount_image() {
+mount_image() {
   printf "Mounting image...\n"
   hdiutil attach "$1" -noidmereveal
 }
@@ -15,7 +15,7 @@ export -f mount_image
 # Unmounts a disk image.
 # Parameters:
 # $1 = The mount path.
-function unmount_image() {
+unmount_image() {
   printf "Unmounting image...\n"
   hdiutil detach -force "$1"
 }
@@ -25,7 +25,7 @@ export -f unmount_image
 # Parameters:
 # $1 = The URL.
 # $2 = The file name.
-function download_installer() {
+download_installer() {
   printf "Downloading $1...\n"
   clean_work_path
   mkdir $WORK_PATH
@@ -37,7 +37,7 @@ export -f download_installer
 # Parameters:
 # $1 = The URL.
 # $2 = The file name.
-function download_only() {
+download_only() {
   if [[ -e "$HOME/Downloads/$2" ]]; then
     printf "Downloaded: $2.\n"
   else
@@ -52,7 +52,7 @@ export -f download_only
 # Parameters:
 # $1 = The application source path.
 # $2 = The application name.
-function install_app() {
+install_app() {
   local install_root=$(get_install_root "$2")
 
   printf "Installing $2 in $install_root...\n"
@@ -73,7 +73,7 @@ export -f install_app
 # Parameters:
 # $1 = The package source path.
 # $2 = The application name.
-function install_pkg() {
+install_pkg() {
   local install_root=$(get_install_root "$2")
 
   printf "Installing $2 in $install_root...\n"
@@ -87,7 +87,7 @@ export -f install_pkg
 # $1 = The URL.
 # $2 = The mount path.
 # $3 = The application name.
-function install_dmg_app() {
+install_dmg_app() {
   local url="$1"
   local mount_point="/Volumes/$2"
   local app_name="$3"
@@ -111,7 +111,7 @@ export -f install_dmg_app
 # $1 = The URL.
 # $2 = The mount path.
 # $3 = The application name.
-function install_dmg_pkg() {
+install_dmg_pkg() {
   local url="$1"
   local mount_point="/Volumes/$2"
   local app_name="$3"
@@ -134,7 +134,7 @@ export -f install_dmg_pkg
 # Parameters:
 # $1 = The URL.
 # $2 = The application name.
-function install_zip_app() {
+install_zip_app() {
   local url="$1"
   local app_name="$2"
   local install_path=$(get_install_path "$app_name")
@@ -162,7 +162,7 @@ export -f install_zip_app
 # $1 = The URL.
 # $2 = The application name.
 # $3 = The decompress options.
-function install_tar_app() {
+install_tar_app() {
   local url="$1"
   local app_name="$2"
   local options="$3"
@@ -190,7 +190,7 @@ export -f install_tar_app
 # Parameters:
 # $1 = The URL.
 # $2 = The application name.
-function install_zip_pkg() {
+install_zip_pkg() {
   local url="$1"
   local app_name="$2"
   local install_path=$(get_install_path "$app_name")
@@ -218,7 +218,7 @@ export -f install_zip_pkg
 # $1 = Repository URL.
 # $2 = Install path.
 # $3 = Git clone options (if any).
-function install_git_app() {
+install_git_app() {
   local repository_url="$1"
   local app_name=$(get_file_name "$2")
   local install_path="$2"
@@ -244,7 +244,7 @@ export -f install_git_app
 # $2 = The repository version.
 # $3 = The project directory.
 # $4 = The script to run (including any arguments).
-function install_git_project() {
+install_git_project() {
   local repo_url="$1"
   local repo_version="$2"
   local project_dir="$3"
@@ -264,7 +264,7 @@ export -f install_git_project
 # Parameters:
 # $1 = The URL.
 # $2 = The install path.
-function install_file() {
+install_file() {
   local file_url=$(dirname "$1")
   local file_name=$(get_file_name "$1")
   local install_path="$2"
@@ -284,7 +284,7 @@ export -f install_file
 # Installs Atom extensions.
 # Parameters:
 # $1 = Install path.
-function install_atom_extension() {
+install_atom_extension() {
   local install_path="$1"
   local extension=$(basename "$install_path")
 

@@ -188,7 +188,7 @@ export CHROME_LOGGER_EXTENSION_PATH="$CHROME_EXTENSION_ROOT/ChromeLogger"
 export CHROME_LOGGER_EXTENSION_URL="git://github.com/ccampbell/chromelogger.git"
 
 export FIREFOX_APP_NAME=Firefox.app
-export FIREFOX_APP_URL="https://download.mozilla.org/?product=firefox-33.0.1-SSL&os=osx&lang=en-US"
+export FIREFOX_APP_URL="https://download-installer.cdn.mozilla.net/pub/firefox/releases/34.0.5/mac/en-US/Firefox%2034.0.5.dmg"
 
 export OPERA_APP_NAME=Opera.app
 export OPERA_APP_URL="http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/24.0.1558.64/mac/Opera_24.0.1558.64_Setup.dmg"

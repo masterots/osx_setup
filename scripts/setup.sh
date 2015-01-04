@@ -13,7 +13,7 @@ chsh -s /usr/local/bin/bash
 export PATH="/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
 mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
-for ruby in $MRI $RUBINIUS $JRUBY; do
+for ruby in $MRI $JRUBY $RUBINIUS; do
   rbenv install $ruby
 done
 rbenv global $MRI
@@ -22,7 +22,7 @@ rbenv global $MRI
 git clone git://github.com/bkuhlmann/ruby_setup.git
 (
   cd ruby_setup
-  for ruby in $MRI $RUBINIUS $JRUBY; do
+  for ruby in $MRI $JRUBY $RUBINIUS; do
     rbenv shell $ruby
     ./run.sh i
   done

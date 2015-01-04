@@ -65,5 +65,5 @@ install_git_project "git://github.com/bkuhlmann/sublime_text_setup.git" "v1.0.0"
 
 # Dotfiles
 rm -f $HOME/.bash_profile
-install_git_project "git://github.com/bkuhlmann/dotfiles.git" "v13.1.0" "dotfiles" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/dotfiles.git" "v14.1.0" "dotfiles" "./run.sh i"
 source $HOME/.bashrc

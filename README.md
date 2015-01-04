@@ -92,7 +92,7 @@ Shell scripts for automated OSX machine setup.
     - [Sonos](http://www.sonos.com)
     - [App Cleaner](http://www.freemacsoft.net/appcleaner)
     - [Hazel](http://www.noodlesoft.com/hazel.php)
-    - [Trailer](http://dev.housetrip.com/trailer)
+    - [Trailer](http://ptsochantaris.github.io/trailer)
     - [Carbon Copy Cloner](http://www.bombich.com)
     - [QuickLook Plain Text](https://github.com/whomwah/qlstephen).
 - Downloads, installs, and configures software extensions:

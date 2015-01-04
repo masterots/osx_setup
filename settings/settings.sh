@@ -221,7 +221,7 @@ export VLC_APP_NAME=VLC.app
 export VLC_APP_URL="https://get.videolan.org/vlc/2.1.5/macosx/vlc-2.1.5.dmg"
 
 export PG_ADMIN_APP_NAME=pgAdmin3.app
-export PG_ADMIN_APP_URL="http://ftp.postgresql.org/pub/pgadmin3/release/v1.18.1/osx/pgadmin3-1.18.1.dmg"
+export PG_ADMIN_APP_URL="https://ftp.postgresql.org/pub/pgadmin3/release/v1.20.0/osx/pgadmin3-1.20.0.dmg"
 
 export PSEQUEL_APP_NAME=PSequel.app
 export PSEQUEL_APP_URL="http://www.psequel.com/download"

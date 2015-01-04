@@ -94,7 +94,7 @@ Shell scripts for automated OSX machine setup.
     - [Hazel](http://www.noodlesoft.com/hazel.php)
     - [Trailer](http://ptsochantaris.github.io/trailer)
     - [Carbon Copy Cloner](http://www.bombich.com)
-    - [QuickLook Plain Text](https://github.com/whomwah/qlstephen).
+    - [QuickLook Plain Text](https://github.com/whomwah/qlstephen)
 - Downloads, installs, and configures software extensions:
     - [Vim Pathogen](https://github.com/tpope/vim-pathogen)
     - [Vim Fugitive](https://github.com/tpope/vim-fugitive)
@@ -319,9 +319,9 @@ I also recommend installing the following software found via the
 - [AquaPath](http://ditchnet.org/aquapath)
 - [Day One](http://dayoneapp.com)
 - [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931)
-- [GarageBand](http://www.apple.com/ilife/garageband)
 - [iMovie](http://www.apple.com/ilife/imovie)
 - [iPhoto](http://www.apple.com/ilife/iphoto)
+- [GarageBand](http://www.apple.com/ilife/garageband)
 - [CCMenu](http://ccmenu.sourceforge.net)
 - [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
 - [Slack](https://slack.com)

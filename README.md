@@ -270,7 +270,6 @@ this project and customize the settings to your specific environment. Start by e
 settings project:
 
 - settings/settings.sh = Defines settings for machine name, applications, extensions, versions, paths, etc.
-- settings/rbenv-vars.txt = Defines global environment settings for Ruby development.
 
 *TIP*: The installer determines which applications/extensions to install as defined by the settings.sh script.
 Applications defined with the "APP_NAME" suffix and extensions defined with the "EXTENSION_PATH" suffix inform

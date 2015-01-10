@@ -12,7 +12,6 @@ chsh -s /usr/local/bin/bash
 # rbenv
 export PATH="/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
-mkdir -p $HOME/.rbenv && cp settings/rbenv-vars.txt $HOME/.rbenv/vars
 for ruby in $MRI $JRUBY $RUBINIUS; do
   rbenv install $ruby
 done

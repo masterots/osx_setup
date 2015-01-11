@@ -97,6 +97,9 @@ brew install flac
 # FFmpeg
 brew install ffmpeg
 
+# Gifsicle
+brew install gifsicle
+
 # Node
 brew install node
 

@@ -83,7 +83,6 @@ Shell scripts for automated OSX machine setup.
     - [pgAdmin](http://www.pgadmin.org/index.php)
     - [PSequel](http://www.psequel.com)
     - [Sequel Pro](http://www.sequelpro.com)
-    - [MoneyWell](http://nothirst.com/moneywell)
     - [Cheatsheet](http://www.cheatsheetapp.com/CheatSheet)
     - [OpenOffice](http://www.openoffice.org)
     - [Cloak](https://www.getcloak.com)
@@ -324,6 +323,7 @@ I also recommend installing the following software found via the
 - [GarageBand](http://www.apple.com/ilife/garageband)
 - [CCMenu](http://ccmenu.sourceforge.net)
 - [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
+- [MoneyWell](http://nothirst.com/moneywell)
 - [Slack](https://slack.com)
 - [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12)
 

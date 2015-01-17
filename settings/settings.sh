@@ -229,9 +229,6 @@ export PSEQUEL_APP_URL="http://www.psequel.com/download"
 export SEQUEL_PRO_APP_NAME="Sequel Pro.app"
 export SEQUEL_PRO_APP_URL="https://sequel-pro.googlecode.com/files/sequel-pro-1.0.2.dmg"
 
-export MONEYWELL_APP_NAME=MoneyWell.app
-export MONEYWELL_APP_URL="http://downloads.nothirst.com/MoneyWell_17.zip"
-
 export CHEATSHEET_APP_NAME=CheatSheet.app
 export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/CheatSheet_1.2.2.zip"
 

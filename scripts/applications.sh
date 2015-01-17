@@ -79,9 +79,6 @@ install_zip_app "$PSEQUEL_APP_URL" "$PSEQUEL_APP_NAME"
 # Sequel Pro
 install_dmg_app "$SEQUEL_PRO_APP_URL" "Sequel Pro 1.0.2" "$SEQUEL_PRO_APP_NAME"
 
-# MoneyWell
-install_zip_app "$MONEYWELL_APP_URL" "$MONEYWELL_APP_NAME"
-
 # CheatSheet
 install_zip_app "$CHEATSHEET_APP_URL" "$CHEATSHEET_APP_NAME"
 

@@ -103,6 +103,9 @@ brew install gifsicle
 # Node
 brew install node
 
+# IO.js
+brew install iojs
+
 # Phantom.js
 brew install phantomjs
 

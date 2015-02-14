@@ -27,6 +27,9 @@ brew install bash-completion
 # ShellCheck
 brew install shellcheck
 
+# Dnsmasq
+brew install dnsmasq
+
 # tmux
 brew install tmux
 brew install reattach-to-user-namespace

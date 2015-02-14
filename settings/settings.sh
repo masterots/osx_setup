@@ -11,6 +11,7 @@ set -o pipefail # Returns exit status of the last command in the pipe that retur
 IFS=$'\n\t' # Defines how Bash splits words and iterates arrays. This defines newlines and tabs as delimiters.
 export SYSTEM_LABEL=Alchemist # Placeholder for system display name.
 export SYSTEM_NAME=alchemist # Placeholder for system name.
+export SYSTEM_DOMAIN=arda # Placeholder for system top level domain. Example: https://example.arda.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby

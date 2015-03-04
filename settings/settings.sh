@@ -15,7 +15,7 @@ export SYSTEM_DOMAIN=arda # Placeholder for system top level domain. Example: ht
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby
-export MRI=2.2.0
+export MRI=2.2.1
 export JRUBY=jruby-1.7.18
 export RUBINIUS=rbx-2.2.10
 

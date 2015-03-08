@@ -169,7 +169,7 @@ export SUBLIME_URL_HANDLER_APP_NAME="SublHandler.app"
 export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-handler/SublHandler.zip"
 
 export ALFRED_APP_NAME="Alfred 2.app"
-export ALFRED_APP_URL="https://cachefly.alfredapp.com/Alfred_2.5.1_308.zip"
+export ALFRED_APP_URL="https://cachefly.alfredapp.com/Alfred_2.6_374.zip"
 
 export TEXTEXPANDER_APP_NAME=TextExpander.app
 export TEXTEXPANDER_APP_URL="http://dl.smilesoftware.com/com.smileonmymac.textexpander/TextExpander.zip"

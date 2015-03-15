@@ -343,6 +343,8 @@ The following is a checklist of additional steps worth completing after the scri
     - Require password immediately after sleep or screen saver begins.
     - Show a message when the screen is locked. Example: `<twitter> | <email> | <phone> | <url>`
     - Enable FileVault.
+- Configure iCloud:
+    - Enable Find My Mac.
 - Configure Wi-Fi.
 - Configure printer.
 - Configure scanner.

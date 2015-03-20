@@ -308,6 +308,7 @@ I also recommend installing the following software found via the
 - [xScope](http://iconfactory.com/software/xscope)
 - [Ember](http://realmacsoftware.com/ember)
 - [Pixelmator](http://www.pixelmator.com)
+- [Sketch](http://bohemiancoding.com/sketch)
 - [GIF Brewery](http://www.helloresolven.com/portfolio/gifbrewery)
 - [Prepo](http://wearemothership.com/work/prepo)
 - [Name Mangler](http://manytricks.com/namemangler)

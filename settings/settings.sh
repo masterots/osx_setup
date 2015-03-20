@@ -23,7 +23,7 @@ export DROPBOX_APP_NAME=Dropbox.app
 export DROPBOX_APP_URL="https://www.dropbox.com/download?src=index&plat=mac"
 
 export KNOX_APP_NAME=Knox.app
-export KNOX_APP_URL="https://d13itkw33a7sus.cloudfront.net/dist/K/Knox-2.2.0.zip"
+export KNOX_APP_URL="https://d13itkw33a7sus.cloudfront.net/dist/K/Knox-2.3.1.zip"
 
 export ITERM_APP_NAME=iTerm.app
 export ITERM_APP_URL="http://iterm2.com/downloads/stable/iTerm2_v2_0.zip"

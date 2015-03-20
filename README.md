@@ -306,6 +306,7 @@ I also recommend installing the following software found via the
 - [ColorSnapper](http://colorsnapper.com)
 - [Gradient](http://www.gradientapp.com)
 - [xScope](http://iconfactory.com/software/xscope)
+- [Ember](http://realmacsoftware.com/ember)
 - [Pixelmator](http://www.pixelmator.com)
 - [GIF Brewery](http://www.helloresolven.com/portfolio/gifbrewery)
 - [Prepo](http://wearemothership.com/work/prepo)

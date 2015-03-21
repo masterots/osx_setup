@@ -21,6 +21,7 @@ rbenv global $MRI
 git clone git://github.com/bkuhlmann/ruby_setup.git
 (
   cd ruby_setup
+  git checkout REPO_RUBY_SETUP
   for ruby in $MRI $JRUBY; do
     rbenv shell $ruby
     ./run.sh i
@@ -29,10 +30,10 @@ git clone git://github.com/bkuhlmann/ruby_setup.git
 rm -rf ruby_setup
 
 # Go
-install_git_project "git://github.com/bkuhlmann/go_setup.git" "v0.1.1" "go_setup" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/go_setup.git" REPO_GO_SETUP "go_setup" "./run.sh i"
 
 # NPM
-install_git_project "git://github.com/bkuhlmann/npm_setup.git" "v0.4.0" "npm_setup" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/npm_setup.git" REPO_NPM_SETUP "npm_setup" "./run.sh i"
 
 # PostgreSQL
 initdb /usr/local/var/postgres -E utf8
@@ -60,9 +61,9 @@ curl get.pow.cx | sh
 if [ ! -e "/usr/bin/sublime" ]; then
   sudo ln -sv "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 fi
-install_git_project "git://github.com/bkuhlmann/sublime_text_setup.git" "v2.0.0" "sublime_text_setup" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/sublime_text_setup.git" REPO_SUBLIME_TEXT_SETUP "sublime_text_setup" "./run.sh i"
 
 # Dotfiles
 rm -f $HOME/.bash_profile
-install_git_project "git://github.com/bkuhlmann/dotfiles.git" "v15.0.0" "dotfiles" "./run.sh i"
+install_git_project "git://github.com/bkuhlmann/dotfiles.git" REPO_DOTFILES "dotfiles" "./run.sh i"
 source $HOME/.bashrc

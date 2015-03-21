@@ -17,6 +17,13 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 export MRI=2.2.1
 export JRUBY=jruby-1.7.18
 
+# Repositories
+REPO_RUBY_SETUP=master
+REPO_GO_SETUP=master
+REPO_NPM_SETUP=master
+REPO_SUBLIME_TEXT_SETUP=master
+REPO_DOTFILES=master
+
 # Applications
 export DROPBOX_APP_NAME=Dropbox.app
 export DROPBOX_APP_URL="https://www.dropbox.com/download?src=index&plat=mac"

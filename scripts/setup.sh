@@ -18,6 +18,8 @@ done
 rbenv global $MRI
 
 # Ruby
+printf "%s\n" "---" > "$HOME/.gemrc.test"
+printf "%s\n" "gem: --no-document" >> "$HOME/.gemrc.test"
 git clone git://github.com/bkuhlmann/ruby_setup.git
 (
   cd ruby_setup

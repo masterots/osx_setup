@@ -294,7 +294,6 @@ I also recommend installing the following software found via the
 - [DaisyDisk](http://www.daisydiskapp.com)
 - [Keymo](http://manytricks.com/keymo)
 - [Moom](http://manytricks.com/moom)
-- [Witch](http://manytricks.com/witch) ([Yosemite Workaround](http://manytricks.com/blog/?p=3173))
 - [1Password](http://agilewebsolutions.com/products/1Password)
 - [Fantastical](http://flexibits.com/fantastical)
 - [Dash](http://kapeli.com/dash)

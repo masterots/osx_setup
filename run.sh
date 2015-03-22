@@ -12,6 +12,7 @@ source settings/settings.sh
 # FUNCTIONS
 source functions/installers.sh
 source functions/options.sh
+source functions/reinstallers.sh
 source functions/uninstallers.sh
 source functions/utilities.sh
 source functions/verifiers.sh
@@ -35,6 +36,7 @@ while true; do
     printf "    C: Caffeinate machine.\n"
     printf "    A: Uninstall application software.\n"
     printf "    X: Uninstall application extension.\n"
+    printf "    R: Reinstall application software.\n"
     printf "    q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
     printf "\n"

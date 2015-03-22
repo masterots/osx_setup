@@ -32,7 +32,7 @@ export KNOX_APP_NAME=Knox.app
 export KNOX_APP_URL="https://d13itkw33a7sus.cloudfront.net/dist/K/Knox-2.3.1.zip"
 
 export ITERM_APP_NAME=iTerm.app
-export ITERM_APP_URL="http://iterm2.com/downloads/stable/iTerm2_v2_0.zip"
+export ITERM_APP_URL="https://iterm2.com/downloads/beta/iTerm2-2_0_0_20141103.zip"
 
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
 export VIM_PATHOGEN_EXTENSION_PATH="$HOME/.vim/autoload/pathogen.vim"

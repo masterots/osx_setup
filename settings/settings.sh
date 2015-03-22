@@ -19,7 +19,7 @@ export JRUBY=jruby-1.7.18
 
 # Repositories
 REPO_RUBY_SETUP=v2.0.0
-REPO_GO_SETUP=master
+REPO_GO_SETUP=v0.1.2
 REPO_NPM_SETUP=master
 REPO_SUBLIME_TEXT_SETUP=master
 REPO_DOTFILES=master

@@ -10,6 +10,9 @@
 # Dropbox
 install_dmg_app "$DROPBOX_APP_URL" "Dropbox Installer" "$DROPBOX_APP_NAME"
 
+# CloudApp
+install_dmg_app "$CLOUD_APP_URL" "CloudApp" "$CLOUD_APP_NAME"
+
 # Knox
 install_zip_app "$KNOX_APP_URL" "$KNOX_APP_NAME"
 

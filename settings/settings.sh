@@ -59,10 +59,10 @@ export VIM_TEXT_OBJECT_RUBY_BLOCK_EXTENSION_URL="git://github.com/nelstrom/vim-t
 export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 
-export SUBLIME_TEXT_APP_NAME="Sublime Text 2.app"
-export SUBLIME_TEXT_APP_URL="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg"
+export SUBLIME_TEXT_APP_NAME="Sublime Text.app"
+export SUBLIME_TEXT_APP_URL="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg"
 
-export SUBLIME_TEXT_EXTENSION_ROOT="$HOME/Library/Application Support/Sublime Text 2/Packages"
+export SUBLIME_TEXT_EXTENSION_ROOT="$HOME/Library/Application Support/Sublime Text 3/Packages"
 export GIT_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/Git"
 export GIT_EXTENSION_URL="git://github.com/kemayo/sublime-text-2-git.git"
 export GIT_GUTTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/GitGutter"

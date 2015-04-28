@@ -39,103 +39,103 @@ install_git_app "$VIM_TEXT_OBJECT_RUBY_BLOCK_EXTENSION_URL" "$VIM_TEXT_OBJECT_RU
 # Vim - Rails
 install_git_app "$VIM_RAILS_EXTENSION_URL" "$VIM_RAILS_EXTENSION_PATH"
 
-# Sublime Text 2 - Git
+# Sublime Text - Git
 install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"
 
-# Sublime Text 2 - Git Gutter
+# Sublime Text - Git Gutter
 install_git_app "$GIT_GUTTER_EXTENSION_URL" "$GIT_GUTTER_EXTENSION_PATH"
 
-# Sublime Text 2 - Gist
+# Sublime Text - Gist
 install_git_app "$GIST_EXTENSION_URL" "$GIST_EXTENSION_PATH"
 
-# Sublime Text 2 - Keymaps
+# Sublime Text - Keymaps
 install_git_app "$KEYMAPS_EXTENSION_URL" "$KEYMAPS_EXTENSION_PATH"
 
-# Sublime Text 2 - Local History
+# Sublime Text - Local History
 install_git_app "$LOCAL_HISTORY_EXTENSION_URL" "$LOCAL_HISTORY_EXTENSION_PATH"
 
-# Sublime Text 2 - CTags
+# Sublime Text - CTags
 install_git_app "$CTAGS_EXTENSION_URL" "$CTAGS_EXTENSION_PATH"
 
-# Sublime Text 2 - Sidebar Enhancments
+# Sublime Text - Sidebar Enhancments
 install_git_app "$SIDEBAR_ENHANCEMENTS_EXTENSION_URL" "$SIDEBAR_ENHANCEMENTS_EXTENSION_PATH"
 
-# Sublime Text 2 - Advanced New File
+# Sublime Text - Advanced New File
 install_git_app "$ADVANCED_NEW_FILE_EXTENSION_URL" "$ADVANCED_NEW_FILE_EXTENSION_PATH"
 
-# Sublime Text 2 - Move Tab
+# Sublime Text - Move Tab
 install_git_app "$MOVE_TAB_EXTENSION_URL" "$MOVE_TAB_EXTENSION_PATH"
 
-# Sublime Text 2 - Apply Syntax
+# Sublime Text - Apply Syntax
 install_git_app "$APPLY_SYNTAX_EXTENSION_URL" "$APPLY_SYNTAX_EXTENSION_PATH"
 
-# Sublime Text 2 - Change Quotes
+# Sublime Text - Change Quotes
 install_git_app "$CHANGE_QUOTES_EXTENSION_URL" "$CHANGE_QUOTES_EXTENSION_PATH" "$CHANGE_QUOTES_EXTENSION_OPTIONS"
 
-# Sublime Text 2 - Bracket Highlighter
+# Sublime Text - Bracket Highlighter
 install_git_app "$BRACKET_HIGHLIGHTER_EXTENSION_URL" "$BRACKET_HIGHLIGHTER_EXTENSION_PATH"
 
-# Sublime Text 2 - Trailing Spaces
+# Sublime Text - Trailing Spaces
 install_git_app "$TRAILING_SPACES_EXTENSION_URL" "$TRAILING_SPACES_EXTENSION_PATH"
 
-# Sublime Text 2 - Gutter Color
+# Sublime Text - Gutter Color
 install_git_app "$GUTTER_COLOR_EXTENSION_URL" "$GUTTER_COLOR_EXTENSION_PATH"
 
-# Sublime Text 2 - Color Highlighter
+# Sublime Text - Color Highlighter
 install_git_app "$COLOR_HIGHLIGHTER_EXTENSION_URL" "$COLOR_HIGHLIGHTER_EXTENSION_PATH"
 
-# Sublime Text 2 - Alignment
+# Sublime Text - Alignment
 install_git_app "$ALIGNMENT_EXTENSION_URL" "$ALIGNMENT_EXTENSION_PATH"
 
-# Sublime Text 2 - WrapPlus
+# Sublime Text - WrapPlus
 install_git_app "$WRAP_PLUS_EXTENSION_URL" "$WRAP_PLUS_EXTENSION_PATH"
 
-# Sublime Text 2 - Autoprefixer
+# Sublime Text - Autoprefixer
 install_git_app "$AUTOPREFIXER_EXTENSION_URL" "$AUTOPREFIXER_EXTENSION_PATH"
 
-# Sublime Text 2 - Xiki
+# Sublime Text - Xiki
 install_git_app "$XIKI_EXTENSION_URL" "$XIKI_EXTENSION_PATH"
 
-# Sublime Text 2 - Easy Motion
+# Sublime Text - Easy Motion
 install_git_app "$EASY_MOTION_EXTENSION_URL" "$EASY_MOTION_EXTENSION_PATH"
 
-# Sublime Text 2 - Emmet
+# Sublime Text - Emmet
 install_git_app "$EMMET_EXTENSION_URL" "$EMMET_EXTENSION_PATH"
 
-# Sublime Text 2 - Emmet LiveStyle
+# Sublime Text - Emmet LiveStyle
 install_git_app "$EMMET_LIVE_STYLE_EXTENSION_URL" "$EMMET_LIVE_STYLE_EXTENSION_PATH"
 
-# Sublime Text 2 - Web Inspector
+# Sublime Text - Web Inspector
 install_git_app "$WEB_INSPECTOR_EXTENSION_URL" "$WEB_INSPECTOR_EXTENSION_PATH"
 
-# Sublime Text 2 - Sublime Linter
+# Sublime Text - Sublime Linter
 install_git_app "$LINTER_EXTENSION_URL" "$LINTER_EXTENSION_PATH"
 
-# Sublime Text 2 - Ruby Extract Method
+# Sublime Text - Ruby Extract Method
 install_git_app "$RUBY_EXTRACT_METHOD_EXTENSION_URL" "$RUBY_EXTRACT_METHOD_EXTENSION_PATH"
 
-# Sublime Text 2 - Ruby Slim
+# Sublime Text - Ruby Slim
 install_git_app "$RUBY_SLIM_EXTENSION_URL" "$RUBY_SLIM_EXTENSION_PATH"
 
-# Sublime Text 2 - Markdown Extended
+# Sublime Text - Markdown Extended
 install_git_app "$MARKDOWN_EXTENSION_URL" "$MARKDOWN_EXTENSION_PATH"
 
-# Sublime Text 2 - SCSS
+# Sublime Text - SCSS
 install_git_app "$SCSS_EXTENSION_URL" "$SCSS_EXTENSION_PATH"
 
-# Sublime Text 2 - CSScomb
+# Sublime Text - CSScomb
 install_git_app "$CSSCOMB_EXTENSION_URL" "$CSSCOMB_EXTENSION_PATH"
 
-# Sublime Text 2 - Coffee Script
+# Sublime Text - Coffee Script
 install_git_app "$COFFEE_SCRIPT_EXTENSION_URL" "$COFFEE_SCRIPT_EXTENSION_PATH"
 
-# Sublime Text 2 - HTML Prettify
+# Sublime Text - HTML Prettify
 install_git_app "$HTML_PRETTIFY_EXTENSION_URL" "$HTML_PRETTIFY_EXTENSION_PATH"
 
-# Sublime Text 2 - DashDoc
+# Sublime Text - DashDoc
 install_git_app "$DASH_DOC_EXTENSION_URL" "$DASH_DOC_EXTENSION_PATH"
 
-# Sublime Text 2 - Table Editor
+# Sublime Text - Table Editor
 install_git_app "$TABLE_EDITOR_EXTENSION_URL" "$TABLE_EDITOR_EXTENSION_PATH"
 
 # Google Chrome - Rails Panel

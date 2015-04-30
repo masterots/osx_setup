@@ -39,9 +39,6 @@ install_git_app "$VIM_TEXT_OBJECT_RUBY_BLOCK_EXTENSION_URL" "$VIM_TEXT_OBJECT_RU
 # Vim - Rails
 install_git_app "$VIM_RAILS_EXTENSION_URL" "$VIM_RAILS_EXTENSION_PATH"
 
-# Sublime Text - Git
-install_git_app "$GIT_EXTENSION_URL" "$GIT_EXTENSION_PATH"
-
 # Sublime Text - Git Gutter
 install_git_app "$GIT_GUTTER_EXTENSION_URL" "$GIT_GUTTER_EXTENSION_PATH"
 

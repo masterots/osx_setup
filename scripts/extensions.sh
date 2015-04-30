@@ -93,9 +93,6 @@ install_git_app "$WRAP_PLUS_EXTENSION_URL" "$WRAP_PLUS_EXTENSION_PATH"
 # Sublime Text - Autoprefixer
 install_git_app "$AUTOPREFIXER_EXTENSION_URL" "$AUTOPREFIXER_EXTENSION_PATH"
 
-# Sublime Text - Xiki
-install_git_app "$XIKI_EXTENSION_URL" "$XIKI_EXTENSION_PATH"
-
 # Sublime Text - Easy Motion
 install_git_app "$EASY_MOTION_EXTENSION_URL" "$EASY_MOTION_EXTENSION_PATH"
 

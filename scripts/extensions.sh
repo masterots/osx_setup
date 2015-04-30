@@ -78,9 +78,6 @@ install_git_app "$TRAILING_SPACES_EXTENSION_URL" "$TRAILING_SPACES_EXTENSION_PAT
 # Sublime Text - Gutter Color
 install_git_app "$GUTTER_COLOR_EXTENSION_URL" "$GUTTER_COLOR_EXTENSION_PATH"
 
-# Sublime Text - Color Highlighter
-install_git_app "$COLOR_HIGHLIGHTER_EXTENSION_URL" "$COLOR_HIGHLIGHTER_EXTENSION_PATH"
-
 # Sublime Text - Alignment
 install_git_app "$ALIGNMENT_EXTENSION_URL" "$ALIGNMENT_EXTENSION_PATH"
 

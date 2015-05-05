@@ -111,6 +111,9 @@ install_git_app "$RUBY_SLIM_EXTENSION_URL" "$RUBY_SLIM_EXTENSION_PATH"
 # Sublime Text - Markdown Extended
 install_git_app "$MARKDOWN_EXTENSION_URL" "$MARKDOWN_EXTENSION_PATH"
 
+# Sublime Text - Rubocop
+install_git_app "$RUBOCOP_EXTENSION_URL" "$RUBOCOP_EXTENSION_PATH"
+
 # Sublime Text - SCSS
 install_git_app "$SCSS_EXTENSION_URL" "$SCSS_EXTENSION_PATH"
 

@@ -24,6 +24,9 @@ brew install bash
 # Bash Completion
 brew install bash-completion
 
+# asciinema
+brew install asciinema
+
 # ShellCheck
 brew install shellcheck
 

@@ -15,7 +15,7 @@ export WORK_PATH=/tmp/downloads # Temporary location for processing of file down
 
 # Ruby
 export MRI=2.2.2
-export JRUBY=jruby-1.7.18
+export JRUBY=jruby-9.0.0.0.pre2
 
 # Repositories
 REPO_RUBY_SETUP=v2.0.0

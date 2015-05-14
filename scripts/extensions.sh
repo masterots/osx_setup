@@ -102,6 +102,9 @@ install_git_app "$WEB_INSPECTOR_EXTENSION_URL" "$WEB_INSPECTOR_EXTENSION_PATH"
 # Sublime Text - Sublime Linter
 install_git_app "$LINTER_EXTENSION_URL" "$LINTER_EXTENSION_PATH"
 
+# Sublime Text - JSCS Linter
+install_git_app "$JSCS_LINTER_EXTENSION_URL" "$JSCS_LINTER_EXTENSION_PATH"
+
 # Sublime Text - Ruby Extract Method
 install_git_app "$RUBY_EXTRACT_METHOD_EXTENSION_URL" "$RUBY_EXTRACT_METHOD_EXTENSION_PATH"
 

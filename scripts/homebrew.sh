@@ -30,6 +30,9 @@ brew install asciinema
 # ShellCheck
 brew install shellcheck
 
+# Colorized Cat
+brew install jingweno/ccat/ccat
+
 # tmux
 brew install tmux
 brew install reattach-to-user-namespace

@@ -105,6 +105,9 @@ install_git_app "$LINTER_EXTENSION_URL" "$LINTER_EXTENSION_PATH"
 # Sublime Text - JSCS Linter
 install_git_app "$JSCS_LINTER_EXTENSION_URL" "$JSCS_LINTER_EXTENSION_PATH"
 
+# Sublime Text - JSCS Formatter
+install_git_app "$JSCS_FORMATTER_EXTENSION_URL" "$JSCS_FORMATTER_EXTENSION_PATH"
+
 # Sublime Text - Ruby Extract Method
 install_git_app "$RUBY_EXTRACT_METHOD_EXTENSION_URL" "$RUBY_EXTRACT_METHOD_EXTENSION_PATH"
 

@@ -210,7 +210,7 @@ export SCREENHERO_APP_NAME=Screenhero.app
 export SCREENHERO_APP_URL="http://dl.screenhero.com/update/screenhero/Screenhero.dmg"
 
 export SPEAK_APP_NAME=Speak.app
-export SPEAK_APP_URL="https://s3.amazonaws.com/speak-production-releases/darwin/speak-latest.zip"
+export SPEAK_APP_URL="https://s3.amazonaws.com/speak-production-releases/darwin/install-speak.dmg"
 
 export VIRTUAL_BOX_APP_NAME=VirtualBox.app
 export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/4.3.26/VirtualBox-4.3.26-98988-OSX.dmg"

@@ -3,9 +3,6 @@
 # DESCRIPTION
 # Installs application extensions.
 
-# USAGE
-# See the functions/functions.sh script for install choices and related usage.
-
 # SETUP
 
 # EXECUTION

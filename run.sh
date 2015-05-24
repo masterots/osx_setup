@@ -9,13 +9,13 @@
 # SETTINGS
 source settings/settings.sh
 
-# FUNCTIONS
-source functions/installers.sh
-source functions/options.sh
-source functions/reinstallers.sh
-source functions/uninstallers.sh
-source functions/utilities.sh
-source functions/verifiers.sh
+# LIBRARY
+source lib/installers.sh
+source lib/options.sh
+source lib/reinstallers.sh
+source lib/uninstallers.sh
+source lib/utilities.sh
+source lib/verifiers.sh
 
 # EXECUTION
 while true; do

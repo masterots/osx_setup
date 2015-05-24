@@ -3,9 +3,6 @@
 # DESCRIPTION
 # Installs OSX applications.
 
-# USAGE
-# See the functions/functions.sh script for install choices and related usage.
-
 # EXECUTION
 # Dropbox
 install_dmg_app "$DROPBOX_APP_URL" "Dropbox Installer" "$DROPBOX_APP_NAME"

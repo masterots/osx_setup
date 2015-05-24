@@ -34,6 +34,8 @@ get_install_root() {
       printf "/Library/PreferencePanes";;
     'qlgenerator')
       printf "/Library/QuickLook";;
+    *)
+      printf "ERROR: Unknown file extension: $file_extension.\n"
   esac
 }
 export -f get_install_root

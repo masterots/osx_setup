@@ -65,6 +65,8 @@ install_app() {
       sudo cp -pR "$1/$2" "$install_root";;
     'qlgenerator')
       sudo cp -pR "$1/$2" "$install_root" && qlmanage -r;;
+    *)
+      printf "ERROR: Unknown file extension: $file_extension.\n"
   esac
 }
 export -f install_app

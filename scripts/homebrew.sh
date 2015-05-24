@@ -31,7 +31,7 @@ brew install asciinema
 brew install shellcheck
 
 # Colorized Cat
-brew install jingweno/ccat/ccat
+brew install ccat
 
 # tmux
 brew install tmux

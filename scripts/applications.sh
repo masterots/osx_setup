@@ -64,6 +64,9 @@ install_dmg_app "$DOUBLETAKE_APP_URL" "DoubleTake" "$DOUBLETAKE_APP_NAME"
 # ImageOptim
 install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_NAME" "-xjf"
 
+# Iconjar
+install_zip_app "$ICONJAR_APP_URL" "$ICONJAR_APP_NAME"
+
 # VLC
 install_dmg_app "$VLC_APP_URL" "vlc-2.2.0" "$VLC_APP_NAME"
 

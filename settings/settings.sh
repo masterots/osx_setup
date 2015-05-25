@@ -185,6 +185,9 @@ export DOUBLETAKE_APP_URL="http://echoone.com/doubletake/DoubleTake.dmg"
 export IMAGE_OPTIM_APP_NAME=ImageOptim.app
 export IMAGE_OPTIM_APP_URL="http://imageoptim.com/ImageOptim.tbz2"
 
+export ICONJAR_APP_NAME=IconJar.app
+export ICONJAR_APP_URL="https://dl0tgz6ee3upo.cloudfront.net/production/app/builds/004/513/556/original/af0d3fb01dedfcd18215d3413e658d56/IconJar.app.zip"
+
 export VLC_APP_NAME=VLC.app
 export VLC_APP_URL="http://get.videolan.org/vlc/2.2.0/macosx/vlc-2.2.0.dmg"
 

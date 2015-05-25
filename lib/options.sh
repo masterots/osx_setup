@@ -53,8 +53,11 @@ process_option() {
     'X')
       uninstall_extension
       break;;
-    'R')
+    'Ra')
       reinstall_application
+      break;;
+    'Rx')
+      reinstall_extension
       break;;
     'q')
       break;;

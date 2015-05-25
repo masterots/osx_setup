@@ -7,7 +7,7 @@
 # Parameters:
 # $1 = The file path.
 get_file_name() {
-  printf "${1##*/}" # Answer file or directory name.
+  printf "${1##*/}" # Answers file or directory name.
 }
 export -f get_file_name
 
@@ -15,7 +15,14 @@ export -f get_file_name
 # Parameters:
 # $1 = The file name.
 get_file_extension() {
-  printf "${1##*.}" # Answer the suffix (without the dot).
+  local name=$(get_file_name "$1")
+  local extension="${1##*.}" # Excludes dot.
+
+  if [[ "$name" == "$extension" ]]; then
+    printf ''
+  else
+    printf "$extension"
+  fi
 }
 export -f get_file_extension
 
@@ -28,6 +35,8 @@ get_install_root() {
 
   # Dynamically build the install path based on file extension.
   case $file_extension in
+    '')
+      printf "/usr/local/bin";;
     'app')
       printf "/Applications";;
     'prefPane')
@@ -35,7 +44,7 @@ get_install_root() {
     'qlgenerator')
       printf "/Library/QuickLook";;
     *)
-      printf "ERROR: Unknown file extension: $file_extension.\n"
+      printf "/tmp/unknown";;
   esac
 }
 export -f get_install_root

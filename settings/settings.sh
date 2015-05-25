@@ -243,3 +243,6 @@ export CARBON_COPY_CLONER_APP_URL="http://c74b26775831609a3cf2-8064f6cbda3d6f2ab
 
 export QUICK_LOOK_PLAIN_TEXT_APP_NAME="QLStephen.qlgenerator"
 export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip"
+
+export KSDIFF_APP_NAME="ksdiff"
+export KSDIFF_APP_URL="http://cdn.kaleidoscopeapp.com/releases/ksdiff-122.zip"

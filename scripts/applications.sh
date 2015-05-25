@@ -117,3 +117,6 @@ install_zip_app "$CARBON_COPY_CLONER_APP_URL" "$CARBON_COPY_CLONER_APP_NAME"
 
 # QuickLook - Plain Text
 install_zip_app "$QUICK_LOOK_PLAIN_TEXT_APP_URL" "$QUICK_LOOK_PLAIN_TEXT_APP_NAME"
+
+# ksdiff
+install_zip_pkg "$KSDIFF_APP_URL" "$KSDIFF_APP_NAME"

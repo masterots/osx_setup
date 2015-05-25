@@ -54,9 +54,9 @@ export -f download_only
 # $2 = The application name.
 install_app() {
   local install_root=$(get_install_root "$2")
-
-  printf "Installing $2 in $install_root...\n"
   local file_extension=$(get_file_extension "$2")
+
+  printf "Installing: $install_root/$2...\n"
 
   case $file_extension in
     'app')
@@ -78,7 +78,7 @@ export -f install_app
 install_pkg() {
   local install_root=$(get_install_root "$2")
 
-  printf "Installing $2 in $install_root...\n"
+  printf "Installing: $install_root/$2...\n"
   local package=$(sudo find "$1" -type f -name "*.pkg" -o -name "*.mpkg")
   sudo installer -pkg "$package" -target /
 }
@@ -96,9 +96,7 @@ install_dmg_app() {
   local install_path=$(get_install_path "$app_name")
   local download_file="download.dmg"
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $app_name.\n"
-  else
+  if [[ ! -e "$install_path" ]]; then
     download_installer "$url" "$download_file"
     mount_image "$WORK_PATH/$download_file"
     install_app "$mount_point" "$app_name"
@@ -120,13 +118,12 @@ install_dmg_pkg() {
   local install_path=$(get_install_path "$app_name")
   local download_file="download.dmg"
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $app_name.\n"
-  else
+  if [[ ! -e "$install_path" ]]; then
     download_installer "$url" "$download_file"
     mount_image "$WORK_PATH/$download_file"
     install_pkg "$mount_point" "$app_name"
     unmount_image "$mount_point"
+    printf "Installed: $app_name.\n"
     verify_application "$app_name"
   fi
 }
@@ -142,9 +139,7 @@ install_zip_app() {
   local install_path=$(get_install_path "$app_name")
   local download_file="download.zip"
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $app_name.\n"
-  else
+  if [[ ! -e "$install_path" ]]; then
     download_installer "$url" "$download_file"
 
     (
@@ -154,6 +149,7 @@ install_zip_app() {
     )
 
     install_app "$WORK_PATH" "$app_name"
+    printf "Installed: $app_name.\n"
     verify_application "$app_name"
   fi
 }
@@ -171,9 +167,7 @@ install_tar_app() {
   local install_path=$(get_install_path "$app_name")
   local download_file="download.tar"
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $app_name.\n"
-  else
+  if [[ ! -e "$install_path" ]]; then
     download_installer "$url" "$download_file"
 
     (
@@ -183,6 +177,7 @@ install_tar_app() {
     )
 
     install_app "$WORK_PATH" "$app_name"
+    printf "Installed: $app_name.\n"
     verify_application "$app_name"
   fi
 }
@@ -198,9 +193,7 @@ install_zip_pkg() {
   local install_path=$(get_install_path "$app_name")
   local download_file="download.zip"
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $app_name.\n"
-  else
+  if [[ ! -e "$install_path" ]]; then
     download_installer "$url" "$download_file"
 
     (
@@ -210,6 +203,7 @@ install_zip_pkg() {
     )
 
     install_pkg "$WORK_PATH" "$app_name"
+    printf "Installed: $app_name.\n"
     verify_application "$app_name"
   fi
 }
@@ -230,11 +224,10 @@ install_git_app() {
     local options="$options $3"
   fi
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $app_name.\n"
-  else
-    printf "Installing: $install_path...\n"
+  if [[ ! -e "$install_path" ]]; then
+    printf "Installing: $install_path/$app_name...\n"
     git clone $options "$repository_url" "$install_path"
+    printf "Installed: $app_name.\n"
     verify_path "$install_path"
   fi
 }
@@ -271,13 +264,12 @@ install_file() {
   local file_name=$(get_file_name "$1")
   local install_path="$2"
 
-  if [[ -e "$install_path" ]]; then
-    printf "Installed: $file_name.\n"
-  else
-    printf "Installing: $install_path...\n"
+  if [[ ! -e "$install_path" ]]; then
+    printf "Installing: $install_path/$file_name...\n"
     download_installer "$file_url" "$file_name"
     mkdir -p $(dirname "$install_path")
     mv "$WORK_PATH/$file_name" "$install_path"
+    printf "Installed: $file_name.\n"
     verify_path "$install_path"
   fi
 }

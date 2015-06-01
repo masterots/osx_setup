@@ -212,7 +212,7 @@ export OPEN_OFFICE_APP_NAME=OpenOffice.app
 export OPEN_OFFICE_APP_URL="http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.1/binaries/en-US/Apache_OpenOffice_4.1.1_MacOS_x86-64_install_en-US.dmg/download"
 
 export CLOAK_APP_NAME=Cloak.app
-export CLOAK_APP_URL="https://s3.amazonaws.com/static.getcloak.com/osx/updates/Release/Cloak-2.0.10.dmg"
+export CLOAK_APP_URL="https://s3.amazonaws.com/static.getcloak.com/osx/updates/Release/Cloak-2.0.11.dmg"
 
 export SCREENHERO_APP_NAME=Screenhero.app
 export SCREENHERO_APP_URL="http://dl.screenhero.com/update/screenhero/Screenhero.dmg"

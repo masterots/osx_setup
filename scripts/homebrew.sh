@@ -12,7 +12,7 @@ if ! command -v brew > /dev/null; then
 fi
 
 # Readline
-brew install readline
+#brew install readline
 
 # OpenSSL
 brew install openssl
@@ -25,10 +25,10 @@ brew install bash
 brew install bash-completion
 
 # asciinema
-brew install asciinema
+#brew install asciinema
 
 # ShellCheck
-brew install shellcheck
+#brew install shellcheck
 
 # Colorized Cat
 brew install ccat
@@ -38,22 +38,22 @@ brew install tmux
 brew install reattach-to-user-namespace
 
 # Mosh
-brew install mobile-shell
+#brew install mobile-shell
 
 # Z
-brew install z
+#brew install z
 
 # Tree
 brew install tree
 
 # hr
-brew install hr
+#brew install hr
 
 # Git
 brew install git
 
 # Mercurial
-brew install hg
+#brew install hg
 
 # GitHub
 brew install hub
@@ -62,13 +62,13 @@ brew install hub
 brew install ghi
 
 # CTags
-brew install ctags
+#brew install ctags
 
 # Tag
 brew install tag
 
 # Parallel
-brew install parallel
+#brew install parallel
 
 # Pigz
 brew install pigz
@@ -77,34 +77,34 @@ brew install pigz
 brew install jq
 
 # The Silver Searcher
-brew install the_silver_searcher
+#brew install the_silver_searcher
 
 # Pipe Viewer
-brew install pv
+#brew install pv
 
 # Ioping
-brew install ioping
+#brew install ioping
 
 # Network Grep
 brew install ngrep
 
 # Namebench
-brew install namebench
+#brew install namebench
 
 # ImageMagick
 brew install imagemagick
 
 # Graphviz
-brew install graphviz
+#brew install graphviz
 
 # FLAC
-brew install flac
+#brew install flac
 
 # FFmpeg
-brew install ffmpeg
+#brew install ffmpeg
 
 # Gifsicle
-brew install gifsicle
+#brew install gifsicle
 
 # Node
 brew install node
@@ -119,35 +119,35 @@ brew install rbenv-vars
 brew install rbenv-ctags
 
 # Go
-brew install go
+#brew install go
 
 # Peco
-brew tap peco/peco
-brew install peco
+#brew tap peco/peco
+#brew install peco
 
 # Nginx
-brew install nginx
+#brew install nginx
 
 # Memcached
-brew install memcached
+#brew install memcached
 
 # Redis
-brew install redis
+#brew install redis
 
 # PostgreSQL
-brew install postgresql
+#brew install postgresql
 
 # Wry
-brew install wry
+#brew install wry
 
 # lnav
 brew install lnav
 
 # cloc
-brew install cloc
+#brew install cloc
 
 # Mackup
-brew install mackup
+#brew install mackup
 
 # Terminal Notifier
 brew install terminal-notifier

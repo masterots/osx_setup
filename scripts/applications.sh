@@ -35,7 +35,7 @@ install_dmg_app "$SUBLIME_TEXT_APP_URL" "Sublime Text" "$SUBLIME_TEXT_APP_NAME"
 install_dmg_app "$FIREFOX_APP_URL" "Firefox" "$FIREFOX_APP_NAME"
 
 # Google Chrome
-install_dmg_app "$CHROME_APP_URL" "Google Chrome" "$CHROME_APP_NAME"
+#install_dmg_app "$CHROME_APP_URL" "Google Chrome" "$CHROME_APP_NAME"
 
 # Opera
 install_dmg_app "$OPERA_APP_URL" "Opera" "$OPERA_APP_NAME"
@@ -71,10 +71,10 @@ install_dmg_app "$OPERA_APP_URL" "Opera" "$OPERA_APP_NAME"
 install_dmg_app "$VLC_APP_URL" "vlc-2.2.0" "$VLC_APP_NAME"
 
 # PG Admin
-install_dmg_app "$PG_ADMIN_APP_URL" "pgAdmin3" "$PG_ADMIN_APP_NAME"
+#install_dmg_app "$PG_ADMIN_APP_URL" "pgAdmin3" "$PG_ADMIN_APP_NAME"
 
 # PSequael
-install_zip_app "$PSEQUEL_APP_URL" "$PSEQUEL_APP_NAME"
+#install_zip_app "$PSEQUEL_APP_URL" "$PSEQUEL_APP_NAME"
 
 # Sequel Pro
 #install_dmg_app "$SEQUEL_PRO_APP_URL" "Sequel Pro 1.0.2" "$SEQUEL_PRO_APP_NAME"
@@ -95,7 +95,7 @@ install_zip_app "$CHEATSHEET_APP_URL" "$CHEATSHEET_APP_NAME"
 #install_dmg_app "$SPEAK_APP_URL" "Speak Installer" "$SPEAK_APP_NAME"
 
 # VirtualBox
-install_dmg_pkg "$VIRTUAL_BOX_APP_URL" "VirtualBox" "$VIRTUAL_BOX_APP_NAME"
+#install_dmg_pkg "$VIRTUAL_BOX_APP_URL" "VirtualBox" "$VIRTUAL_BOX_APP_NAME"
 
 # Doxie
 #install_dmg_app "$DOXIE_APP_URL" "Doxie" "$DOXIE_APP_NAME"

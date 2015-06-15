@@ -7,11 +7,11 @@
 printf "System - Disable boot sound effects\n"
 sudo nvram SystemAudioVolume=" "
 
-printf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+#printf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
+#sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
-printf "System - Disable automatic termination of inactive apps\n"
-defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
+#printf "System - Disable automatic termination of inactive apps\n"
+#defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 printf "System - Expand save panel by default\n"
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
@@ -25,14 +25,14 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 printf "System - Disable window resume system-wide\n"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-printf "System - Disable auto-correct\n"
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+#printf "System - Disable auto-correct\n"
+#defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-printf "System - Disable smart quotes (not useful when writing code)\n"
-defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+#printf "System - Disable smart quotes (not useful when writing code)\n"
+#defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
-printf "System - Disable smart dashes (not useful when writing code)\n"
-defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+#printf "System - Disable smart dashes (not useful when writing code)\n"
+#defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 printf "System - Require password immediately after sleep or screen saver begins\n"
 defaults write com.apple.screensaver askForPassword -int 1
@@ -44,8 +44,8 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 printf "System - Automatically restart if system freezes\n"
 systemsetup -setrestartfreeze on
 
-printf "System - Disable software updates\n"
-sudo softwareupdate --schedule off
+#printf "System - Disable software updates\n"
+#sudo softwareupdate --schedule off
 
 printf "Keyboard - Automatically illuminate built-in MacBook keyboard in low light\n"
 defaults write com.apple.BezelServices kDim -bool true
@@ -62,16 +62,16 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 printf "Keyboard - Disable press-and-hold for keys in favor of key repeat\n"
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-printf "Trackpad - Map bottom right corner to right-click\n"
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+#printf "Trackpad - Map bottom right corner to right-click\n"
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+#defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+#defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
-printf "Trackpad - Enable tap to click for current user and the login screen\n"
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+#printf "Trackpad - Enable tap to click for current user and the login screen\n"
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+#defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+#defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 printf "Trackpad - Use CONTROL (^) with scroll to zoom\n"
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
@@ -83,17 +83,17 @@ defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 printf "Bluetooth - Increase sound quality for headphones/headsets\n"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
-printf "Menu Bar - Show only Bluetooth and Airport\n"
-for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
+#printf "Menu Bar - Show only Bluetooth and Airport\n"
+#for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
   defaults write "${domain}" dontAutoLoad -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
-done
+#done
 
-defaults write com.apple.systemuiserver menuExtras -array \
-  "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
-  "/System/Library/CoreServices/Menu Extras/AirPort.menu"
+#defaults write com.apple.systemuiserver menuExtras -array \
+#  "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+#  "/System/Library/CoreServices/Menu Extras/AirPort.menu"
 
-printf "Dock - Remove all default app icons\n"
-defaults write com.apple.dock persistent-apps -array
+#printf "Dock - Remove all default app icons\n"
+#defaults write com.apple.dock persistent-apps -array
 
 printf "Dock - Automatically hide and show\n"
 defaults write com.apple.dock autohide -bool true
@@ -131,8 +131,8 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 printf "Finder - Use list view in all Finder windows\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
-defaults write com.apple.finder QuitMenuItem -bool true
+#printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
+#defaults write com.apple.finder QuitMenuItem -bool true
 
 printf "Finder - Disable the warning before emptying the Trash\n"
 defaults write com.apple.finder WarnOnEmptyTrash -bool false

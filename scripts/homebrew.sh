@@ -15,8 +15,8 @@ fi
 #brew install readline
 
 # OpenSSL
-brew install openssl
-brew link openssl --force
+#brew install openssl
+#brew link openssl --force
 
 # Bash
 brew install bash
@@ -92,7 +92,7 @@ brew install ngrep
 #brew install namebench
 
 # ImageMagick
-brew install imagemagick
+#brew install imagemagick
 
 # Graphviz
 #brew install graphviz
